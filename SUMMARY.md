@@ -2168,36 +2168,6 @@
     * [标量](graphql/reference/scalars.md)
     * [并集](graphql/reference/unions.md)
   * [Git Hub Graph QL API](graphql/index.md)
-- Insights
-  - Exploring Your Usage Of Github Enterprise
-    * [了解 GitHub Enterprise 的使用情况](insights/exploring-your-usage-of-github-enterprise/index.md)
-    * [GitHub Insights 可用的指标](insights/exploring-your-usage-of-github-enterprise/metrics-available-with-github-insights.md)
-    * [在 GitHub Enterprise 与 GitHub Insight 之间导航](insights/exploring-your-usage-of-github-enterprise/navigating-between-github-enterprise-and-github-insights.md)
-    * [设置 GitHub Insights 的时区](insights/exploring-your-usage-of-github-enterprise/setting-your-timezone-for-github-insights.md)
-    * [查看关键指标和报告](insights/exploring-your-usage-of-github-enterprise/viewing-key-metrics-and-reports.md)
-  - Installing And Configuring Github Insights
-    - Configuring Github Insights
-      * [配置 GitHub Insights 与 GitHub Enterprise 之间的连接](insights/installing-and-configuring-github-insights/configuring-github-insights/configuring-the-connection-between-github-insights-and-github-enterprise.md)
-      * [启用 GitHub Insights 与 GitHub Enterprise 之间的链接](insights/installing-and-configuring-github-insights/configuring-github-insights/enabling-a-link-between-github-insights-and-github-enterprise.md)
-      * [配置 GitHub Insights](insights/installing-and-configuring-github-insights/configuring-github-insights/index.md)
-      * [管理 GitHub Insights 中的权限](insights/installing-and-configuring-github-insights/configuring-github-insights/managing-permissions-in-github-insights.md)
-    - Installing And Updating Github Insights
-      * [关于 GitHub Insights](insights/installing-and-configuring-github-insights/installing-and-updating-github-insights/about-github-insights.md)
-      * [安装和更新 GitHub Insights](insights/installing-and-configuring-github-insights/installing-and-updating-github-insights/index.md)
-      * [安装 GitHub Insights](insights/installing-and-configuring-github-insights/installing-and-updating-github-insights/installing-github-insights.md)
-      * [GitHub Insights 系统概述](insights/installing-and-configuring-github-insights/installing-and-updating-github-insights/system-overview-for-github-insights.md)
-      * [更新 GitHub Insights](insights/installing-and-configuring-github-insights/installing-and-updating-github-insights/updating-github-insights.md)
-    - Managing Data In Github Insights
-      * [关于 GitHub Insights](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/about-data-in-github-insights.md)
-      * [管理 GitHub Insights 中的数据](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/index.md)
-      * [管理可用指标和报告](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-available-metrics-and-reports.md)
-      * [管理贡献者和团队](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-contributors-and-teams.md)
-      * [管理事件](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-events.md)
-      * [管理目标](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-goals.md)
-      * [管理组织](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-organizations.md)
-      * [管理仓库](insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-repositories.md)
-    * [安装和配置 GitHub Insights](insights/installing-and-configuring-github-insights/index.md)
-  * [GitHub Insights 文档](insights/index.md)
 - Issues
   - Organizing Your Work With Project Boards
     - Managing Project Boards
