@@ -532,45 +532,6 @@
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
     * [保护软件供应链](code-security/supply-chain-security/index.md)
   * [代码安全](code-security/index.md)
-- Codespaces
-  - Codespaces Reference
-    * [关于代码空间的计费](codespaces/codespaces-reference/about-billing-for-codespaces.md)
-    * [允许代码空间访问私有映像注册表](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-image-registry.md)
-    * [参考](codespaces/codespaces-reference/index.md)
-    * [代码空间疑难解答](codespaces/codespaces-reference/troubleshooting-your-codespace.md)
-  - Developing In Codespaces
-    * [创建代码空间](codespaces/developing-in-codespaces/creating-a-codespace.md)
-    * [删除代码空间](codespaces/developing-in-codespaces/deleting-a-codespace.md)
-    * [在代码空间中开发](codespaces/developing-in-codespaces/index.md)
-    * [代码空间中的转发端口](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
-    * [在 Visual Studio Code 中使用代码空间](codespaces/developing-in-codespaces/using-codespaces-in-visual-studio-code.md)
-    * [在代码空间中使用源控制](codespaces/developing-in-codespaces/using-source-control-in-your-codespace.md)
-  - Getting Started With Codespaces
-    * [开始在代码空间中使用 C# (.NET) 项目](codespaces/getting-started-with-codespaces/getting-started-with-your-dotnet-project.md)
-    * [开始在代码空间中使用 Java 项目](codespaces/getting-started-with-codespaces/getting-started-with-your-java-project-in-codespaces.md)
-    * [开始在代码空间中使用 Node.js 项目](codespaces/getting-started-with-codespaces/getting-started-with-your-nodejs-project-in-codespaces.md)
-    * [开始在代码空间中使用 Python 项目](codespaces/getting-started-with-codespaces/getting-started-with-your-python-project-in-codespaces.md)
-    * [开始使用 {% data variables.product.prodname_codespaces %}](codespaces/getting-started-with-codespaces/index.md)
-  - Managing Codespaces For Your Organization
-    * [管理组织的代码空间](codespaces/managing-codespaces-for-your-organization/index.md)
-    * [管理组织代码空间的访问和安全](codespaces/managing-codespaces-for-your-organization/managing-access-and-security-for-your-organizations-codespaces.md)
-    * [为您的仓库和代码空间组织管理加密的密钥](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-codespaces.md)
-    * [管理组织的用户权限](codespaces/managing-codespaces-for-your-organization/managing-user-permissions-for-your-organization.md)
-    * [查看组织的代码空间审核日志](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
-  - Managing Your Codespaces
-    * [管理代码空间](codespaces/managing-your-codespaces/index.md)
-    * [管理代码空间的访问和安全](codespaces/managing-your-codespaces/managing-access-and-security-for-your-codespaces.md)
-    * [管理代码空间的加密密码](codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces.md)
-    * [管理代码空间的 GPG 验证](codespaces/managing-your-codespaces/managing-gpg-verification-for-codespaces.md)
-    * [查看代码空间的安全日志](codespaces/managing-your-codespaces/reviewing-your-security-logs-for-codespaces.md)
-  - Setting Up Your Codespace
-    * [为项目配置 Codespaces](codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project.md)
-    * [设置代码空间](codespaces/setting-up-your-codespace/index.md)
-    * [个性化您账户的 Codespaces](codespaces/setting-up-your-codespace/personalizing-codespaces-for-your-account.md)
-  * [关于 Codespaces](codespaces/about-codespaces.md)
-  * [代码空间指南](codespaces/guides.md)
-  * [GitHub 代码空间文档](codespaces/index.md)
-  * [Codespaces 快速入门](codespaces/quickstart.md)
 - Communities
   - Documenting Your Project With Wikis
     * [关于 wikis](communities/documenting-your-project-with-wikis/about-wikis.md)
