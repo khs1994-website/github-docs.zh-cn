@@ -731,7 +731,7 @@
     * [通过代码扫描查找代码中的安全漏洞和错误](code-security/code-scanning/index.md)
   - Getting Started
     * [添加安全政策到仓库](code-security/getting-started/adding-a-security-policy-to-your-repository.md)
-    * [GitHub 安全功能](code-security/getting-started/github-security-features.md)
+    * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
     * [开始使用代码安全](code-security/getting-started/index.md)
     * [Securing Your Organization](code-security/getting-started/securing-your-organization.md)
     * [Securing Your Repository](code-security/getting-started/securing-your-repository.md)
@@ -1334,7 +1334,7 @@
 - Github Cli
   - Github Cli
     * [关于 GitHub CLI](github-cli/github-cli/about-github-cli.md)
-    * [Creating Git Hub CLI Extensions](github-cli/github-cli/creating-github-cli-extensions.md)
+    * [创建 GitHub CLI 扩展](github-cli/github-cli/creating-github-cli-extensions.md)
     * [GitHub CLI 引用](github-cli/github-cli/github-cli-reference.md)
     * [Git Hub CLI](github-cli/github-cli/index.md)
     * [GitHub CLI 快速入门](github-cli/github-cli/quickstart.md)
@@ -1769,7 +1769,7 @@
       * [使用主题对仓库分类](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics.md)
       * [自定义仓库的社交媒体预览](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview.md)
       * [Displaying A Sponsor Button In Your Repository](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository.md)
-      * [Customizing Your Repository](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/index.md)
+      * [自定义存储库](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/index.md)
       * [许可仓库](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository.md)
     - Enabling Features For Your Repository
       * [禁用议题](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues.md)
