@@ -197,7 +197,7 @@
     * [关于监控和疑难解答](actions/monitoring-and-troubleshooting-workflows/about-monitoring-and-troubleshooting.md)
     * [添加工作流程状态徽章](actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge.md)
     * [启用调试日志](actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging.md)
-    * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
+    * [监控和故障排除工作流程](actions/monitoring-and-troubleshooting-workflows/index.md)
     * [工作流程运行通知](actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs.md)
     * [使用可视化图表](actions/monitoring-and-troubleshooting-workflows/using-the-visualization-graph.md)
     * [使用工作流程运行日志](actions/monitoring-and-troubleshooting-workflows/using-workflow-run-logs.md)
@@ -771,7 +771,6 @@
       * [列出为版本更新配置的依赖项](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/listing-dependencies-configured-for-version-updates.md)
       * [管理 Dependabot 的加密密码](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/managing-encrypted-secrets-for-dependabot.md)
       * [管理依赖项更新的所有拉取请求](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/managing-pull-requests-for-dependency-updates.md)
-      * [从 Dependabot.com 上传到 GitHub 原生的 Dependabot](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/upgrading-from-dependabotcom-to-github-native-dependabot.md)
     - Managing Vulnerabilities In Your Projects Dependencies
       * [About Alerts For Vulnerable Dependencies](code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies.md)
       * [About Dependabot Security Updates](code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-dependabot-security-updates.md)
@@ -826,11 +825,11 @@
     * [开始使用 {% data variables.product.prodname_codespaces %}](codespaces/getting-started/index.md)
     * [Codespaces 快速入门](codespaces/getting-started/quickstart.md)
   - Managing Codespaces For Your Organization
-    * [Enabling Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization.md)
+    * [为组织启用 Codespaces](codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization.md)
     * [管理组织的代码空间](codespaces/managing-codespaces-for-your-organization/index.md)
     * [管理组织中代码空间的计费](codespaces/managing-codespaces-for-your-organization/managing-billing-for-codespaces-in-your-organization.md)
     * [为您的仓库和代码空间组织管理加密的密钥](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-codespaces.md)
-    * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
+    * [管理组织代码空间的存储库访问](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [查看组织的代码空间审核日志](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
@@ -1128,7 +1127,7 @@
       * [About Using Make Code Arcade With Git Hub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/about-using-makecode-arcade-with-github-classroom.md)
       * [关于将 Visual Studio Code 与 GitHub Classroom 配合使用](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/about-using-visual-studio-code-with-github-classroom.md)
       * [集成 GitHub Classroom 与 IDE](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/integrate-github-classroom-with-an-ide.md)
-      * [Repl.it with GitHub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/replit-with-github-classroom.md)
+      * [使用 GitHub Classroom 的 Repl.it](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/replit-with-github-classroom.md)
       * [在 IDE 中运行学生代码](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/run-student-code-in-an-ide.md)
     - Learn With Github Classroom
       * [使用 GitHub Classroom 学习](education/manage-coursework-with-github-classroom/learn-with-github-classroom/index.md)
@@ -1338,7 +1337,7 @@
     * [GitHub CLI 引用](github-cli/github-cli/github-cli-reference.md)
     * [Git Hub CLI](github-cli/github-cli/index.md)
     * [GitHub CLI 快速入门](github-cli/github-cli/quickstart.md)
-    * [Using Git Hub CLI Extensions](github-cli/github-cli/using-github-cli-extensions.md)
+    * [使用 GitHub CLI 扩展](github-cli/github-cli/using-github-cli-extensions.md)
   * [Git Hub CLI](github-cli/index.md)
 - [Graphql](graphql/README.md)
   - Guides
@@ -1781,6 +1780,7 @@
     - Managing Repository Settings
       * [关于推送到仓库的电子邮件通知](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/about-email-notifications-for-pushes-to-your-repository.md)
       * [配置自动链接以引用外部资源](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources.md)
+      * [Configuring Tag Protection Rules](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-tag-protection-rules.md)
       * [启用仓库的匿名 Git 读取权限](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/enabling-anonymous-git-read-access-for-a-repository.md)
       * [管理仓库设置](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/index.md)
       * [管理仓库存档中的 Git LFS 对象](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository.md)
@@ -1802,7 +1802,7 @@
   - Viewing Activity And Data For Your Repository
     * [关于仓库图](repositories/viewing-activity-and-data-for-your-repository/about-repository-graphs.md)
     * [分析仓库内容的更改](repositories/viewing-activity-and-data-for-your-repository/analyzing-changes-to-a-repositorys-content.md)
-    * [Viewing Activity And Data For Your Repository](repositories/viewing-activity-and-data-for-your-repository/index.md)
+    * [查看存储库的活动和数据](repositories/viewing-activity-and-data-for-your-repository/index.md)
     * [了解仓库之间的连接](repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories.md)
     * [查看项目的贡献者](repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors.md)
     * [查看仓库活动的摘要](repositories/viewing-activity-and-data-for-your-repository/viewing-a-summary-of-repository-activity.md)
@@ -1814,7 +1814,7 @@
       * [创建新文件](repositories/working-with-files/managing-files/creating-new-files.md)
       * [自定义更改的文件在 GitHub 中如何显示](repositories/working-with-files/managing-files/customizing-how-changed-files-appear-on-github.md)
       * [Deleting Files In A Repository](repositories/working-with-files/managing-files/deleting-files-in-a-repository.md)
-      * [Editing Files](repositories/working-with-files/managing-files/editing-files.md)
+      * [编辑文件](repositories/working-with-files/managing-files/editing-files.md)
       * [管理文件](repositories/working-with-files/managing-files/index.md)
       * [将文件移至新位置](repositories/working-with-files/managing-files/moving-a-file-to-a-new-location.md)
       * [重命名文件](repositories/working-with-files/managing-files/renaming-a-file.md)
