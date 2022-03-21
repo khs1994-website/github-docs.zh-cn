@@ -104,14 +104,14 @@
     * [创建操作](actions/creating-actions/index.md)
     * [GitHub Actions 的元数据语法](actions/creating-actions/metadata-syntax-for-github-actions.md)
     * [在 GitHub Marketplace 中发布操作](actions/creating-actions/publishing-actions-in-github-marketplace.md)
-    * [Releasing And Maintaining Actions](actions/creating-actions/releasing-and-maintaining-actions.md)
+    * [发布和维护操作](actions/creating-actions/releasing-and-maintaining-actions.md)
     * [设置操作的退出代码](actions/creating-actions/setting-exit-codes-for-actions.md)
     * [Sharing Actions And Workflows With Your Enterprise](actions/creating-actions/sharing-actions-and-workflows-with-your-enterprise.md)
   - Deployment
     - About Deployments
-      * [About Continuous Deployment](actions/deployment/about-deployments/about-continuous-deployment.md)
-      * [Deploying With Git Hub Actions](actions/deployment/about-deployments/deploying-with-github-actions.md)
-      * [About Deployments](actions/deployment/about-deployments/index.md)
+      * [关于持续部署](actions/deployment/about-deployments/about-continuous-deployment.md)
+      * [使用 GitHub Actions 进行部署](actions/deployment/about-deployments/deploying-with-github-actions.md)
+      * [关于部署](actions/deployment/about-deployments/index.md)
     - Deploying To Your Cloud Provider
       - Deploying To Azure
         * [Deploying Docker To Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-docker-to-azure-app-service.md)
@@ -125,12 +125,12 @@
         * [Deploying To Azure](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/index.md)
       * [部署到 Amazon Elastic Container Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-amazon-elastic-container-service.md)
       * [部署到 Google Kubernetes Engine](actions/deployment/deploying-to-your-cloud-provider/deploying-to-google-kubernetes-engine.md)
-      * [Deploying To Your Cloud Provider](actions/deployment/deploying-to-your-cloud-provider/index.md)
+      * [部署到云提供商](actions/deployment/deploying-to-your-cloud-provider/index.md)
     - Deploying Xcode Applications
-      * [Deploying Xcode Applications](actions/deployment/deploying-xcode-applications/index.md)
+      * [部署 Xcode 应用程序](actions/deployment/deploying-xcode-applications/index.md)
       * [在用于 Xcode 开发的 macOS 运行器上安装 Apple 证书](actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development.md)
     - Managing Your Deployments
-      * [Managing Your Deployments](actions/deployment/managing-your-deployments/index.md)
+      * [管理部署](actions/deployment/managing-your-deployments/index.md)
       * [查看部署历史记录](actions/deployment/managing-your-deployments/viewing-deployment-history.md)
     - Security Hardening Your Deployments
       * [About Security Hardening With Open ID Connect](actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
@@ -233,7 +233,7 @@
     * [在容器中运行作业](actions/using-jobs/running-jobs-in-a-container.md)
     * [Setting Default Values For Jobs](actions/using-jobs/setting-default-values-for-jobs.md)
     * [Using A Build Matrix For Your Jobs](actions/using-jobs/using-a-build-matrix-for-your-jobs.md)
-    * [Using Concurrency](actions/using-jobs/using-concurrency.md)
+    * [使用并发](actions/using-jobs/using-concurrency.md)
     * [Using Conditions To Control Job Execution](actions/using-jobs/using-conditions-to-control-job-execution.md)
     * [Using Environments For Jobs](actions/using-jobs/using-environments-for-jobs.md)
     * [Using Jobs In A Workflow](actions/using-jobs/using-jobs-in-a-workflow.md)
@@ -287,7 +287,7 @@
       * [配置 TLS](admin/configuration/configuring-network-settings/configuring-tls.md)
       * [启用子域隔离](admin/configuration/configuring-network-settings/enabling-subdomain-isolation.md)
       * [配置网络设置](admin/configuration/configuring-network-settings/index.md)
-      * [网络端口](admin/configuration/configuring-network-settings/network-ports.md)
+      * [Network Ports](admin/configuration/configuring-network-settings/network-ports.md)
       * [结合使用 GitHub Enterprise Server 和负载均衡器](admin/configuration/configuring-network-settings/using-github-enterprise-server-with-a-load-balancer.md)
       * [验证域设置](admin/configuration/configuring-network-settings/validating-your-domain-settings.md)
     - Configuring Your Enterprise
@@ -1249,7 +1249,7 @@
   - Using Git
     * [关于 Git 变基](get-started/using-git/about-git-rebase.md)
     * [关于 Git 子树合并](get-started/using-git/about-git-subtree-merges.md)
-    * [About Git](get-started/using-git/about-git.md)
+    * [关于 Git](get-started/using-git/about-git.md)
     * [Dealing With Non Fast Forward Errors](get-started/using-git/dealing-with-non-fast-forward-errors.md)
     * [处理分支和标记名称中的特殊字符](get-started/using-git/dealing-with-special-characters-in-branch-and-tag-names.md)
     * [从远程仓库获取更改](get-started/using-git/getting-changes-from-a-remote-repository.md)
@@ -1462,7 +1462,7 @@
     * [管理团队对组织仓库的访问](organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository.md)
     * [恢复前外部协作者对组织的访问权限](organizations/managing-access-to-your-organizations-repositories/reinstating-a-former-outside-collaborators-access-to-your-organization.md)
     * [从组织仓库中删除外部协作者](organizations/managing-access-to-your-organizations-repositories/removing-an-outside-collaborator-from-an-organization-repository.md)
-    * [Repository Roles For An Organization](organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization.md)
+    * [组织的存储库角色](organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization.md)
     * [设置组织的基本权限](organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization.md)
     * [查看具有仓库访问权限的人员](organizations/managing-access-to-your-organizations-repositories/viewing-people-with-access-to-your-repository.md)
   - Managing Git Access To Your Organizations Repositories
@@ -1511,9 +1511,9 @@
     * [使用角色管理人们对您的组织的访问](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [保持组织的所有权连续性](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
     * [Managing Custom Repository Roles For An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization.md)
-    * [Managing Security Managers In Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization.md)
+    * [管理组织中的安全管理员](organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization.md)
     * [从组织中删除帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
-    * [Roles In An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
+    * [组织中的角色](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
   - Managing Saml Single Sign On For Your Organization
     * [关于使用 SAML 单点登录管理身份和访问](organizations/managing-saml-single-sign-on-for-your-organization/about-identity-and-access-management-with-saml-single-sign-on.md)
     * [关于 SCIM](organizations/managing-saml-single-sign-on-for-your-organization/about-scim.md)
