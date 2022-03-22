@@ -110,7 +110,7 @@
   - Deployment
     - About Deployments
       * [关于持续部署](actions/deployment/about-deployments/about-continuous-deployment.md)
-      * [使用 GitHub Actions 进行部署](actions/deployment/about-deployments/deploying-with-github-actions.md)
+      * [Deploying With Git Hub Actions](actions/deployment/about-deployments/deploying-with-github-actions.md)
       * [关于部署](actions/deployment/about-deployments/index.md)
     - Deploying To Your Cloud Provider
       - Deploying To Azure
@@ -133,17 +133,17 @@
       * [管理部署](actions/deployment/managing-your-deployments/index.md)
       * [查看部署历史记录](actions/deployment/managing-your-deployments/viewing-deployment-history.md)
     - Security Hardening Your Deployments
-      * [About Security Hardening With Open ID Connect](actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
-      * [Configuring Open ID Connect In Amazon Web Services](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
-      * [Configuring Open ID Connect In Azure](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
-      * [Configuring Open ID Connect In Cloud Providers](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
-      * [Configuring Open ID Connect In Google Cloud Platform](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-google-cloud-platform.md)
-      * [Configuring Open ID Connect In Hashi Corp Vault](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-hashicorp-vault.md)
-      * [Security Hardening Your Deployments](actions/deployment/security-hardening-your-deployments/index.md)
+      * [关于使用 OpenID Connect 进行安全强化](actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
+      * [在 Amazon Web Services 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
+      * [在 Azure 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
+      * [在云提供商中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
+      * [在 Google Cloud Platform 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-google-cloud-platform.md)
+      * [在 HashiCorp Vault 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-hashicorp-vault.md)
+      * [安全强化您的部署](actions/deployment/security-hardening-your-deployments/index.md)
       * [Using Open ID Connect With Reusable Workflows](actions/deployment/security-hardening-your-deployments/using-openid-connect-with-reusable-workflows.md)
     - Targeting Different Environments
-      * [Targeting Different Environments](actions/deployment/targeting-different-environments/index.md)
-      * [Using Environments For Deployment](actions/deployment/targeting-different-environments/using-environments-for-deployment.md)
+      * [针对不同的环境](actions/deployment/targeting-different-environments/index.md)
+      * [使用环境进行部署](actions/deployment/targeting-different-environments/using-environments-for-deployment.md)
     * [部署](actions/deployment/index.md)
   - Hosting Your Own Runners
     * [About Self Hosted Runners](actions/hosting-your-own-runners/about-self-hosted-runners.md)
@@ -813,7 +813,7 @@
     * [代码空间中的安全性](codespaces/codespaces-reference/security-in-codespaces.md)
     * [了解 Codespaces 的计费](codespaces/codespaces-reference/understanding-billing-for-codespaces.md)
     * [Using Git Hub Copilot In Codespaces](codespaces/codespaces-reference/using-github-copilot-in-codespaces.md)
-    * [Using The Visual Studio Code Command Palette In Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
+    * [在 Codespaces 中使用 Visual Studio 代码命令面板](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
     * [自定义代码空间](codespaces/customizing-your-codespace/index.md)
@@ -1390,7 +1390,7 @@
     * [尝试新项目体验](issues/trying-out-the-new-projects-experience/index.md)
     * [Managing Access To Projects Beta](issues/trying-out-the-new-projects-experience/managing-access-to-projects.md)
     * [Managing Iterations In Projects Beta](issues/trying-out-the-new-projects-experience/managing-iterations.md)
-    * [Managing The Visibility Of Your Projects Beta](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
+    * [管理项目的可见性（测试版）](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
     * [项目快速开始（测试版）](issues/trying-out-the-new-projects-experience/quickstart.md)
     * [Using Insights With Projects Beta](issues/trying-out-the-new-projects-experience/using-insights-with-projects.md)
     * [使用 API 管理项目（测试版）](issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects.md)
@@ -1510,7 +1510,7 @@
     * [Adding A Billing Manager To Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization.md)
     * [使用角色管理人们对您的组织的访问](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [保持组织的所有权连续性](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
-    * [Managing Custom Repository Roles For An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization.md)
+    * [管理组织的自定义存储库角色](organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization.md)
     * [管理组织中的安全管理员](organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization.md)
     * [从组织中删除帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
     * [组织中的角色](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
