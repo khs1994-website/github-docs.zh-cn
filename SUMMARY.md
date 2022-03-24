@@ -1175,6 +1175,7 @@
     * [自定义 GitHub 工作流程](get-started/customizing-your-github-workflow/index.md)
   - Exploring Projects On Github
     * [寻找在 GitHub 上参与开源项目的方法](get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github.md)
+    * [Following Organizations](get-started/exploring-projects-on-github/following-organizations.md)
     * [关注他人](get-started/exploring-projects-on-github/following-people.md)
     * [在 GitHub 上探索项目](get-started/exploring-projects-on-github/index.md)
     * [使用星标保存仓库](get-started/exploring-projects-on-github/saving-repositories-with-stars.md)
@@ -1388,7 +1389,7 @@
     * [自定义项目（测试版）视图](issues/trying-out-the-new-projects-experience/customizing-your-project-views.md)
     * [Filtering Projects Beta](issues/trying-out-the-new-projects-experience/filtering-projects.md)
     * [尝试新项目体验](issues/trying-out-the-new-projects-experience/index.md)
-    * [Managing Access To Projects Beta](issues/trying-out-the-new-projects-experience/managing-access-to-projects.md)
+    * [管理对项目的访问（测试版）](issues/trying-out-the-new-projects-experience/managing-access-to-projects.md)
     * [Managing Iterations In Projects Beta](issues/trying-out-the-new-projects-experience/managing-iterations.md)
     * [管理项目的可见性（测试版）](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
     * [项目快速开始（测试版）](issues/trying-out-the-new-projects-experience/quickstart.md)
@@ -1402,7 +1403,7 @@
     * [使用标签和里程碑来跟踪工作](issues/using-labels-and-milestones-to-track-work/index.md)
     * [Managing Labels](issues/using-labels-and-milestones-to-track-work/managing-labels.md)
     * [查看里程碑的进度](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
-  * [Issues Guides](issues/guides.md)
+  * [议题指南](issues/guides.md)
   * [Git Hub Issues](issues/index.md)
 - Organizations
   - Collaborating With Groups In Organizations
@@ -1473,7 +1474,7 @@
     * [将人员添加到您的组织](organizations/managing-membership-in-your-organization/adding-people-to-your-organization.md)
     * [Can I Create Accounts For People In My Organization](organizations/managing-membership-in-your-organization/can-i-create-accounts-for-people-in-my-organization.md)
     * [取消或编辑加入组织的邀请](organizations/managing-membership-in-your-organization/canceling-or-editing-an-invitation-to-join-your-organization.md)
-    * [Exporting Member Information For Your Organization](organizations/managing-membership-in-your-organization/exporting-member-information-for-your-organization.md)
+    * [导出组织的成员信息](organizations/managing-membership-in-your-organization/exporting-member-information-for-your-organization.md)
     * [管理组织中的成员资格](organizations/managing-membership-in-your-organization/index.md)
     * [Inviting Users To Join Your Organization](organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization.md)
     * [Reinstating A Former Member Of Your Organization](organizations/managing-membership-in-your-organization/reinstating-a-former-member-of-your-organization.md)
@@ -1535,7 +1536,7 @@
   - Organizing Members Into Teams
     * [About Teams](organizations/organizing-members-into-teams/about-teams.md)
     * [添加组织成员到团队](organizations/organizing-members-into-teams/adding-organization-members-to-a-team.md)
-    * [Assigning The Team Maintainer Role To A Team Member](organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member.md)
+    * [将团队维护者角色分配给团队成员](organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member.md)
     * [更改团队可见性](organizations/organizing-members-into-teams/changing-team-visibility.md)
     * [创建团队](organizations/organizing-members-into-teams/creating-a-team.md)
     * [删除团队](organizations/organizing-members-into-teams/deleting-a-team.md)
@@ -1592,7 +1593,7 @@
     * [配置 GitHub Pages 站点的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/index.md)
     * [管理 GitHub Pages 站点的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site.md)
     * [自定义域和 GitHub Pages 疑难解答](pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages.md)
-    * [Verifying Your Custom Domain For Git Hub Pages](pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages.md)
+    * [验证 GitHub Pages 的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages.md)
   - Getting Started With Github Pages
     * [About Git Hub Pages](pages/getting-started-with-github-pages/about-github-pages.md)
     * [使用主题选择器将主题添加到 GitHub Pages 站点](pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser.md)
@@ -1707,7 +1708,7 @@
       * [管理仓库中拉取请求的自动合并](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository.md)
       * [Managing Suggestions To Update Pull Request Branches](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-suggestions-to-update-pull-request-branches.md)
       * [管理分支的自动删除](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches.md)
-      * [Using A Merge Queue](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/using-a-merge-queue.md)
+      * [使用合并队列](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/using-a-merge-queue.md)
     - Defining The Mergeability Of Pull Requests
       * [关于受保护分支](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches.md)
       * [定义拉取请求的可合并性](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/index.md)
