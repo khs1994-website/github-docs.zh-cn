@@ -309,7 +309,7 @@
       * [启用私有模式](admin/configuration/configuring-your-enterprise/enabling-private-mode.md)
       * [配置企业](admin/configuration/configuring-your-enterprise/index.md)
       * [初始化 GitHub AE](admin/configuration/configuring-your-enterprise/initializing-github-ae.md)
-      * [管理企业的 GitHub Mobile](admin/configuration/configuring-your-enterprise/managing-github-mobile-for-your-enterprise.md)
+      * [Managing Git Hub Mobile For Your Enterprise](admin/configuration/configuring-your-enterprise/managing-github-mobile-for-your-enterprise.md)
       * [限制到企业的网络流量](admin/configuration/configuring-your-enterprise/restricting-network-traffic-to-your-enterprise.md)
       * [Site Admin Dashboard](admin/configuration/configuring-your-enterprise/site-admin-dashboard.md)
       * [排查 SSL 错误](admin/configuration/configuring-your-enterprise/troubleshooting-ssl-errors.md)
@@ -403,7 +403,7 @@
       * [使用 SAML](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/using-saml.md)
     - Configuring Authentication And Provisioning With Your Identity Provider
       * [使用 Azure AD 为企业配置身份验证和预配](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/configuring-authentication-and-provisioning-for-your-enterprise-using-azure-ad.md)
-      * [Configuring Authentication And Provisioning For Your Enterprise Using Okta](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
+      * [使用 Okta 为企业配置身份验证和预配](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
       * [使用身份提供程序配置身份验证和预配](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/index.md)
       * [Mapping Okta Groups To Teams](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/mapping-okta-groups-to-teams.md)
     - Managing Iam For Your Enterprise
@@ -417,7 +417,7 @@
     - Managing Iam With Enterprise Managed Users
       * [About Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users.md)
       * [Auditing Activity In Your Enterprise](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/auditing-activity-in-your-enterprise.md)
-      * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
+      * [为企业托管用户配置 SAML 单点登录](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
       * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
       * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users.md)
       * [Managing IAM With Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/index.md)
@@ -786,9 +786,9 @@
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Overview
     * [关于安全概述](code-security/security-overview/about-the-security-overview.md)
-    * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
+    * [筛选安全性概述中的警报](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
     * [查看组织中仓库的安全警报](code-security/security-overview/index.md)
-    * [Viewing The Security Overview](code-security/security-overview/viewing-the-security-overview.md)
+    * [查看安全性概述](code-security/security-overview/viewing-the-security-overview.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
@@ -1486,7 +1486,7 @@
     * [为组织中的 GitHub Actions 构件和日志配置保留期](organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization.md)
     * [将组织转换为用户](organizations/managing-organization-settings/converting-an-organization-into-a-user.md)
     * [删除组织帐户](organizations/managing-organization-settings/deleting-an-organization-account.md)
-    * [禁用或限制组织的 GitHub Actions](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
+    * [Disabling Or Limiting Git Hub Actions For Your Organization](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
     * [删除组织中的项目板](organizations/managing-organization-settings/disabling-project-boards-in-your-organization.md)
     * [管理组织设置](organizations/managing-organization-settings/index.md)
     * [集成 Jira 与组织项目板](organizations/managing-organization-settings/integrating-jira-with-your-organization-project-board.md)
@@ -1634,10 +1634,10 @@
       * [入门指南](pull-requests/collaborating-with-pull-requests/getting-started/index.md)
     - Incorporating Changes From A Pull Request
       * [关于拉取请求合并](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges.md)
-      * [将拉取请求添加到合并队列](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/adding-a-pull-request-to-the-merge-queue.md)
       * [自动合并拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request.md)
       * [关闭拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/closing-a-pull-request.md)
       * [合并拉取请求中的更改](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/index.md)
+      * [Merging A Pull Request With A Merge Queue](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue.md)
       * [合并拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request.md)
       * [还原拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request.md)
     - Proposing Changes To Your Work With Pull Requests
@@ -1706,10 +1706,10 @@
       * [为拉取请求配置提交变基](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-rebasing-for-pull-requests.md)
       * [为拉取请求配置提交压缩](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests.md)
       * [配置拉取请求合并](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/index.md)
+      * [Managing A Merge Queue](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue.md)
       * [管理仓库中拉取请求的自动合并](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository.md)
       * [Managing Suggestions To Update Pull Request Branches](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-suggestions-to-update-pull-request-branches.md)
       * [管理分支的自动删除](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches.md)
-      * [使用合并队列](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/using-a-merge-queue.md)
     - Defining The Mergeability Of Pull Requests
       * [关于受保护分支](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches.md)
       * [定义拉取请求的可合并性](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/index.md)
