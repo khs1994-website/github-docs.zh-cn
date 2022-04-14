@@ -1,5 +1,5 @@
 ---
-title: 流式传输企业帐户中组织的审核日志
+title: Streaming the audit log for your enterprise
 intro: '您可以将审核和 Git 事件数据从 {% data variables.product.prodname_dotcom %} 流式传输到外部数据管理系统。'
 miniTocMaxHeadingLevel: 3
 versions:
@@ -10,26 +10,12 @@ topics:
   - Enterprise
   - Logging
   - Organizations
-shortTitle: 流式传输组织审核日志
+shortTitle: Stream audit logs
 redirect_from:
   - /github/setting-up-and-managing-your-enterprise/managing-organizations-in-your-enterprise-account/streaming-the-audit-logs-for-organizations-in-your-enterprise-account
+  - /admin/user-management/managing-organizations-in-your-enterprise/streaming-the-audit-logs-for-organizations-in-your-enterprise-account
 permissions: Enterprise owners can configure audit log streaming.
 ---
-
-## 关于导出审核数据
-
-您可以通过多种方式从 {% data variables.product.prodname_dotcom %} 中提取审核日志和 Git 事件数据：
-
-* 转到 {% data variables.product.prodname_dotcom %} 中的审核日志页，然后单击 **Export（导出）**。 更多信息请参阅“[查看企业帐户中组织的审核日志](/github/setting-up-and-managing-your-enterprise/managing-organizations-in-your-enterprise-account/viewing-the-audit-logs-for-organizations-in-your-enterprise-account)”和“[导出审核日志](/organizations/keeping-your-organization-secure/reviewing-the-audit-log-for-your-organization#exporting-the-audit-log)”。
-* 使用 API 轮询新的审核日志事件。 更多信息请参阅“[使用审核日志 API](/organizations/keeping-your-organization-secure/reviewing-the-audit-log-for-your-organization#using-the-audit-log-api)”。
-* 设置 {% data variables.product.product_name %} 以在记录事件时流式传输审核数据。
-
-目前，多个存储提供商支持审核日志流式处理。
-- Amazon S3
-- Azure Blob Storage
-- Azure Event Hubs
-- Google Cloud Storage
-- Splunk
 
 ## 关于审核日志流
 
@@ -40,7 +26,7 @@ permissions: Enterprise owners can configure audit log streaming.
 
 * **数据探索**。 您可以使用首选工具检查流事件，以查询大量数据。 流包含整个企业帐户中的审核事件和 Git 事件。
 * **数据连续性**。 您可以暂停流长达七天，而不会丢失任何审核数据。
-* **数据保留**。 您可以根据需要保留导出的审核日志和 Git 数据。
+* **数据保留**。 You can keep your exported audit logs and Git events data as long as you need to.
 
 企业所有者可以随时设置、暂停或删除流。 流导出企业中所有组织的审核数据。
 

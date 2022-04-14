@@ -1,10 +1,12 @@
 ---
-title: 在多个仓库中查找讨论
-intro: 您可以轻松地访问您在多个仓库中创建或参与的每个讨论。
+title: Finding your discussions
+intro: You can easily access every discussion you've created or participated in.
 versions:
   fpt: '*'
   ghec: '*'
 shortTitle: 查找讨论
+redirect_from:
+  - /discussions/guides/finding-discussions-across-multiple-repositories
 ---
 
 
