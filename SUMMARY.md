@@ -304,7 +304,7 @@
       * [Configuring Rate Limits](admin/configuration/configuring-your-enterprise/configuring-rate-limits.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
       * [配置时间同步](admin/configuration/configuring-your-enterprise/configuring-time-synchronization.md)
-      * [Deploying Git Hub AE](admin/configuration/configuring-your-enterprise/deploying-github-ae.md)
+      * [部署 GitHub AE](admin/configuration/configuring-your-enterprise/deploying-github-ae.md)
       * [启用和排定维护模式](admin/configuration/configuring-your-enterprise/enabling-and-scheduling-maintenance-mode.md)
       * [启用私有模式](admin/configuration/configuring-your-enterprise/enabling-private-mode.md)
       * [配置企业](admin/configuration/configuring-your-enterprise/index.md)
@@ -532,7 +532,7 @@
       * [Roles In An Enterprise](admin/user-management/managing-users-in-your-enterprise/roles-in-an-enterprise.md)
       * [Suspending And Unsuspending Users](admin/user-management/managing-users-in-your-enterprise/suspending-and-unsuspending-users.md)
       * [查看和管理用户对企业的 SAML 访问](admin/user-management/managing-users-in-your-enterprise/viewing-and-managing-a-users-saml-access-to-your-enterprise.md)
-      * [查看企业中的人员](admin/user-management/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
+      * [Viewing People In Your Enterprise](admin/user-management/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
     - Migrating Data To And From Your Enterprise
       * [关于迁移](admin/user-management/migrating-data-to-and-from-your-enterprise/about-migrations.md)
       * [Exporting migration data from GitHub.com](admin/user-management/migrating-data-to-and-from-your-enterprise/exporting-migration-data-from-githubcom.md)
@@ -741,6 +741,7 @@
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Browsing Security Vulnerabilities In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-vulnerabilities-in-the-github-advisory-database.md)
+      * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Editing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
@@ -802,11 +803,13 @@
       * [端到端供应链](code-security/supply-chain-security/end-to-end-supply-chain/index.md)
       * [Best Practices For Securing Accounts](code-security/supply-chain-security/end-to-end-supply-chain/securing-accounts.md)
       * [保护构建系统的最佳做法](code-security/supply-chain-security/end-to-end-supply-chain/securing-builds.md)
-      * [Best Practices For Securing Code In Your Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/securing-code.md)
+      * [保护供应链中代码的最佳实践](code-security/supply-chain-security/end-to-end-supply-chain/securing-code.md)
     - Understanding Your Software Supply Chain
       * [关于依赖项审查](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
       * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
+      * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
+      * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [探索仓库的依赖项](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
@@ -859,7 +862,7 @@
     * [管理代码空间](codespaces/managing-your-codespaces/index.md)
     * [管理代码空间的加密密码](codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces.md)
     * [管理代码空间的 GPG 验证](codespaces/managing-your-codespaces/managing-gpg-verification-for-codespaces.md)
-    * [管理代码空间的存储库访问](codespaces/managing-your-codespaces/managing-repository-access-for-your-codespaces.md)
+    * [管理对代码空间中其他存储库的访问](codespaces/managing-your-codespaces/managing-repository-access-for-your-codespaces.md)
     * [查看代码空间的安全日志](codespaces/managing-your-codespaces/reviewing-your-security-logs-for-codespaces.md)
   - Prebuilding Your Codespaces
     * [关于代码空间预构建](codespaces/prebuilding-your-codespaces/about-codespaces-prebuilds.md)
@@ -868,8 +871,8 @@
     * [管理预构建](codespaces/prebuilding-your-codespaces/managing-prebuilds.md)
     * [在启用了预构建的分支上测试开发容器配置更改](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
-    * [开发容器简介](codespaces/setting-up-your-project-for-codespaces/configuring-codespaces-for-your-project.md)
     * [为 {% data variables.product.prodname_codespaces %} 设置存储库](codespaces/setting-up-your-project-for-codespaces/index.md)
+    * [开发容器简介](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [为代码空间计算机设置最低规范](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
     * [为代码空间设置 C# (.NET) 项目](codespaces/setting-up-your-project-for-codespaces/setting-up-your-dotnet-project-for-codespaces.md)
     * [为 Codespaces 设置 Java 项目](codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces.md)
@@ -1750,7 +1753,7 @@
   - Managing Your Repositorys Settings And Features
     - Customizing Your Repository
       * [关于 CITION 文件](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files.md)
-      * [关于代码所有者](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners.md)
+      * [About Code Owners](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners.md)
       * [关于自述文件](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
       * [关于仓库语言](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages.md)
       * [使用主题对仓库分类](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics.md)
@@ -1923,8 +1926,8 @@
   - Acceptable Use Policies
     * [GitHub 可接受的使用政策](site-policy/acceptable-use-policies/github-acceptable-use-policies.md)
     * [GitHub 活动的恶意软件或漏洞利用](site-policy/acceptable-use-policies/github-active-malware-or-exploits.md)
-    * [Git Hub Appeal And Reinstatement](site-policy/acceptable-use-policies/github-appeal-and-reinstatement.md)
-    * [Git Hub Bullying And Harassment](site-policy/acceptable-use-policies/github-bullying-and-harassment.md)
+    * [GitHub 申诉和恢复](site-policy/acceptable-use-policies/github-appeal-and-reinstatement.md)
+    * [GitHub 欺凌和骚扰](site-policy/acceptable-use-policies/github-bullying-and-harassment.md)
     * [GitHub 破坏其他用户的体验](site-policy/acceptable-use-policies/github-disrupting-the-experience-of-other-users.md)
     * [GitHub 人肉搜索和侵犯隐私](site-policy/acceptable-use-policies/github-doxxing-and-invasion-of-privacy.md)
     * [GitHub 仇恨言论和歧视](site-policy/acceptable-use-policies/github-hate-speech-and-discrimination.md)
