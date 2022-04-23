@@ -240,7 +240,7 @@
     * [将环境用于作业](actions/using-jobs/using-environments-for-jobs.md)
     * [在工作流程中使用作业](actions/using-jobs/using-jobs-in-a-workflow.md)
   - Using Workflows
-    * [高级工作流程功能](actions/using-workflows/advanced-workflow-features.md)
+    * [关于工作流程](actions/using-workflows/about-workflows.md)
     * [缓存依赖项以加快工作流程](actions/using-workflows/caching-dependencies-to-speed-up-workflows.md)
     * [为组织创建入门工作流程](actions/using-workflows/creating-starter-workflows-for-your-organization.md)
     * [触发工作流程的事件](actions/using-workflows/events-that-trigger-workflows.md)
@@ -366,7 +366,7 @@
       * [GitHub Actions 的高可用性](admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions.md)
       * [Advanced Configuration And Troubleshooting](admin/github-actions/advanced-configuration-and-troubleshooting/index.md)
       * [Troubleshooting Git Hub Actions For Your Enterprise](admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise.md)
-      * [Using A Staging Environment](admin/github-actions/advanced-configuration-and-troubleshooting/using-a-staging-environment.md)
+      * [使用暂存环境](admin/github-actions/advanced-configuration-and-troubleshooting/using-a-staging-environment.md)
     - Enabling Github Actions For Github Enterprise Server
       * [Enabling Git Hub Actions With Amazon S 3 Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-amazon-s3-storage.md)
       * [Enabling Git Hub Actions With Azure Blob Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-azure-blob-storage.md)
@@ -394,39 +394,49 @@
       * [在 GitHub AE 中使用操作](admin/github-actions/using-github-actions-in-github-ae/using-actions-in-github-ae.md)
     * [Managing Git Hub Actions For Your Enterprise](admin/github-actions/index.md)
   - Identity And Access Management
-    - Authenticating Users For Your Github Enterprise Server Instance
-      * [允许对身份提供程序覆盖范围以外的用户进行内置身份验证](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/allowing-built-in-authentication-for-users-outside-your-identity-provider.md)
-      * [更改身份验证方法](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/changing-authentication-methods.md)
-      * [禁用未经身份验证的注册](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/disabling-unauthenticated-sign-ups.md)
-      * [为您的 GitHub Enterprise Server 实例验证用户身份](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/index.md)
-      * [使用内置身份验证](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/using-built-in-authentication.md)
-      * [使用 CAS](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/using-cas.md)
-      * [使用 LDAP](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/using-ldap.md)
-      * [Using SAML](admin/identity-and-access-management/authenticating-users-for-your-github-enterprise-server-instance/using-saml.md)
-    - Configuring Authentication And Provisioning With Your Identity Provider
-      * [使用 Azure AD 为企业配置身份验证和预配](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/configuring-authentication-and-provisioning-for-your-enterprise-using-azure-ad.md)
-      * [使用 Okta 为企业配置身份验证和预配](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
-      * [使用身份提供程序配置身份验证和预配](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/index.md)
-      * [将 Okta 组映射到团队](admin/identity-and-access-management/configuring-authentication-and-provisioning-with-your-identity-provider/mapping-okta-groups-to-teams.md)
     - Managing Iam For Your Enterprise
-      * [关于企业的身份和访问管理](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-identity-and-access-management-for-your-enterprise.md)
-      * [使用 Okta 为企业配置 SAML 单点登录](admin/identity-and-access-management/managing-iam-for-your-enterprise/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
-      * [Configuring SAML Single Sign On For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/configuring-saml-single-sign-on-for-your-enterprise.md)
-      * [Configuring User Provisioning For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/configuring-user-provisioning-for-your-enterprise.md)
-      * [Managing IAM For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
-      * [管理企业中组织的团队同步](admin/identity-and-access-management/managing-iam-for-your-enterprise/managing-team-synchronization-for-organizations-in-your-enterprise.md)
-      * [将 SAML 配置从组织切换到企业帐户](admin/identity-and-access-management/managing-iam-for-your-enterprise/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account.md)
-    - Managing Iam With Enterprise Managed Users
-      * [About Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users.md)
-      * [为企业托管用户配置 SAML 单点登录](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users.md)
-      * [使用企业托管用户管理 IAM](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/index.md)
-      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/managing-team-memberships-with-identity-provider-groups.md)
+      * [About Authentication For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
+      * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
+      * [更改身份验证方法](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
+      * [管理企业的 IAM](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
+      * [Username Considerations For External Authentication](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
     - Managing Recovery Codes For Your Enterprise
       * [身份提供程序不可用时访问企业帐户](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/accessing-your-enterprise-account-if-your-identity-provider-is-unavailable.md)
       * [下载企业帐户的 SAML 单点登录恢复代码](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/downloading-your-enterprise-accounts-saml-single-sign-on-recovery-codes.md)
       * [管理企业的恢复代码](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/index.md)
+    - Using Built In Authentication
+      * [配置内置身份验证](admin/identity-and-access-management/using-built-in-authentication/configuring-built-in-authentication.md)
+      * [禁用未经身份验证的注册](admin/identity-and-access-management/using-built-in-authentication/disabling-unauthenticated-sign-ups.md)
+      * [使用内置身份验证](admin/identity-and-access-management/using-built-in-authentication/index.md)
+      * [Inviting People To Use Your Instance](admin/identity-and-access-management/using-built-in-authentication/inviting-people-to-use-your-instance.md)
+    - Using Cas For Enterprise Iam
+      * [Using CAS For Enterprise IAM](admin/identity-and-access-management/using-cas-for-enterprise-iam/index.md)
+      * [使用 CAS](admin/identity-and-access-management/using-cas-for-enterprise-iam/using-cas.md)
+    - Using Enterprise Managed Users And Saml For Iam
+      * [About Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/about-enterprise-managed-users.md)
+      * [为企业托管用户配置 SAML 单点登录](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
+      * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
+      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/configuring-scim-provisioning-for-enterprise-managed-users.md)
+      * [Using Enterprise Managed Users And SAML For IAM](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/index.md)
+      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/managing-team-memberships-with-identity-provider-groups.md)
+    - Using Ldap For Enterprise Iam
+      * [Using LDAP For Enterprise IAM](admin/identity-and-access-management/using-ldap-for-enterprise-iam/index.md)
+      * [使用 LDAP](admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap.md)
+    - Using Saml For Enterprise Iam
+      * [About SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam.md)
+      * [使用 Azure AD 为企业配置身份验证和预配](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-azure-ad.md)
+      * [使用 Okta 为企业配置身份验证和预配](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
+      * [使用 Okta 为企业配置 SAML 单点登录](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
+      * [为企业配置 SAML 单点登录](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise.md)
+      * [Configuring User Provisioning For Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-user-provisioning-for-your-enterprise.md)
+      * [启用加密断言](admin/identity-and-access-management/using-saml-for-enterprise-iam/enabling-encrypted-assertions.md)
+      * [Using SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/index.md)
+      * [管理企业中组织的团队同步](admin/identity-and-access-management/using-saml-for-enterprise-iam/managing-team-synchronization-for-organizations-in-your-enterprise.md)
+      * [将 Okta 组映射到团队](admin/identity-and-access-management/using-saml-for-enterprise-iam/mapping-okta-groups-to-teams.md)
+      * [SAML Configuration Reference](admin/identity-and-access-management/using-saml-for-enterprise-iam/saml-configuration-reference.md)
+      * [将 SAML 配置从组织切换到企业帐户](admin/identity-and-access-management/using-saml-for-enterprise-iam/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account.md)
+      * [SAML 身份验证](admin/identity-and-access-management/using-saml-for-enterprise-iam/troubleshooting-saml-authentication.md)
+      * [Updating A User S SAML Name ID](admin/identity-and-access-management/using-saml-for-enterprise-iam/updating-a-users-saml-nameid.md)
     * [身份和访问管理](admin/identity-and-access-management/index.md)
   - Installation
     - Setting Up A Github Enterprise Server Instance
@@ -443,16 +453,16 @@
   - Monitoring Activity In Your Enterprise
     - Exploring User Activity
       * [活动仪表板](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/activity-dashboard.md)
-      * [Exploring User Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/index.md)
+      * [探索企业中的用户活动](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/index.md)
       * [日志转发](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/log-forwarding.md)
       * [管理全局 web 挂钩](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/managing-global-webhooks.md)
       * [查看推送日志](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/viewing-push-logs.md)
     - Reviewing Audit Logs For Your Enterprise
       * [关于企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise.md)
       * [Accessing The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/accessing-the-audit-log-for-your-enterprise.md)
-      * [Audit Log Events For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
+      * [企业的审核日志事件](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
       * [Exporting Audit Log Activity For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
-      * [Reviewing Audit Logs For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
+      * [查看企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
       * [搜索企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
       * [流式传输企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise.md)
       * [Using The Audit Log API For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-the-audit-log-api-for-your-enterprise.md)
@@ -1490,7 +1500,7 @@
     * [取消或编辑加入组织的邀请](organizations/managing-membership-in-your-organization/canceling-or-editing-an-invitation-to-join-your-organization.md)
     * [导出组织的成员信息](organizations/managing-membership-in-your-organization/exporting-member-information-for-your-organization.md)
     * [管理组织中的成员资格](organizations/managing-membership-in-your-organization/index.md)
-    * [Inviting Users To Join Your Organization](organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization.md)
+    * [邀请用户参加您的组织](organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization.md)
     * [Reinstating A Former Member Of Your Organization](organizations/managing-membership-in-your-organization/reinstating-a-former-member-of-your-organization.md)
     * [从组织中删除成员](organizations/managing-membership-in-your-organization/removing-a-member-from-your-organization.md)
   - Managing Organization Settings
@@ -1533,7 +1543,7 @@
     * [组织中的角色](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
   - Managing Saml Single Sign On For Your Organization
     * [关于使用 SAML 单点登录管理身份和访问](organizations/managing-saml-single-sign-on-for-your-organization/about-identity-and-access-management-with-saml-single-sign-on.md)
-    * [关于 SCIM](organizations/managing-saml-single-sign-on-for-your-organization/about-scim.md)
+    * [About SCIM For Organizations](organizations/managing-saml-single-sign-on-for-your-organization/about-scim-for-organizations.md)
     * [身份提供程序不可用时访问组织](organizations/managing-saml-single-sign-on-for-your-organization/accessing-your-organization-if-your-identity-provider-is-unavailable.md)
     * [使用 Octa 配置 SAML 单个登录和 SCIM](organizations/managing-saml-single-sign-on-for-your-organization/configuring-saml-single-sign-on-and-scim-using-okta.md)
     * [将身份提供程序连接到组织](organizations/managing-saml-single-sign-on-for-your-organization/connecting-your-identity-provider-to-your-organization.md)
