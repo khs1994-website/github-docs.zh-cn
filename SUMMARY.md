@@ -366,7 +366,7 @@
       * [GitHub Actions 的高可用性](admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions.md)
       * [Advanced Configuration And Troubleshooting](admin/github-actions/advanced-configuration-and-troubleshooting/index.md)
       * [Troubleshooting Git Hub Actions For Your Enterprise](admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise.md)
-      * [使用暂存环境](admin/github-actions/advanced-configuration-and-troubleshooting/using-a-staging-environment.md)
+      * [Using A Staging Environment](admin/github-actions/advanced-configuration-and-troubleshooting/using-a-staging-environment.md)
     - Enabling Github Actions For Github Enterprise Server
       * [Enabling Git Hub Actions With Amazon S 3 Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-amazon-s3-storage.md)
       * [Enabling Git Hub Actions With Azure Blob Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-azure-blob-storage.md)
@@ -437,7 +437,7 @@
       * [将 SAML 配置从组织切换到企业帐户](admin/identity-and-access-management/using-saml-for-enterprise-iam/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account.md)
       * [SAML 身份验证](admin/identity-and-access-management/using-saml-for-enterprise-iam/troubleshooting-saml-authentication.md)
       * [Updating A User S SAML Name ID](admin/identity-and-access-management/using-saml-for-enterprise-iam/updating-a-users-saml-nameid.md)
-    * [身份和访问管理](admin/identity-and-access-management/index.md)
+    * [Identity And Access Management](admin/identity-and-access-management/index.md)
   - Installation
     - Setting Up A Github Enterprise Server Instance
       * [设置 GitHub Enterprise Server 实例](admin/installation/setting-up-a-github-enterprise-server-instance/index.md)
@@ -460,7 +460,7 @@
     - Reviewing Audit Logs For Your Enterprise
       * [关于企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise.md)
       * [Accessing The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/accessing-the-audit-log-for-your-enterprise.md)
-      * [企业的审核日志事件](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
+      * [Audit Log Events For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
       * [Exporting Audit Log Activity For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
       * [查看企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
       * [搜索企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
@@ -1500,7 +1500,7 @@
     * [取消或编辑加入组织的邀请](organizations/managing-membership-in-your-organization/canceling-or-editing-an-invitation-to-join-your-organization.md)
     * [导出组织的成员信息](organizations/managing-membership-in-your-organization/exporting-member-information-for-your-organization.md)
     * [管理组织中的成员资格](organizations/managing-membership-in-your-organization/index.md)
-    * [邀请用户参加您的组织](organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization.md)
+    * [Inviting Users To Join Your Organization](organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization.md)
     * [Reinstating A Former Member Of Your Organization](organizations/managing-membership-in-your-organization/reinstating-a-former-member-of-your-organization.md)
     * [从组织中删除成员](organizations/managing-membership-in-your-organization/removing-a-member-from-your-organization.md)
   - Managing Organization Settings
