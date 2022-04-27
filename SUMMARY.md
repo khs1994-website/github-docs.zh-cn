@@ -24,7 +24,7 @@
       * [管理个人资料自述文件](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
       * [个性化您的个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [在个人资料中嵌入项目](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
-      * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
+      * [将您的个人资料设置为私密](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
     - Managing Contribution Graphs On Your Profile
       * [管理个人资料中的贡献图](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/index.md)
       * [在个人资料中公开或隐藏您的私人贡献](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/publicizing-or-hiding-your-private-contributions-on-your-profile.md)
@@ -461,7 +461,7 @@
       * [关于企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise.md)
       * [Accessing The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/accessing-the-audit-log-for-your-enterprise.md)
       * [Audit Log Events For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
-      * [Exporting Audit Log Activity For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
+      * [导出企业的审核日志活动](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
       * [查看企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
       * [搜索企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
       * [流式传输企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise.md)
@@ -867,6 +867,7 @@
     * [为您的仓库和代码空间组织管理加密的密钥](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-codespaces.md)
     * [管理组织代码空间的存储库访问](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [限制对计算机类型的访问](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
+    * [Restricting The Idle Timeout Period](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
     * [限制转发端口的可见性](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [查看组织的代码空间审核日志](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
@@ -983,9 +984,11 @@
       * [压缩提交](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits.md)
     - Working With Your Remote Repository On Github Or Github Enterprise
       * [从 GitHub Desktop 更改远程的 URL](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/changing-a-remotes-url-from-github-desktop.md)
+      * [Configuring Notifications In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/configuring-notifications-in-github-desktop.md)
       * [创建议题或拉取请求](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request.md)
       * [在 GitHub 或 GitHub Enterprise 上使用远程仓库](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/index.md)
       * [在 GitHub Desktop 中查看拉取请求](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop.md)
+      * [Viewing And Re Running Checks In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-and-re-running-checks-in-github-desktop.md)
     * [使用 GitHub Desktop 参与和协作](desktop/contributing-and-collaborating-using-github-desktop/index.md)
   - Installing And Configuring Github Desktop
     - Configuring And Customizing Github Desktop
