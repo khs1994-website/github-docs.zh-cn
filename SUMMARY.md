@@ -234,7 +234,7 @@
     * [使用作业](actions/using-jobs/index.md)
     * [在容器中运行作业](actions/using-jobs/running-jobs-in-a-container.md)
     * [设置作业的默认值](actions/using-jobs/setting-default-values-for-jobs.md)
-    * [对作业使用构建矩阵](actions/using-jobs/using-a-build-matrix-for-your-jobs.md)
+    * [Using A Matrix For Your Jobs](actions/using-jobs/using-a-matrix-for-your-jobs.md)
     * [使用并发](actions/using-jobs/using-concurrency.md)
     * [使用条件控制作业执行](actions/using-jobs/using-conditions-to-control-job-execution.md)
     * [将环境用于作业](actions/using-jobs/using-environments-for-jobs.md)
@@ -465,7 +465,7 @@
       * [查看企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
       * [搜索企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
       * [流式传输企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise.md)
-      * [Using The Audit Log API For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-the-audit-log-api-for-your-enterprise.md)
+      * [使用企业的审核日志 API](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-the-audit-log-api-for-your-enterprise.md)
     * [监控企业中的活动](admin/monitoring-activity-in-your-enterprise/index.md)
   - Overview
     * [关于数据保存](admin/overview/about-data-residency.md)
