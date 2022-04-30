@@ -1881,7 +1881,7 @@
     * [User Secrets](rest/codespaces/secrets.md)
   - Collaborators
     * [协作者](rest/collaborators/index.md)
-    * [邀请](rest/collaborators/invitations.md)
+    * [Repository Invitations](rest/collaborators/invitations.md)
   - Commits
     * [提交注释](rest/commits/comments.md)
     * [提交](rest/commits/index.md)
@@ -1950,10 +1950,10 @@
     * [里程碑](rest/issues/milestones.md)
     * [时间表](rest/issues/timeline.md)
   - Metrics
-    * [社区](rest/metrics/community.md)
+    * [Community Metrics](rest/metrics/community.md)
     * [Metrics](rest/metrics/index.md)
-    * [统计](rest/metrics/statistics.md)
-    * [流量](rest/metrics/traffic.md)
+    * [Repository Statistics](rest/metrics/statistics.md)
+    * [Repository Traffic](rest/metrics/traffic.md)
   - Migrations
     * [迁移](rest/migrations/index.md)
     * [组织](rest/migrations/orgs.md)
