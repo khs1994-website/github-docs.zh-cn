@@ -456,7 +456,7 @@
     - Analyzing How Your Team Works With Server Statistics
       * [About Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
       * [Exporting Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/exporting-server-statistics.md)
-      * [Analyzing How Your Team Works With Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
+      * [分析团队如何使用服务器统计信息](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
       * [Requesting Server Statistics Using The REST API](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
     - Exploring User Activity
       * [活动仪表板](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/activity-dashboard.md)
