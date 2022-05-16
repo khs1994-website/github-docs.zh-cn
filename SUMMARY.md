@@ -306,7 +306,7 @@
       * [Configuring Rate Limits](admin/configuration/configuring-your-enterprise/configuring-rate-limits.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
       * [配置时间同步](admin/configuration/configuring-your-enterprise/configuring-time-synchronization.md)
-      * [Configuring Web Commit Signing](admin/configuration/configuring-your-enterprise/configuring-web-commit-signing.md)
+      * [配置 Web 提交签名](admin/configuration/configuring-your-enterprise/configuring-web-commit-signing.md)
       * [Deploying Git Hub AE](admin/configuration/configuring-your-enterprise/deploying-github-ae.md)
       * [启用和排定维护模式](admin/configuration/configuring-your-enterprise/enabling-and-scheduling-maintenance-mode.md)
       * [启用私有模式](admin/configuration/configuring-your-enterprise/enabling-private-mode.md)
