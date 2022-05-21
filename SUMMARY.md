@@ -38,7 +38,7 @@
     - Managing Access To Your Personal Repositories
       * [管理对个人仓库的访问](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/index.md)
       * [邀请协作者参加个人仓库](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository.md)
-      * [Maintaining Ownership Continuity Of Your Personal Account S Repositories](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/maintaining-ownership-continuity-of-your-personal-accounts-repositories.md)
+      * [保持个人帐户仓库的所有权连续性](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/maintaining-ownership-continuity-of-your-personal-accounts-repositories.md)
       * [从个人仓库中删除协作者](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/removing-a-collaborator-from-a-personal-repository.md)
       * [从协作者的仓库中删除您自己](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/removing-yourself-from-a-collaborators-repository.md)
     - Managing Email Preferences
@@ -56,18 +56,18 @@
       * [关于离开公司的最佳实践](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/best-practices-for-leaving-your-company.md)
       * [Changing Your Git Hub Username](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/changing-your-github-username.md)
       * [将用户转换为组织](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/converting-a-user-into-an-organization.md)
-      * [Deleting Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/deleting-your-personal-account.md)
+      * [删除个人帐户](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/deleting-your-personal-account.md)
       * [管理用户帐户设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/index.md)
       * [将 Jira 与个人项目集成](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/integrating-jira-with-your-personal-projects.md)
-      * [Managing Access To Your Personal Account S Project Boards](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-access-to-your-personal-accounts-project-boards.md)
+      * [管理对个人帐户项目板的访问](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-access-to-your-personal-accounts-project-boards.md)
       * [管理辅助功能设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-accessibility-settings.md)
-      * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-security-and-analysis-settings-for-your-personal-account.md)
+      * [管理个人帐户的安全和分析设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-security-and-analysis-settings-for-your-personal-account.md)
       * [Managing The Default Branch Name For Your Repositories](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-the-default-branch-name-for-your-repositories.md)
       * [管理选项卡大小呈现首选项](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-tab-size-rendering-preference.md)
       * [管理主题设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings.md)
-      * [Merging Multiple Personal Accounts](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/merging-multiple-personal-accounts.md)
-      * [Permission Levels For A Personal Account Repository](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
-      * [Permission Levels For A Project Board Owned By A Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
+      * [合并多个个人帐户](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/merging-multiple-personal-accounts.md)
+      * [个人帐户仓库的权限级别](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
+      * [个人帐户拥有的项目板的权限级别](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
       * [“招聘职位”复选框有什么作用？](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/what-does-the-available-for-hire-checkbox-do.md)
     - Managing Your Membership In Organizations
       * [About Organization Membership](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/about-organization-membership.md)
@@ -78,7 +78,7 @@
       * [从组织中删除自己](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/removing-yourself-from-an-organization.md)
       * [请求组织批准 OAuth 应用程序](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/requesting-organization-approval-for-oauth-apps.md)
       * [查看组织中人员的角色](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/viewing-peoples-roles-in-an-organization.md)
-    * [Setting Up And Managing Your Personal Account On Git Hub](account-and-profile/setting-up-and-managing-your-personal-account-on-github/index.md)
+    * [在 GitHub 上设置和管理您的个人帐户](account-and-profile/setting-up-and-managing-your-personal-account-on-github/index.md)
   * [Your Account And Profile On Git Hub](account-and-profile/index.md)
 - Actions
   - Automating Builds And Tests
@@ -110,7 +110,7 @@
   - Deployment
     - About Deployments
       * [关于持续部署](actions/deployment/about-deployments/about-continuous-deployment.md)
-      * [使用 GitHub Actions 进行部署](actions/deployment/about-deployments/deploying-with-github-actions.md)
+      * [Deploying With Git Hub Actions](actions/deployment/about-deployments/deploying-with-github-actions.md)
       * [关于部署](actions/deployment/about-deployments/index.md)
     - Deploying To Your Cloud Provider
       - Deploying To Azure
@@ -840,7 +840,7 @@
     * [参考](codespaces/codespaces-reference/index.md)
     * [代码空间中的安全性](codespaces/codespaces-reference/security-in-codespaces.md)
     * [了解 Codespaces 的计费](codespaces/codespaces-reference/understanding-billing-for-codespaces.md)
-    * [在 Codespaces 中使用 GitHub Copilot](codespaces/codespaces-reference/using-github-copilot-in-codespaces.md)
+    * [Using Git Hub Copilot In Codespaces](codespaces/codespaces-reference/using-github-copilot-in-codespaces.md)
     * [在 Codespaces 中使用 Visual Studio 代码命令面板](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
@@ -1200,7 +1200,7 @@
       * [About Git Hub Marketplace](get-started/customizing-your-github-workflow/exploring-integrations/about-github-marketplace.md)
       * [关于集成](get-started/customizing-your-github-workflow/exploring-integrations/about-integrations.md)
       * [关于 web 挂钩](get-started/customizing-your-github-workflow/exploring-integrations/about-webhooks.md)
-      * [GitHub 扩展和集成](get-started/customizing-your-github-workflow/exploring-integrations/github-extensions-and-integrations.md)
+      * [Git Hub Extensions And Integrations](get-started/customizing-your-github-workflow/exploring-integrations/github-extensions-and-integrations.md)
       * [探索集成](get-started/customizing-your-github-workflow/exploring-integrations/index.md)
     - Purchasing And Installing Apps In Github Marketplace
       * [在 GitHub Marketplace 中购买并安装应用程序](get-started/customizing-your-github-workflow/purchasing-and-installing-apps-in-github-marketplace/index.md)
@@ -1322,7 +1322,7 @@
       * [使用折叠的部分组织信息](get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections.md)
       * [使用表格组织信息](get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables.md)
       * [在议题和拉取请求中使用关键字](get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests.md)
-      * [Writing Mathematical Expressions](get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions.md)
+      * [编写数学表达式](get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions.md)
     - Working With Saved Replies
       * [关于已保存回复](get-started/writing-on-github/working-with-saved-replies/about-saved-replies.md)
       * [创建已保存回复](get-started/writing-on-github/working-with-saved-replies/creating-a-saved-reply.md)
@@ -2151,7 +2151,7 @@
     * [管理您的赞助目标](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-sponsorship-goal.md)
     * [管理赞助等级](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-sponsorship-tiers.md)
     * [为您的组织设置 GitHub Sponsors](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization.md)
-    * [Setting Up Git Hub Sponsors For Your Personal Account](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-personal-account.md)
+    * [为您的个人帐户设置 GitHub Sponsors](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-personal-account.md)
     * [GitHub Sponsors 的税务信息](sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors.md)
     * [取消发布您的 GitHub Sponsors 个人资料](sponsors/receiving-sponsorships-through-github-sponsors/unpublishing-your-github-sponsors-profile.md)
     * [查看您的赞助者和赞助](sponsors/receiving-sponsorships-through-github-sponsors/viewing-your-sponsors-and-sponsorships.md)
