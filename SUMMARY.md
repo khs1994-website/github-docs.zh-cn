@@ -183,7 +183,7 @@
     * [下载工作流程构件](actions/managing-workflow-runs/downloading-workflow-artifacts.md)
     * [管理工作流程运行](actions/managing-workflow-runs/index.md)
     * [手动运行工作流程](actions/managing-workflow-runs/manually-running-a-workflow.md)
-    * [Re Running Workflows And Jobs](actions/managing-workflow-runs/re-running-workflows-and-jobs.md)
+    * [重新运行工作流程和作业](actions/managing-workflow-runs/re-running-workflows-and-jobs.md)
     * [Removing Workflow Artifacts](actions/managing-workflow-runs/removing-workflow-artifacts.md)
     * [Reviewing Deployments](actions/managing-workflow-runs/reviewing-deployments.md)
     * [跳过工作流程运行](actions/managing-workflow-runs/skipping-workflow-runs.md)
