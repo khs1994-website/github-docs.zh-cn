@@ -223,6 +223,7 @@
     * [使用容器化服务](actions/using-containerized-services/index.md)
   - Using Github Hosted Runners
     * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners.md)
+    * [连接到专用网络](actions/using-github-hosted-runners/connecting-to-a-private-network.md)
     * [自定义 GitHub 托管的运行器](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
     * [使用 GitHub 托管的运行器](actions/using-github-hosted-runners/index.md)
     * [监控您当前的作业](actions/using-github-hosted-runners/monitoring-your-current-jobs.md)
@@ -493,7 +494,7 @@
     * [Quickstart For Configuring Your Min IO Storage Bucket For Git Hub Packages](admin/packages/quickstart-for-configuring-your-minio-storage-bucket-for-github-packages.md)
   - Policies
     - Enforcing Policies For Your Enterprise
-      * [About Enterprise Policies](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
+      * [关于企业策略](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
       * [Enforcing Policies For Advanced Security In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise.md)
       * [在企业中实施依赖性见解的策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
@@ -714,6 +715,7 @@
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
     * [管理 GitHub Enterprise 的许可证](billing/managing-your-license-for-github-enterprise/index.md)
     * [Syncing License Usage Between Git Hub Enterprise Server And Git Hub Enterprise Cloud](billing/managing-your-license-for-github-enterprise/syncing-license-usage-between-github-enterprise-server-and-github-enterprise-cloud.md)
+    * [Troubleshooting License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
     * [Uploading A New License To Git Hub Enterprise Server](billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server.md)
     * [Viewing License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/viewing-license-usage-for-github-enterprise.md)
   - Setting Up Paid Organizations For Procurement Companies
@@ -1337,7 +1339,6 @@
     * [关于 GitHub Copilot 遥测](github/copilot/about-github-copilot-telemetry.md)
     * [GitHub Copilot 遥测条款](github/copilot/github-copilot-telemetry-terms.md)
     * [Git Hub Copilot](github/copilot/index.md)
-    * [研究书目](github/copilot/research-recitation.md)
   * [Git Hub](github/index.md)
 - Github Cli
   - Github Cli
