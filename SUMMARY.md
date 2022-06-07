@@ -145,6 +145,11 @@
       * [针对不同的环境](actions/deployment/targeting-different-environments/index.md)
       * [使用环境进行部署](actions/deployment/targeting-different-environments/using-environments-for-deployment.md)
     * [部署](actions/deployment/index.md)
+  - Examples
+    * [示例](actions/examples/index.md)
+    * [Using Concurrency Expressions And A Test Matrix](actions/examples/using-concurrency-expressions-and-a-test-matrix.md)
+    * [Using Scripts To Test Your Code On A Runner](actions/examples/using-scripts-to-test-your-code-on-a-runner.md)
+    * [Using The Git Hub CLI On A Runner](actions/examples/using-the-github-cli-on-a-runner.md)
   - Hosting Your Own Runners
     * [About Self Hosted Runners](actions/hosting-your-own-runners/about-self-hosted-runners.md)
     * [Adding Self Hosted Runners](actions/hosting-your-own-runners/adding-self-hosted-runners.md)
@@ -222,7 +227,7 @@
     * [创建 Redis 服务容器](actions/using-containerized-services/creating-redis-service-containers.md)
     * [使用容器化服务](actions/using-containerized-services/index.md)
   - Using Github Hosted Runners
-    * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners.md)
+    * [关于 GitHub 托管的运行器](actions/using-github-hosted-runners/about-github-hosted-runners.md)
     * [连接到专用网络](actions/using-github-hosted-runners/connecting-to-a-private-network.md)
     * [自定义 GitHub 托管的运行器](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
     * [使用 GitHub 托管的运行器](actions/using-github-hosted-runners/index.md)
@@ -291,7 +296,7 @@
       * [启用子域隔离](admin/configuration/configuring-network-settings/enabling-subdomain-isolation.md)
       * [配置网络设置](admin/configuration/configuring-network-settings/index.md)
       * [Network Ports](admin/configuration/configuring-network-settings/network-ports.md)
-      * [结合使用 GitHub Enterprise Server 和负载均衡器](admin/configuration/configuring-network-settings/using-github-enterprise-server-with-a-load-balancer.md)
+      * [Using Git Hub Enterprise Server With A Load Balancer](admin/configuration/configuring-network-settings/using-github-enterprise-server-with-a-load-balancer.md)
       * [验证域设置](admin/configuration/configuring-network-settings/validating-your-domain-settings.md)
     - Configuring Your Enterprise
       * [关于企业配置](admin/configuration/configuring-your-enterprise/about-enterprise-configuration.md)
@@ -404,7 +409,7 @@
       * [Username Considerations For External Authentication](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
     - Managing Recovery Codes For Your Enterprise
       * [身份提供程序不可用时访问企业帐户](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/accessing-your-enterprise-account-if-your-identity-provider-is-unavailable.md)
-      * [下载企业帐户的 SAML 单点登录恢复代码](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/downloading-your-enterprise-accounts-saml-single-sign-on-recovery-codes.md)
+      * [Downloading Your Enterprise Account S Single Sign On Recovery Codes](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/downloading-your-enterprise-accounts-single-sign-on-recovery-codes.md)
       * [管理企业的恢复代码](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/index.md)
     - Using Built In Authentication
       * [配置内置身份验证](admin/identity-and-access-management/using-built-in-authentication/configuring-built-in-authentication.md)
@@ -414,18 +419,21 @@
     - Using Cas For Enterprise Iam
       * [将 CAS 用于企业 IAM](admin/identity-and-access-management/using-cas-for-enterprise-iam/index.md)
       * [使用 CAS](admin/identity-and-access-management/using-cas-for-enterprise-iam/using-cas.md)
-    - Using Enterprise Managed Users And Saml For Iam
-      * [About Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/about-enterprise-managed-users.md)
-      * [为企业托管用户配置 SAML 单点登录](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/configuring-scim-provisioning-for-enterprise-managed-users.md)
-      * [使用适用于 IAM 的企业托管用户和 SAML](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/index.md)
-      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-and-saml-for-iam/managing-team-memberships-with-identity-provider-groups.md)
+    - Using Enterprise Managed Users For Iam
+      * [About Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users.md)
+      * [About Support For Your Id P S Conditional Access Policy](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-support-for-your-idps-conditional-access-policy.md)
+      * [Configuring OIDC For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-oidc-for-enterprise-managed-users.md)
+      * [为企业托管用户配置 SAML 单点登录](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
+      * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
+      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users.md)
+      * [Using Enterprise Managed Users For IAM](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/index.md)
+      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/managing-team-memberships-with-identity-provider-groups.md)
+      * [Migrating From SAML To OIDC](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-saml-to-oidc.md)
     - Using Ldap For Enterprise Iam
       * [将 LDAP 用于企业 IAM](admin/identity-and-access-management/using-ldap-for-enterprise-iam/index.md)
       * [使用 LDAP](admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap.md)
     - Using Saml For Enterprise Iam
-      * [About SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam.md)
+      * [关于企业 IAM 的 SAML](admin/identity-and-access-management/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam.md)
       * [使用 Azure AD 为企业配置身份验证和预配](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-azure-ad.md)
       * [使用 Okta 为企业配置身份验证和预配](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
       * [使用 Okta 为企业配置 SAML 单点登录](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
@@ -468,6 +476,7 @@
       * [关于企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise.md)
       * [访问企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/accessing-the-audit-log-for-your-enterprise.md)
       * [Audit Log Events For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
+      * [Displaying IP Addresses In The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/displaying-ip-addresses-in-the-audit-log-for-your-enterprise.md)
       * [导出企业的审核日志活动](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
       * [查看企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
       * [搜索企业的审核日志](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
@@ -683,7 +692,7 @@
   - Managing Billing For Your Github Account
     * [关于 GitHub 帐户的计费](billing/managing-billing-for-your-github-account/about-billing-for-github-accounts.md)
     * [About Billing For Your Enterprise](billing/managing-billing-for-your-github-account/about-billing-for-your-enterprise.md)
-    * [关于每用户定价](billing/managing-billing-for-your-github-account/about-per-user-pricing.md)
+    * [About Per User Pricing](billing/managing-billing-for-your-github-account/about-per-user-pricing.md)
     * [将 Azure 订阅连接到您的企业](billing/managing-billing-for-your-github-account/connecting-an-azure-subscription-to-your-enterprise.md)
     * [Discounted Subscriptions For Git Hub Accounts](billing/managing-billing-for-your-github-account/discounted-subscriptions-for-github-accounts.md)
     * [降级 GitHub 订阅](billing/managing-billing-for-your-github-account/downgrading-your-github-subscription.md)
@@ -1406,6 +1415,7 @@
     * [关于议题](issues/tracking-your-work-with-issues/about-issues.md)
     * [关于任务列表](issues/tracking-your-work-with-issues/about-task-lists.md)
     * [分配议题和拉取请求到其他 GitHub 用户](issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users.md)
+    * [Closing An Issue](issues/tracking-your-work-with-issues/closing-an-issue.md)
     * [创建分支以处理议题](issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue.md)
     * [创建议题](issues/tracking-your-work-with-issues/creating-an-issue.md)
     * [删除议题](issues/tracking-your-work-with-issues/deleting-an-issue.md)
@@ -1428,6 +1438,7 @@
     * [尝试新项目体验](issues/trying-out-the-new-projects-experience/index.md)
     * [管理对项目的访问（测试版）](issues/trying-out-the-new-projects-experience/managing-access-to-projects.md)
     * [管理项目中的迭代（测试版）](issues/trying-out-the-new-projects-experience/managing-iterations.md)
+    * [Managing Projects Beta](issues/trying-out-the-new-projects-experience/managing-projects.md)
     * [管理项目的可见性（测试版）](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
     * [项目快速开始（测试版）](issues/trying-out-the-new-projects-experience/quickstart.md)
     * [将见解用于项目（测试版）](issues/trying-out-the-new-projects-experience/using-insights-with-projects.md)
@@ -2126,7 +2137,6 @@
     * [GitHub 数据保护协议](site-policy/privacy-policies/github-data-protection-agreement.md)
     * [GitHub 隐私声明](site-policy/privacy-policies/github-privacy-statement.md)
     * [GitHub 子处理器和 Cookie](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
-    * [GitHub 关于《加州消费者隐私法案》的声明](site-policy/privacy-policies/githubs-notice-about-the-california-consumer-privacy-act.md)
     * [全球隐私实践](site-policy/privacy-policies/global-privacy-practices.md)
     * [隐私政策](site-policy/privacy-policies/index.md)
   - Security Policies
