@@ -25,14 +25,14 @@
       * [个性化您的个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [在个人资料中嵌入项目](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
       * [将您的个人资料设置为私密](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
-    - Managing Contribution Graphs On Your Profile
-      * [管理个人资料中的贡献图](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/index.md)
-      * [在个人资料中公开或隐藏您的私人贡献](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/publicizing-or-hiding-your-private-contributions-on-your-profile.md)
-      * [Sending enterprise contributions to your GitHub.com profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/sending-enterprise-contributions-to-your-githubcom-profile.md)
-      * [在个人资料中显示活动概览](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
-      * [对时间表上的提交进行故障排除](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/troubleshooting-commits-on-your-timeline.md)
-      * [Viewing Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/viewing-contributions-on-your-profile.md)
-      * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile.md)
+    - Managing Contribution Settings On Your Profile
+      * [Managing Contribution Settings On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/index.md)
+      * [Sending enterprise contributions to your GitHub.com profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/sending-enterprise-contributions-to-your-githubcom-profile.md)
+      * [在个人资料中显示活动概览](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
+      * [Showing Your Private Contributions And Achievements On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
+      * [对时间表上的提交进行故障排除](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
+      * [Viewing Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile.md)
+      * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile.md)
     * [设置和管理您的 GitHub 个人资料](account-and-profile/setting-up-and-managing-your-github-profile/index.md)
   - Setting Up And Managing Your Personal Account On Github
     - Managing Access To Your Personal Repositories
@@ -402,7 +402,7 @@
     * [Managing Git Hub Actions For Your Enterprise](admin/github-actions/index.md)
   - Identity And Access Management
     - Managing Iam For Your Enterprise
-      * [关于企业的身份验证](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
+      * [About Authentication For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
       * [允许对提供程序覆盖范围以外的用户进行内置身份验证](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [更改身份验证方法](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
       * [管理企业的 IAM](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
@@ -724,7 +724,7 @@
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
     * [管理 GitHub Enterprise 的许可证](billing/managing-your-license-for-github-enterprise/index.md)
     * [Syncing License Usage Between Git Hub Enterprise Server And Git Hub Enterprise Cloud](billing/managing-your-license-for-github-enterprise/syncing-license-usage-between-github-enterprise-server-and-github-enterprise-cloud.md)
-    * [Troubleshooting License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
+    * [GitHub Enterprise 的许可证使用疑难解答](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
     * [Uploading A New License To Git Hub Enterprise Server](billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server.md)
     * [Viewing License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/viewing-license-usage-for-github-enterprise.md)
   - Setting Up Paid Organizations For Procurement Companies
@@ -1032,7 +1032,7 @@
       * [从命令行启动 GitHub Desktop](desktop/installing-and-configuring-github-desktop/overview/launching-github-desktop-from-the-command-line.md)
       * [支持的操作系统](desktop/installing-and-configuring-github-desktop/overview/supported-operating-systems.md)
     * [安装和配置 GitHub Desktop](desktop/installing-and-configuring-github-desktop/index.md)
-  * [GitHub Desktop 文档](desktop/index.md)
+  * [Git Hub Desktop](desktop/index.md)
 - Developers
   - Apps
     - Building Github Apps
@@ -1166,6 +1166,7 @@
       * [About Git Hub Campus Program](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
       * [Use Git Hub At Your Educational Institution](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/index.md)
     - Use Github For Your Schoolwork
+      * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-community-exchange.md)
       * [关于学生版 GitHub Education](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-education-for-students.md)
       * [申请学生开发包](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack.md)
       * [使用 GitHub 做功课](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/index.md)
