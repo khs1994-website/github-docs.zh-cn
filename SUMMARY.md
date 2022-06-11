@@ -147,7 +147,7 @@
     * [部署](actions/deployment/index.md)
   - Examples
     * [示例](actions/examples/index.md)
-    * [Using Concurrency Expressions And A Test Matrix](actions/examples/using-concurrency-expressions-and-a-test-matrix.md)
+    * [使用并发、表达式和测试矩阵](actions/examples/using-concurrency-expressions-and-a-test-matrix.md)
     * [Using Scripts To Test Your Code On A Runner](actions/examples/using-scripts-to-test-your-code-on-a-runner.md)
     * [Using The Git Hub CLI On A Runner](actions/examples/using-the-github-cli-on-a-runner.md)
   - Hosting Your Own Runners
@@ -724,7 +724,7 @@
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
     * [管理 GitHub Enterprise 的许可证](billing/managing-your-license-for-github-enterprise/index.md)
     * [Syncing License Usage Between Git Hub Enterprise Server And Git Hub Enterprise Cloud](billing/managing-your-license-for-github-enterprise/syncing-license-usage-between-github-enterprise-server-and-github-enterprise-cloud.md)
-    * [GitHub Enterprise 的许可证使用疑难解答](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
+    * [Troubleshooting License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
     * [Uploading A New License To Git Hub Enterprise Server](billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server.md)
     * [Viewing License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/viewing-license-usage-for-github-enterprise.md)
   - Setting Up Paid Organizations For Procurement Companies
