@@ -148,8 +148,8 @@
   - Examples
     * [示例](actions/examples/index.md)
     * [使用并发、表达式和测试矩阵](actions/examples/using-concurrency-expressions-and-a-test-matrix.md)
-    * [Using Scripts To Test Your Code On A Runner](actions/examples/using-scripts-to-test-your-code-on-a-runner.md)
-    * [Using The Git Hub CLI On A Runner](actions/examples/using-the-github-cli-on-a-runner.md)
+    * [使用脚本在运行器上测试代码](actions/examples/using-scripts-to-test-your-code-on-a-runner.md)
+    * [在运行器上使用 GitHub CLI](actions/examples/using-the-github-cli-on-a-runner.md)
   - Hosting Your Own Runners
     * [About Self Hosted Runners](actions/hosting-your-own-runners/about-self-hosted-runners.md)
     * [Adding Self Hosted Runners](actions/hosting-your-own-runners/adding-self-hosted-runners.md)
@@ -188,7 +188,7 @@
     * [下载工作流程构件](actions/managing-workflow-runs/downloading-workflow-artifacts.md)
     * [管理工作流程运行](actions/managing-workflow-runs/index.md)
     * [手动运行工作流程](actions/managing-workflow-runs/manually-running-a-workflow.md)
-    * [重新运行工作流程和作业](actions/managing-workflow-runs/re-running-workflows-and-jobs.md)
+    * [Re Running Workflows And Jobs](actions/managing-workflow-runs/re-running-workflows-and-jobs.md)
     * [Removing Workflow Artifacts](actions/managing-workflow-runs/removing-workflow-artifacts.md)
     * [Reviewing Deployments](actions/managing-workflow-runs/reviewing-deployments.md)
     * [跳过工作流程运行](actions/managing-workflow-runs/skipping-workflow-runs.md)
