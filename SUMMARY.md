@@ -155,7 +155,7 @@
     * [Adding Self Hosted Runners](actions/hosting-your-own-runners/adding-self-hosted-runners.md)
     * [使用自托管运行器自动缩放](actions/hosting-your-own-runners/autoscaling-with-self-hosted-runners.md)
     * [将自托管的运行应用程序配置为服务](actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service.md)
-    * [Customizing The Containers Used By Jobs](actions/hosting-your-own-runners/customizing-the-containers-used-by-jobs.md)
+    * [自定义作业使用的容器](actions/hosting-your-own-runners/customizing-the-containers-used-by-jobs.md)
     * [托管您自己的运行器](actions/hosting-your-own-runners/index.md)
     * [使用组管理自托管运行器的访问权限](actions/hosting-your-own-runners/managing-access-to-self-hosted-runners-using-groups.md)
     * [Monitoring And Troubleshooting Self Hosted Runners](actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners.md)
@@ -488,6 +488,7 @@
     * [关于数据保存](admin/overview/about-data-residency.md)
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
     * [关于 GitHub AE](admin/overview/about-github-ae.md)
+    * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [关于 GitHub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [关于升级到新版本](admin/overview/about-upgrades-to-new-releases.md)
     * [访问企业的合规性报告](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
@@ -770,7 +771,7 @@
   - Dependabot
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
-      * [Browsing Security Vulnerabilities In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-vulnerabilities-in-the-github-advisory-database.md)
+      * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database.md)
       * [配置 Dependabot 警报](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [配置 Dependabot 警报的通知](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [在 GitHub Advisory 数据库中编辑安全通告](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
@@ -843,6 +844,7 @@
       * [探索仓库的依赖项](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
+      * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
     * [保护软件供应链](code-security/supply-chain-security/index.md)
   * [代码安全指南](code-security/guides.md)
   * [代码安全](code-security/index.md)
@@ -1442,6 +1444,7 @@
     * [管理项目中的迭代（测试版）](issues/trying-out-the-new-projects-experience/managing-iterations.md)
     * [管理项目（测试版）](issues/trying-out-the-new-projects-experience/managing-projects.md)
     * [管理项目的可见性（测试版）](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
+    * [Migrating Your Project To Projects Beta](issues/trying-out-the-new-projects-experience/migrating-your-project.md)
     * [项目快速开始（测试版）](issues/trying-out-the-new-projects-experience/quickstart.md)
     * [将见解用于项目（测试版）](issues/trying-out-the-new-projects-experience/using-insights-with-projects.md)
     * [使用 API 管理项目（测试版）](issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects.md)
@@ -1915,6 +1918,7 @@
     * [Dependabot 机密](rest/dependabot/secrets.md)
   - Dependency Graph
     * [依赖项审查](rest/dependency-graph/dependency-review.md)
+    * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
     * [依赖关系图](rest/dependency-graph/index.md)
   - Deployments
     * [部署](rest/deployments/index.md)
