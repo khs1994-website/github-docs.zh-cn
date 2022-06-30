@@ -83,6 +83,7 @@
 - Actions
   - Automating Builds And Tests
     * [About Continuous Integration](actions/automating-builds-and-tests/about-continuous-integration.md)
+    * [Building And Testing Go](actions/automating-builds-and-tests/building-and-testing-go.md)
     * [使用 Ant 构建和测试 Java](actions/automating-builds-and-tests/building-and-testing-java-with-ant.md)
     * [使用 Gradle 构建和测试 Java](actions/automating-builds-and-tests/building-and-testing-java-with-gradle.md)
     * [使用 Maven 构建和测试 Java](actions/automating-builds-and-tests/building-and-testing-java-with-maven.md)
@@ -675,6 +676,10 @@
     * [管理 GitHub Codespaces 的计费](billing/managing-billing-for-github-codespaces/index.md)
     * [管理 Codespace 的支出限制](billing/managing-billing-for-github-codespaces/managing-spending-limits-for-codespaces.md)
     * [查看 Codespaces 使用情况](billing/managing-billing-for-github-codespaces/viewing-your-codespaces-usage.md)
+  - Managing Billing For Github Copilot
+    * [关于 GitHub Copilot 的计费](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
+    * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/index.md)
+    * [Managing Your Git Hub Copilot Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription.md)
   - Managing Billing For Github Marketplace Apps
     * [关于 GitHub Marketplace 的计费](billing/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
     * [取消 GitHub Marketplace 应用程序](billing/managing-billing-for-github-marketplace-apps/canceling-a-github-marketplace-app.md)
@@ -772,7 +777,7 @@
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database.md)
-      * [配置 Dependabot 警报](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
+      * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [配置 Dependabot 警报的通知](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [在 GitHub Advisory 数据库中编辑安全通告](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
       * [使用 Dependabot 警报识别项目依赖项中的漏洞](code-security/dependabot/dependabot-alerts/index.md)
@@ -844,7 +849,7 @@
       * [探索仓库的依赖项](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
-      * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
+      * [使用依赖项提交 API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
     * [保护软件供应链](code-security/supply-chain-security/index.md)
   * [代码安全指南](code-security/guides.md)
   * [代码安全](code-security/index.md)
@@ -859,6 +864,7 @@
     * [在 Codespaces 中使用 Visual Studio 代码命令面板](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
+    * [Configuring Automatic Deletion Of Your Codespaces](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
     * [自定义代码空间](codespaces/customizing-your-codespace/index.md)
     * [Personalizing Codespaces For Your Account](codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account.md)
     * [Setting Your Default Editor For Codespaces](codespaces/customizing-your-codespace/setting-your-default-editor-for-codespaces.md)
@@ -889,6 +895,7 @@
     * [管理组织代码空间的存储库访问](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [限制对计算机类型的访问](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [限制空闲超时期限](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
+    * [Restricting The Retention Period For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-retention-period-for-codespaces.md)
     * [限制转发端口的可见性](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [查看组织的代码空间审核日志](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
@@ -977,6 +984,24 @@
     * [GitHub 表单架构的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
     * [议题表单的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms.md)
   * [建设社区](communities/index.md)
+- Copilot
+  - Configuring Github Copilot
+    * [Configuring Git Hub Copilot In A Jet Brains IDE](copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide.md)
+    * [Configuring Git Hub Copilot In Neovim](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
+    * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
+    * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
+    * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
+  - Getting Started With Github Copilot
+    * [在 JetBrains IDE 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
+    * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
+    * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
+    * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
+    * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot/index.md)
+  - Overview Of Github Copilot
+    * [关于 GitHub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
+    * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
+  * [Git Hub Copilot](copilot/index.md)
+  * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
   - Contributing And Collaborating Using Github Desktop
     - Adding And Cloning Repositories
@@ -1347,12 +1372,6 @@
       * [使用已保存回复](get-started/writing-on-github/working-with-saved-replies/using-saved-replies.md)
     * [在 GitHub 上编写](get-started/writing-on-github/index.md)
   * [开始使用 GitHub](get-started/index.md)
-- Github
-  - Copilot
-    * [关于 GitHub Copilot 遥测](github/copilot/about-github-copilot-telemetry.md)
-    * [GitHub Copilot 遥测条款](github/copilot/github-copilot-telemetry-terms.md)
-    * [Git Hub Copilot](github/copilot/index.md)
-  * [Git Hub](github/index.md)
 - Github Cli
   - Github Cli
     * [关于 GitHub CLI](github-cli/github-cli/about-github-cli.md)
@@ -1444,7 +1463,7 @@
     * [管理项目中的迭代（测试版）](issues/trying-out-the-new-projects-experience/managing-iterations.md)
     * [管理项目（测试版）](issues/trying-out-the-new-projects-experience/managing-projects.md)
     * [管理项目的可见性（测试版）](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
-    * [Migrating Your Project To Projects Beta](issues/trying-out-the-new-projects-experience/migrating-your-project.md)
+    * [将项目迁移到项目（测试版）](issues/trying-out-the-new-projects-experience/migrating-your-project.md)
     * [项目快速开始（测试版）](issues/trying-out-the-new-projects-experience/quickstart.md)
     * [将见解用于项目（测试版）](issues/trying-out-the-new-projects-experience/using-insights-with-projects.md)
     * [使用 API 管理项目（测试版）](issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects.md)
@@ -1726,7 +1745,6 @@
       * [允许更改从复刻创建的拉取请求分支](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
       * [为复刻配置远程仓库](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork.md)
       * [使用复刻](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
-      * [将上游仓库合并到复刻](pull-requests/collaborating-with-pull-requests/working-with-forks/merging-an-upstream-repository-into-your-fork.md)
       * [同步复刻](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
       * [删除仓库或更改其可见性时，复刻会发生什么变化？](pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility.md)
     * [协作处理拉取请求](pull-requests/collaborating-with-pull-requests/index.md)
@@ -1873,6 +1891,7 @@
     * [GitHub Actions 构件](rest/actions/artifacts.md)
     * [GitHub Actions 缓存](rest/actions/cache.md)
     * [Actions](rest/actions/index.md)
+    * [Git Hub Actions OIDC](rest/actions/oidc.md)
     * [GitHub Actions 权限](rest/actions/permissions.md)
     * [GitHub Actions 机密](rest/actions/secrets.md)
     * [自托管运行器组](rest/actions/self-hosted-runner-groups.md)
@@ -1904,6 +1923,7 @@
   - Codespaces
     * [Codespaces](rest/codespaces/index.md)
     * [代码空间计算机](rest/codespaces/machines.md)
+    * [Codespaces Organizations](rest/codespaces/organizations.md)
     * [代码空间存储库机密](rest/codespaces/repository-secrets.md)
     * [代码空间用户机密](rest/codespaces/secrets.md)
   - Collaborators
@@ -1918,7 +1938,7 @@
     * [Dependabot 机密](rest/dependabot/secrets.md)
   - Dependency Graph
     * [依赖项审查](rest/dependency-graph/dependency-review.md)
-    * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
+    * [依赖项提交](rest/dependency-graph/dependency-submission.md)
     * [依赖关系图](rest/dependency-graph/index.md)
   - Deployments
     * [部署](rest/deployments/index.md)
