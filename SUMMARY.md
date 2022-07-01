@@ -679,7 +679,7 @@
   - Managing Billing For Github Copilot
     * [关于 GitHub Copilot 的计费](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
     * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/index.md)
-    * [Managing Your Git Hub Copilot Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription.md)
+    * [管理您的 GitHub Copilot 订阅](billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription.md)
   - Managing Billing For Github Marketplace Apps
     * [关于 GitHub Marketplace 的计费](billing/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
     * [取消 GitHub Marketplace 应用程序](billing/managing-billing-for-github-marketplace-apps/canceling-a-github-marketplace-app.md)
@@ -864,7 +864,7 @@
     * [在 Codespaces 中使用 Visual Studio 代码命令面板](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
-    * [Configuring Automatic Deletion Of Your Codespaces](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
+    * [配置代码空间的自动删除](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
     * [自定义代码空间](codespaces/customizing-your-codespace/index.md)
     * [Personalizing Codespaces For Your Account](codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account.md)
     * [Setting Your Default Editor For Codespaces](codespaces/customizing-your-codespace/setting-your-default-editor-for-codespaces.md)
@@ -986,20 +986,20 @@
   * [建设社区](communities/index.md)
 - Copilot
   - Configuring Github Copilot
-    * [Configuring Git Hub Copilot In A Jet Brains IDE](copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide.md)
-    * [Configuring Git Hub Copilot In Neovim](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
+    * [在 JetBrains IDE 中配置 GitHub Copilot](copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide.md)
+    * [在 Neovim 中配置 GitHub Copilot](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
     * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
     * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
-    * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
+    * [配置 GitHub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
     * [在 JetBrains IDE 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
     * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
     * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
     * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
-    * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot/index.md)
+    * [GitHub Copilot 使用入门](copilot/getting-started-with-github-copilot/index.md)
   - Overview Of Github Copilot
     * [关于 GitHub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
-    * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
+    * [GitHub Copilot 概述](copilot/overview-of-github-copilot/index.md)
   * [Git Hub Copilot](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
