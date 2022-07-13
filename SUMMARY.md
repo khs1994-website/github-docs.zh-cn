@@ -83,7 +83,7 @@
 - Actions
   - Automating Builds And Tests
     * [About Continuous Integration](actions/automating-builds-and-tests/about-continuous-integration.md)
-    * [Building And Testing Go](actions/automating-builds-and-tests/building-and-testing-go.md)
+    * [构建和测试 Go](actions/automating-builds-and-tests/building-and-testing-go.md)
     * [使用 Ant 构建和测试 Java](actions/automating-builds-and-tests/building-and-testing-java-with-ant.md)
     * [使用 Gradle 构建和测试 Java](actions/automating-builds-and-tests/building-and-testing-java-with-gradle.md)
     * [使用 Maven 构建和测试 Java](actions/automating-builds-and-tests/building-and-testing-java-with-maven.md)
@@ -678,7 +678,7 @@
     * [查看 Codespaces 使用情况](billing/managing-billing-for-github-codespaces/viewing-your-codespaces-usage.md)
   - Managing Billing For Github Copilot
     * [关于 GitHub Copilot 的计费](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
-    * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/index.md)
+    * [管理 GitHub Copilot 的计费](billing/managing-billing-for-github-copilot/index.md)
     * [管理您的 GitHub Copilot 订阅](billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription.md)
   - Managing Billing For Github Marketplace Apps
     * [关于 GitHub Marketplace 的计费](billing/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
@@ -895,7 +895,7 @@
     * [管理组织代码空间的存储库访问](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [限制对计算机类型的访问](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [限制空闲超时期限](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
-    * [Restricting The Retention Period For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-retention-period-for-codespaces.md)
+    * [限制代码空间的保留期](codespaces/managing-codespaces-for-your-organization/restricting-the-retention-period-for-codespaces.md)
     * [限制转发端口的可见性](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [查看组织的代码空间审核日志](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
@@ -990,10 +990,11 @@
     * [在 Neovim 中配置 GitHub Copilot](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
     * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
     * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
+    * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [配置 GitHub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
     * [在 JetBrains IDE 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
-    * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
+    * [开始在 Neovim 中使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
     * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
     * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
     * [GitHub Copilot 使用入门](copilot/getting-started-with-github-copilot/index.md)
@@ -1528,7 +1529,7 @@
   - Managing Access To Your Organizations Repositories
     * [添加外部协作者到组织的仓库](organizations/managing-access-to-your-organizations-repositories/adding-outside-collaborators-to-repositories-in-your-organization.md)
     * [取消成为组织外部协作者的邀请](organizations/managing-access-to-your-organizations-repositories/canceling-an-invitation-to-become-an-outside-collaborator-in-your-organization.md)
-    * [将组织成员转换为外部协作者](organizations/managing-access-to-your-organizations-repositories/converting-an-organization-member-to-an-outside-collaborator.md)
+    * [Converting An Organization Member To An Outside Collaborator](organizations/managing-access-to-your-organizations-repositories/converting-an-organization-member-to-an-outside-collaborator.md)
     * [将外部协作者转换为组织成员](organizations/managing-access-to-your-organizations-repositories/converting-an-outside-collaborator-to-an-organization-member.md)
     * [管理对组织仓库的访问](organizations/managing-access-to-your-organizations-repositories/index.md)
     * [管理个人对组织仓库的访问](organizations/managing-access-to-your-organizations-repositories/managing-an-individuals-access-to-an-organization-repository.md)
@@ -1923,7 +1924,7 @@
   - Codespaces
     * [Codespaces](rest/codespaces/index.md)
     * [代码空间计算机](rest/codespaces/machines.md)
-    * [Codespaces Organizations](rest/codespaces/organizations.md)
+    * [代码空间组织](rest/codespaces/organizations.md)
     * [代码空间存储库机密](rest/codespaces/repository-secrets.md)
     * [代码空间用户机密](rest/codespaces/secrets.md)
   - Collaborators
