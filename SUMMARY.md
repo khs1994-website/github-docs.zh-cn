@@ -746,8 +746,8 @@
     * [第 1 阶段：根据部署策略和目标保持一致](code-security/adopting-github-advanced-security-at-scale/phase-1-align-on-your-rollout-strategy-and-goals.md)
     * [Phase 2 Preparing To Enable At Scale](code-security/adopting-github-advanced-security-at-scale/phase-2-preparing-to-enable-at-scale.md)
     * [Phase 3 Pilot Programs](code-security/adopting-github-advanced-security-at-scale/phase-3-pilot-programs.md)
-    * [Phase 4 Create Internal Documentation](code-security/adopting-github-advanced-security-at-scale/phase-4-create-internal-documentation.md)
-    * [Phase 5 Rollout And Scale Code Scanning](code-security/adopting-github-advanced-security-at-scale/phase-5-rollout-and-scale-code-scanning.md)
+    * [第 4 阶段：创建内部文档](code-security/adopting-github-advanced-security-at-scale/phase-4-create-internal-documentation.md)
+    * [第 5 阶段：推出和扩展代码扫描](code-security/adopting-github-advanced-security-at-scale/phase-5-rollout-and-scale-code-scanning.md)
     * [Phase 6 Rollout And Scale Secret Scanning](code-security/adopting-github-advanced-security-at-scale/phase-6-rollout-and-scale-secret-scanning.md)
   - Code Scanning
     - Automatically Scanning Your Code For Vulnerabilities And Errors
