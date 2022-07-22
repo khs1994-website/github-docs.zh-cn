@@ -320,7 +320,7 @@
       * [Managing Git Hub Mobile For Your Enterprise](admin/configuration/configuring-your-enterprise/managing-github-mobile-for-your-enterprise.md)
       * [限制到企业的网络流量](admin/configuration/configuring-your-enterprise/restricting-network-traffic-to-your-enterprise.md)
       * [Site Admin Dashboard](admin/configuration/configuring-your-enterprise/site-admin-dashboard.md)
-      * [排查 SSL 错误](admin/configuration/configuring-your-enterprise/troubleshooting-ssl-errors.md)
+      * [Troubleshooting TLS Errors](admin/configuration/configuring-your-enterprise/troubleshooting-tls-errors.md)
       * [验证或批准您企业的域](admin/configuration/configuring-your-enterprise/verifying-or-approving-a-domain-for-your-enterprise.md)
     * [配置 GitHub Enterprise](admin/configuration/index.md)
   - Enterprise Management
@@ -613,7 +613,7 @@
     * [更新 GitHub 访问凭据](authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials.md)
   - Managing Commit Signature Verification
     * [About Commit Signature Verification](authentication/managing-commit-signature-verification/about-commit-signature-verification.md)
-    * [新增 GPG 密钥到 GitHub 帐户](authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account.md)
+    * [Adding A GPG Key To Your Git Hub Account](authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account.md)
     * [将电子邮件与 GPG 密钥关联](authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key.md)
     * [检查现有 GPG 密钥](authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys.md)
     * [显示所有提交的验证状态](authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits.md)
@@ -635,7 +635,6 @@
   - Troubleshooting Commit Signature Verification
     * [检查提交和标记签名验证状态](authentication/troubleshooting-commit-signature-verification/checking-your-commit-and-tag-signature-verification-status.md)
     * [对提交签名验证进行故障排除](authentication/troubleshooting-commit-signature-verification/index.md)
-    * [更新过期的 GPG 密钥](authentication/troubleshooting-commit-signature-verification/updating-an-expired-gpg-key.md)
     * [在 GPG 密钥中使用经验证的电子邮件地址](authentication/troubleshooting-commit-signature-verification/using-a-verified-email-address-in-your-gpg-key.md)
   - Troubleshooting Ssh
     * [已删除或缺少的 SSH 密钥](authentication/troubleshooting-ssh/deleted-or-missing-ssh-keys.md)
