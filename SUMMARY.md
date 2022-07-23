@@ -489,6 +489,7 @@
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
     * [关于 GitHub AE](admin/overview/about-github-ae.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
+    * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
     * [关于 GitHub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [关于升级到新版本](admin/overview/about-upgrades-to-new-releases.md)
     * [访问企业的合规性报告](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
