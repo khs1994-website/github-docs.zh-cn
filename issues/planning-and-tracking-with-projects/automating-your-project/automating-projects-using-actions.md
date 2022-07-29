@@ -1,33 +1,18 @@
 ---
-title: 自动化项目（测试版）
-intro: '您可以使用内置工作流程或 API 和 {% data variables.product.prodname_actions %} 来管理项目。'
-allowTitleToDifferFromFilename: true
+title: 'Automating {% data variables.product.prodname_projects_v2 %} using Actions'
+shortTitle: Automating with Actions
+intro: 'You can use {% data variables.product.prodname_actions %} to automate your projects.'
 miniTocMaxHeadingLevel: 3
 versions:
-  fpt: '*'
-  ghec: '*'
+  feature: projects-v2
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/automating-projects
 type: tutorial
 topics:
   - Projects
-  - Workflows
-  - Project management
+allowTitleToDifferFromFilename: true
 ---
 
-{% data reusables.projects.projects-beta %}
-
-{% data reusables.projects.graphql-deprecation %}
-
-## 简介
-
-您可以添加自动化来帮助管理项目。 项目（测试版）包括可通过 UI 配置的内置工作流程。 此外，您可以使用 GraphQL API 和 {% data variables.product.prodname_actions %} 编写自定义工作流程。
-
-## 内置工作流程
-
-{% data reusables.projects.about-workflows %}
-
-您可以为项目启用或禁用内置工作流程。
-
-{% data reusables.projects.enable-basic-workflow %}
 
 ## {% data variables.product.prodname_actions %} 工作流程
 
@@ -39,11 +24,13 @@ topics:
 
 本文假设您基本了解 {% data variables.product.prodname_actions %}。 有关 {% data variables.product.prodname_actions %} 的更多信息，请参阅“[{% data variables.product.prodname_actions %}](/actions)”。
 
-有关可以通过 API 对项目进行的其他更改的更多信息，请参阅“[使用 API 管理项目](/issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects)”。
+有关可以通过 API 对项目进行的其他更改的更多信息，请参阅“[使用 API 管理项目](/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects)”。
+
+You may also want to use the **actions/add-to-project** workflow, which is maintained by {% data variables.product.company_short %} and will add the current issue or pull request to the project specified. For more information, see the [actions/add-to-project](https://github.com/actions/add-to-project) repository and README.
 
 {% note %}
 
-**注意：** `GITHUB_TOKEN` 的范围限定为存储库级别，无法访问项目（测试版）。 要访问项目（测试版），可以创建 {% data variables.product.prodname_github_app %} （建议用于组织项目）或个人访问令牌（建议用于用户项目）。 下面显示了这两种方法的工作流程示例。
+**Note:** `GITHUB_TOKEN` is scoped to the repository level and cannot access {% data variables.projects.projects_v2 %}. To access {% data variables.projects.projects_v2 %} you can either create a {% data variables.product.prodname_github_app %} (recommended for organization projects) or a personal access token (recommended for user projects). 下面显示了这两种方法的工作流程示例。
 
 {% endnote %}
 
@@ -65,6 +52,8 @@ topics:
 
 ```yaml{:copy}
 {% data reusables.actions.actions-not-certified-by-github-comment %}
+
+{% data reusables.actions.actions-use-sha-pinning-comment %}
 
 name: Add PR to project
 on:

@@ -1,15 +1,18 @@
 ---
-title: 管理项目（测试版）
-intro: 您可以关闭并重新打开项目，也可以永久删除项目。
-allowTitleToDifferFromFilename: true
-miniTocMaxHeadingLevel: 2
+title: 'Closing and deleting your {% data variables.projects.projects_v2 %}'
+shortTitle: 'Closing and deleting {% data variables.projects.projects_v2 %}'
+intro: 'Learn about closing, re-opening, and permanently deleting a {% data variables.projects.project_v2 %}.'
+miniTocMaxHeadingLevel: 3
 versions:
-  fpt: '*'
-  ghec: '*'
+  feature: projects-v2
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/managing-projects
+type: tutorial
 topics:
   - Projects
-  - Organizations
+allowTitleToDifferFromFilename: true
 ---
+
 
 ## 删除项目
 

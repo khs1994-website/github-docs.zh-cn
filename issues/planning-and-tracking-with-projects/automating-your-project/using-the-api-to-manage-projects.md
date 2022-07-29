@@ -1,21 +1,21 @@
 ---
-title: 使用 API 管理项目（测试版）
-intro: 您可以使用 GraphQL API 来查找有关项目的信息并更新项目。
-versions:
-  fpt: '*'
-  ghec: '*'
+title: 'Using the API to manage {% data variables.product.prodname_projects_v2 %}'
+shortTitle: Automating with the API
+intro: You can use the GraphQL API to automate your projects.
 miniTocMaxHeadingLevel: 3
-allowTitleToDifferFromFilename: true
-type: how_to
+versions:
+  feature: projects-v2
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects
+type: tutorial
 topics:
   - Projects
+allowTitleToDifferFromFilename: true
 ---
 
+本文演示如何使用 GraphQL API 来管理项目。 For more information about how to use the API in a {% data variables.product.prodname_actions %} workflow, see "[Automating {% data variables.product.prodname_projects_v2 %} using Actions](/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions)." 有关可用数据类型的完整列表，请参阅“[参考](/graphql/reference)”。
+
 {% data reusables.projects.graphql-deprecation %}
-
-本文演示如何使用 GraphQL API 来管理项目。 有关如何在 {% data variables.product.prodname_actions %} 工作流程中使用 API 的详细信息，请参阅“[自动化项目（测试版）](/issues/trying-out-the-new-projects-experience/automating-projects)”。 有关可用数据类型的完整列表，请参阅“[参考](/graphql/reference)”。
-
-{% data reusables.projects.projects-beta %}
 
 ## 身份验证
 
@@ -714,3 +714,7 @@ gh api graphql -f query='
   }'
 ```
 {% endcli %}
+
+## Using webhooks
+
+You can use webhooks to subscribe to events taking place in your project. For example, when an item is edited, {% data variables.product.product_name %} can send a HTTP POST payload to the webhook's configured URL which can trigger automation on your server. For more information about webhooks, see "[About webhooks](/developers/webhooks-and-events/webhooks/about-webhooks)." To learn more about the `projects_v2_item` webhook event, see "[Webhook events and payloads](/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#projects_v2_item)."

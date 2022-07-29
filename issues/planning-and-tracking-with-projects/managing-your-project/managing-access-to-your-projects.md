@@ -1,17 +1,18 @@
 ---
-title: 管理对项目的访问（测试版）
-intro: 您可以控制谁可以查看、编辑或管理您的项目。
-allowTitleToDifferFromFilename: true
-miniTocMaxHeadingLevel: 2
+title: 'Managing access to your {% data variables.projects.projects_v2 %}'
+shortTitle: 'Managing {% data variables.projects.project_v2 %} access'
+intro: 'Learn how to manage team and individual access to your {% data variables.projects.project_v2 %}.'
+miniTocMaxHeadingLevel: 3
 versions:
-  fpt: '*'
-  ghec: '*'
+  feature: projects-v2
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/managing-access-to-projects
+type: tutorial
 topics:
   - Projects
-  - Organizations
+allowTitleToDifferFromFilename: true
 ---
 
-{% data reusables.projects.projects-beta %}
 
 ## 关于项目访问
 
@@ -28,8 +29,8 @@ topics:
 默认的基本角色是`写入`，这意味着组织中的每个人都可以查看和编辑您的项目。 要更改组织中每个人的项目访问权限，您可以更改基本角色。 对基本角色的更改仅影响不是组织所有者且未被授予个人访问权限的组织成员。
 
 {% data reusables.projects.project-settings %}
-1. 单击 **Manage access（管理访问）**。
-2. 在 **Base role（基本角色）**下，选择默认角色。
+1. 单击 **Manage access（管理访问）**。 ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
+2. 在 **Base role（基本角色）**下，选择默认角色。 ![Screenshot showing the base role menu](/assets/images/help/projects-v2/base-role.png)
    - **无访问权限**：只有组织所有者和被授予个人访问权限的用户才能查看项目。 组织所有者也是项目的管理员。
    - **读取**：组织中的每个人都可以查看该项目。 组织所有者也是项目的管理员。
    - **写入**：组织中的每个人都可以查看并编辑该项目。 组织所有者也是项目的管理员。
@@ -42,23 +43,24 @@ topics:
 仅当单个用户已经是组织中的成员或组织中至少一个存储库的外部协作者时，您才能邀请该用户协作处理组织级项目。
 
 {% data reusables.projects.project-settings %}
-1. 单击 **Manage access（管理访问）**。
-2. 在 **Invite collaborators（邀请协作者）**下，搜索要邀请的团队或单个用户。
-3. 为协作者选择角色。
+1. 单击 **Manage access（管理访问）**。 ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
+2. 在 **Invite collaborators（邀请协作者）**下，搜索要邀请的团队或单个用户。 ![Screenshot showing searching for a collaborator](/assets/images/help/projects-v2/access-search.png)
+3. Select the role for the collaborator. ![Screenshot showing selecting a role](/assets/images/help/projects-v2/access-role.png)
    - **读取**：团队或个人可以查看项目。
    - **写入**：团队或个人可以查看和编辑项目。
    - **管理员**：团队或个人可以查看、编辑项目和添加新协作者。
-4. 单击 **Invite（邀请）**。
+4. 单击 **Invite（邀请）**。 ![Screenshot showing the invite button](/assets/images/help/projects-v2/access-invite.png)
 
 ### 管理现有协作者对项目的访问
 
 {% data reusables.projects.project-settings %}
-1. 单击 **Manage access（管理访问）**。
+1. 单击 **Manage access（管理访问）**。 ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 1. 在 **Manage access（管理访问）**下，找到要修改其权限的协作者。
 
-   您可以使用 **Type（类型）**和 **Role（角色）**下拉菜单过滤访问列表。
+   您可以使用 **Type（类型）**和 **Role（角色）**下拉菜单过滤访问列表。 ![Screenshot showing a collaborator](/assets/images/help/projects-v2/access-find-member.png)
 
-1. 编辑协作者的角色，或单击 {% octicon "trash" aria-label="the trash icon" %} 以删除协作者。
+1. Edit the role for the collaborator(s). ![Screenshot showing changing a collaborator's role](/assets/images/help/projects-v2/access-change-role.png)
+1. Optionally, click **Remove** to remove the collaborator(s). ![Screenshot showing removing a collaborator](/assets/images/help/projects-v2/access-remove-member.png)
 
 ## 管理用户级项目的访问权限
 
@@ -71,20 +73,21 @@ topics:
 {% endnote %}
 
 {% data reusables.projects.project-settings %}
-1. 单击 **Manage access（管理访问）**。
-2. 在 **Invite collaborators（邀请协作者）**下，搜索要邀请的用户。
-3. 为协作者选择角色。
+1. 单击 **Manage access（管理访问）**。 ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
+2. 在 **Invite collaborators（邀请协作者）**下，搜索要邀请的用户。 ![Screenshot showing searching for a collaborator](/assets/images/help/projects-v2/access-search.png)
+3. Select the role for the collaborator. ![Screenshot showing selecting a role](/assets/images/help/projects-v2/access-role.png)
    - **读取**：个人可以查看项目。
    - **写入**：个人可以查看和编辑项目。
    - **管理员**：个人可以查看、编辑项目和添加新协作者。
-4. 单击 **Invite（邀请）**。
+4. 单击 **Invite（邀请）**。 ![Screenshot showing the invite button](/assets/images/help/projects-v2/access-invite.png)
 
 ### 管理现有协作者对项目的访问
 
 {% data reusables.projects.project-settings %}
-1. 单击 **Manage access（管理访问）**。
+1. 单击 **Manage access（管理访问）**。 ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 1. 在 **Manage access（管理访问）**下，找到要修改其权限的协作者。
 
-   您可以使用 **Role（角色）**下拉菜单过滤访问列表。
+   您可以使用 **Type（类型）**和 **Role（角色）**下拉菜单过滤访问列表。 ![Screenshot showing a collaborator](/assets/images/help/projects-v2/access-find-member.png)
 
-1. 编辑协作者的角色，或单击 {% octicon "trash" aria-label="the trash icon" %} 以删除协作者。
+1. Edit the role for the collaborator(s). ![Screenshot showing changing a collaborator's role](/assets/images/help/projects-v2/access-change-role.png)
+1. Optionally, click **Remove** to remove the collaborator(s). ![Screenshot showing removing a collaborator](/assets/images/help/projects-v2/access-remove-member.png)
