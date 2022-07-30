@@ -2186,7 +2186,7 @@
     * [GitHub 反对现代奴隶制和雇佣童工的声明](site-policy/github-company-policies/github-statement-against-modern-slavery-and-child-labor.md)
     * [GitHub 公司政策](site-policy/github-company-policies/index.md)
   - Github Terms
-    * [GitHub 社区论坛行为准则](site-policy/github-terms/github-community-forum-code-of-conduct.md)
+    * [Git Hub Community Code Of Conduct](site-policy/github-terms/github-community-code-of-conduct.md)
     * [GitHub 社区指导方针](site-policy/github-terms/github-community-guidelines.md)
     * [GitHub 公司服务条款](site-policy/github-terms/github-corporate-terms-of-service.md)
     * [GitHub 活动行为准则](site-policy/github-terms/github-event-code-of-conduct.md)
