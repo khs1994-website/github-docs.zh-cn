@@ -53,7 +53,7 @@
       * [GitHub 发送的电子邮件类型](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/types-of-emails-github-sends.md)
     - Managing Personal Account Settings
       * [About Your Personal Dashboard](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/about-your-personal-dashboard.md)
-      * [关于离开公司的最佳实践](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/best-practices-for-leaving-your-company.md)
+      * [Best Practices For Leaving Your Company](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/best-practices-for-leaving-your-company.md)
       * [Changing Your Git Hub Username](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/changing-your-github-username.md)
       * [将用户转换为组织](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/converting-a-user-into-an-organization.md)
       * [删除个人帐户](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/deleting-your-personal-account.md)
@@ -2065,6 +2065,7 @@
     * [组织](rest/orgs/orgs.md)
     * [组织成员](rest/orgs/members.md)
     * [外部协作者](rest/orgs/outside-collaborators.md)
+    * [Security Managers](rest/orgs/security-managers.md)
     * [组织 web 挂钩](rest/orgs/webhooks.md)
   - Overview
     * [API 预览](rest/overview/api-previews.md)
