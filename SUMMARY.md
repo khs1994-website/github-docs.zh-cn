@@ -2031,7 +2031,7 @@
     * [为用户发现资源](rest/guides/discovering-resources-for-a-user.md)
     * [Getting Started With The Checks API](rest/guides/getting-started-with-the-checks-api.md)
     * [Git 数据库 API 入门指南](rest/guides/getting-started-with-the-git-database-api.md)
-    * [Getting Started With The REST API](rest/guides/getting-started-with-the-rest-api.md)
+    * [REST API 入门指南](rest/guides/getting-started-with-the-rest-api.md)
     * [指南](rest/guides/index.md)
     * [将数据渲染为图形](rest/guides/rendering-data-as-graphs.md)
     * [使用分页遍历](rest/guides/traversing-with-pagination.md)
