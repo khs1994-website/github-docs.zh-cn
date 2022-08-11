@@ -582,7 +582,7 @@
   * [发行说明](admin/release-notes.md)
 - Authentication
   - Authenticating With Saml Single Sign On
-    * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
+    * [关于使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
     * [授权用于 SAML 单点登录的个人访问令牌](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
     * [授权用于 SAML 单点登录的 SSH 密钥](authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on.md)
     * [使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/index.md)
