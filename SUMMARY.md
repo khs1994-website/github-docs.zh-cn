@@ -1993,6 +1993,7 @@
     * [依赖项提交](rest/dependency-graph/dependency-submission.md)
     * [依赖关系图](rest/dependency-graph/index.md)
   - Deployments
+    * [Deployment Branch Policies](rest/deployments/branch-policies.md)
     * [部署](rest/deployments/index.md)
     * [部署环境](rest/deployments/environments.md)
     * [部署状态](rest/deployments/statuses.md)
