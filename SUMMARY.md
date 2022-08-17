@@ -496,7 +496,7 @@
     * [关于 GitHub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [关于升级到新版本](admin/overview/about-upgrades-to-new-releases.md)
     * [访问企业的合规性报告](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
-    * [Creating An Enterprise Account](admin/overview/creating-an-enterprise-account.md)
+    * [创建企业帐户](admin/overview/creating-an-enterprise-account.md)
     * [概览](admin/overview/index.md)
     * [系统概述](admin/overview/system-overview.md)
   - Packages
@@ -529,7 +529,7 @@
     * [为企业设置策略](admin/policies/index.md)
   - User Management
     - Managing Organizations In Your Enterprise
-      * [将组织添加到企业](admin/user-management/managing-organizations-in-your-enterprise/adding-organizations-to-your-enterprise.md)
+      * [Adding Organizations To Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/adding-organizations-to-your-enterprise.md)
       * [向团队添加人员](admin/user-management/managing-organizations-in-your-enterprise/adding-people-to-teams.md)
       * [配置组织成员关系的可见性](admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
       * [使用 Jenkins 的持续集成](admin/user-management/managing-organizations-in-your-enterprise/continuous-integration-using-jenkins.md)
