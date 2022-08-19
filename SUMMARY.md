@@ -838,6 +838,7 @@
     * [通过秘密扫描确保机密安全](code-security/secret-scanning/index.md)
     * [管理来自密码扫描的警报](code-security/secret-scanning/managing-alerts-from-secret-scanning.md)
     * [通过机密扫描保护推送](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
+    * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Overview
     * [关于安全概述](code-security/security-overview/about-the-security-overview.md)
@@ -890,6 +891,7 @@
     * [Developing In A Codespace](codespaces/developing-in-codespaces/developing-in-a-codespace.md)
     * [Forwarding Ports In Your Codespace](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
     * [在代码空间中开发](codespaces/developing-in-codespaces/index.md)
+    * [Renaming A Codespace](codespaces/developing-in-codespaces/renaming-a-codespace.md)
     * [将 GitHub Codespaces 用于拉取请求](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
@@ -1206,22 +1208,21 @@
     * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
     * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
   - Explore The Benefits Of Teaching And Learning With Github Education
+    - Github Global Campus For Students
+      * [关于 GitHub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-community-exchange.md)
+      * [About Git Hub Global Campus For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-global-campus-for-students.md)
+      * [Apply To Git Hub Global Campus As A Student](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student.md)
+      * [Git Hub Global Campus For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/index.md)
+      * [Why Wasn T My Application To Global Campus For Students Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/why-wasnt-my-application-to-global-campus-for-students-approved.md)
+    - Github Global Campus For Teachers
+      * [About Git Hub Global Campus For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/about-github-global-campus-for-teachers.md)
+      * [Apply To Git Hub Global Campus As A Teacher](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/apply-to-github-global-campus-as-a-teacher.md)
+      * [Git Hub Global Campus For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/index.md)
+      * [Why Wasn T My Application To Global Campus For Teachers Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/why-wasnt-my-application-to-global-campus-for-teachers-approved.md)
     - Use Github At Your Educational Institution
-      * [About Campus Advisors](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-campus-advisors.md)
       * [关于 Campus Experts](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-campus-experts.md)
       * [About Git Hub Campus Program](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
       * [Use Git Hub At Your Educational Institution](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/index.md)
-    - Use Github For Your Schoolwork
-      * [关于 GitHub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-community-exchange.md)
-      * [关于学生版 GitHub Education](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-education-for-students.md)
-      * [申请学生开发包](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack.md)
-      * [使用 GitHub 做功课](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/index.md)
-      * [Why Wasn T My Application For A Student Developer Pack Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/why-wasnt-my-application-for-a-student-developer-pack-approved.md)
-    - Use Github In Your Classroom And Research
-      * [关于适用于教育者和研究人员的 GitHub Education](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/about-github-education-for-educators-and-researchers.md)
-      * [申请教育者或研究人员折扣](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount.md)
-      * [在课堂上和研究中使用 GitHub](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/index.md)
-      * [为什么我的教育工作者或研究人员折扣申请未获得批准？](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/why-wasnt-my-application-for-an-educator-or-researcher-discount-approved.md)
     * [探索通过 GitHub Education 教学和学习的好处](education/explore-the-benefits-of-teaching-and-learning-with-github-education/index.md)
   - Manage Coursework With Github Classroom
     - Get Started With Github Classroom
@@ -1826,6 +1827,7 @@
   - Configuring Branches And Merges In Your Repository
     - Configuring Pull Request Merges
       * [关于 GitHub 上的合并方法](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github.md)
+      * [Configuring Commit Merging For Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-merging-for-pull-requests.md)
       * [为拉取请求配置提交变基](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-rebasing-for-pull-requests.md)
       * [为拉取请求配置提交压缩](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests.md)
       * [配置拉取请求合并](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/index.md)
