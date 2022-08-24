@@ -1722,7 +1722,6 @@
     * [验证 GitHub Pages 的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages.md)
   - Getting Started With Github Pages
     * [About Git Hub Pages](pages/getting-started-with-github-pages/about-github-pages.md)
-    * [使用主题选择器将主题添加到 GitHub Pages 站点](pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser.md)
     * [更改 GitHub Pages 站点的可见性](pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site.md)
     * [配置 GitHub Pages 站点的发布源](pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.md)
     * [为 GitHub Pages 站点创建自定义 404 页面](pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site.md)
