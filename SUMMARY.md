@@ -1090,7 +1090,7 @@
       * [识别和授权 GitHub 应用程序用户](developers/apps/building-github-apps/identifying-and-authorizing-users-for-github-apps.md)
       * [构建 GitHub 应用程序](developers/apps/building-github-apps/index.md)
       * [Managing Allowed IP Addresses For A Git Hub App](developers/apps/building-github-apps/managing-allowed-ip-addresses-for-a-github-app.md)
-      * [Rate Limits For Git Hub Apps](developers/apps/building-github-apps/rate-limits-for-github-apps.md)
+      * [GitHub 应用程序的速率限制](developers/apps/building-github-apps/rate-limits-for-github-apps.md)
       * [刷新用户到服务器访问令牌](developers/apps/building-github-apps/refreshing-user-to-server-access-tokens.md)
       * [设置 GitHub 应用程序的权限](developers/apps/building-github-apps/setting-permissions-for-github-apps.md)
     - Building Oauth Apps
@@ -2034,7 +2034,7 @@
     * [构建 CI 服务器](rest/guides/building-a-ci-server.md)
     * [交付部署](rest/guides/delivering-deployments.md)
     * [为用户发现资源](rest/guides/discovering-resources-for-a-user.md)
-    * [Getting Started With The Checks API](rest/guides/getting-started-with-the-checks-api.md)
+    * [检查 API 入门指南](rest/guides/getting-started-with-the-checks-api.md)
     * [Git 数据库 API 入门指南](rest/guides/getting-started-with-the-git-database-api.md)
     * [REST API 入门指南](rest/guides/getting-started-with-the-rest-api.md)
     * [指南](rest/guides/index.md)
