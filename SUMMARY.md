@@ -60,6 +60,7 @@
       * [管理辅助功能设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-accessibility-settings.md)
       * [管理个人帐户的安全和分析设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-security-and-analysis-settings-for-your-personal-account.md)
       * [管理仓库的默认分支名称](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-the-default-branch-name-for-your-repositories.md)
+      * [管理 GitHub 企业营销页面的 Cookie 首选项](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
       * [管理选项卡大小呈现首选项](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-tab-size-rendering-preference.md)
       * [管理主题设置](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings.md)
       * [个人帐户存储库的权限级别](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
@@ -104,7 +105,7 @@
     * [Dockerfile 对 GitHub Actions 的支持](actions/creating-actions/dockerfile-support-for-github-actions.md)
     * [创建操作](actions/creating-actions/index.md)
     * [GitHub Actions 的元数据语法](actions/creating-actions/metadata-syntax-for-github-actions.md)
-    * [Publishing Actions In Git Hub Marketplace](actions/creating-actions/publishing-actions-in-github-marketplace.md)
+    * [在 GitHub Marketplace 中发布操作](actions/creating-actions/publishing-actions-in-github-marketplace.md)
     * [发布和维护操作](actions/creating-actions/releasing-and-maintaining-actions.md)
     * [设置操作的退出代码](actions/creating-actions/setting-exit-codes-for-actions.md)
     * [与企业共享操作和工作流](actions/creating-actions/sharing-actions-and-workflows-with-your-enterprise.md)
@@ -235,6 +236,7 @@
     * [自定义 GitHub 托管的运行器](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
     * [使用 GitHub 托管的运行器](actions/using-github-hosted-runners/index.md)
     * [监视当前的工作](actions/using-github-hosted-runners/monitoring-your-current-jobs.md)
+    * [使用较大运行器](actions/using-github-hosted-runners/using-larger-runners.md)
   - Using Jobs
     * [为作业分配权限](actions/using-jobs/assigning-permissions-to-jobs.md)
     * [选择作业的运行器](actions/using-jobs/choosing-the-runner-for-a-job.md)
@@ -677,7 +679,7 @@
     * [关于 GitHub Codespaces 的计费](billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
     * [管理 GitHub Codespaces 的计费](billing/managing-billing-for-github-codespaces/index.md)
     * [管理 GitHub Codespaces 的支出限制](billing/managing-billing-for-github-codespaces/managing-spending-limits-for-github-codespaces.md)
-    * [Viewing Your Git Hub Codespaces Usage](billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage.md)
+    * [查看 GitHub Codespaces 使用情况](billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage.md)
   - Managing Billing For Github Copilot
     * [关于 GitHub Copilot 的计费](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
     * [管理 GitHub Copilot 的计费](billing/managing-billing-for-github-copilot/index.md)
@@ -795,7 +797,7 @@
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
     - Dependabot Security Updates
       * [关于 Dependabot 安全更新](code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates.md)
-      * [配置 Dependabot 安全更新](code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates.md)
+      * [Configuring Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates.md)
       * [使用 Dependabot 安全更新自动更新具有已知漏洞的依赖项](code-security/dependabot/dependabot-security-updates/index.md)
     - Dependabot Version Updates
       * [关于 Dependabot 版本更新](code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates.md)
@@ -872,14 +874,14 @@
     * [参考](codespaces/codespaces-reference/index.md)
     * [GitHub Codespaces 中的安全性](codespaces/codespaces-reference/security-in-github-codespaces.md)
     * [了解 GitHub Codespaces 的计费](codespaces/codespaces-reference/understanding-billing-for-github-codespaces.md)
-    * [在 GitHub Codespaces 中使用 GitHub Copilot](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
+    * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
     * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [更改代码空间的计算机类型](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
     * [配置 codespace 的自动删除](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
     * [自定义代码空间](codespaces/customizing-your-codespace/index.md)
     * [Personalizing Git Hub Codespaces For Your Account](codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account.md)
-    * [设置 GitHub Codespaces 的默认编辑器](codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces.md)
+    * [Setting Your Default Editor For Git Hub Codespaces](codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces.md)
     * [设置 GitHub Codespaces 的默认区域](codespaces/customizing-your-codespace/setting-your-default-region-for-github-codespaces.md)
     * [设置 GitHub Codespaces 超时期限](codespaces/customizing-your-codespace/setting-your-timeout-period-for-github-codespaces.md)
   - Developing In Codespaces
@@ -888,11 +890,12 @@
     * [Creating A Codespace](codespaces/developing-in-codespaces/creating-a-codespace.md)
     * [代码空间的默认环境变量](codespaces/developing-in-codespaces/default-environment-variables-for-your-codespace.md)
     * [Deleting A Codespace](codespaces/developing-in-codespaces/deleting-a-codespace.md)
-    * [在代码空间中开发](codespaces/developing-in-codespaces/index.md)
+    * [Developing In A Codespace](codespaces/developing-in-codespaces/developing-in-a-codespace.md)
     * [代码空间中的转发端口](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
+    * [在代码空间中开发](codespaces/developing-in-codespaces/index.md)
     * [Renaming A Codespace](codespaces/developing-in-codespaces/renaming-a-codespace.md)
     * [将 GitHub Codespaces 用于拉取请求](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
-    * [在 Visual Studio Code 中使用 GitHub Codespaces](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
+    * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
     * [将 GitHub Codespaces 与 GitHub CLI 配合使用](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
     * [在代码空间中使用源控制](codespaces/developing-in-codespaces/using-source-control-in-your-codespace.md)
   - Getting Started
@@ -902,7 +905,8 @@
   - Managing Codespaces For Your Organization
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [管理组织的代码空间](codespaces/managing-codespaces-for-your-organization/index.md)
-    * [Managing Billing For Git Hub Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/managing-billing-for-github-codespaces-in-your-organization.md)
+    * [列出组织中的 codespace](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
+    * [管理组织中 GitHub Codespaces 的计费](codespaces/managing-codespaces-for-your-organization/managing-billing-for-github-codespaces-in-your-organization.md)
     * [为 GitHub Codespaces 管理存储库和组织的加密机密](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-github-codespaces.md)
     * [管理组织代码空间的存储库访问](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
@@ -925,7 +929,7 @@
     * [在已启用预生成的分支上测试开发容器配置更改](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
     * [为 {% data variables.product.prodname_github_codespaces %} 设置存储库](codespaces/setting-up-your-project-for-codespaces/index.md)
-    * [开发容器简介](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
+    * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [为代码空间计算机设置最低规范](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
     * [为代码空间设置 C# (.NET) 项目](codespaces/setting-up-your-project-for-codespaces/setting-up-your-dotnet-project-for-codespaces.md)
     * [为 Codespaces 设置 Java 项目](codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces.md)
@@ -933,7 +937,7 @@
     * [将开发容器添加到存储库](codespaces/setting-up-your-project-for-codespaces/setting-up-your-project-for-codespaces.md)
     * [为代码空间设置 Python 项目](codespaces/setting-up-your-project-for-codespaces/setting-up-your-python-project-for-codespaces.md)
   - Troubleshooting
-    * [将更改导出到分支](codespaces/troubleshooting/exporting-changes-to-a-branch.md)
+    * [Exporting Changes To A Branch](codespaces/troubleshooting/exporting-changes-to-a-branch.md)
     * [Git Hub Codespaces Logs](codespaces/troubleshooting/github-codespaces-logs.md)
     * [Codespaces 疑难解答](codespaces/troubleshooting/index.md)
     * [Codespaces 客户端疑难解答](codespaces/troubleshooting/troubleshooting-codespaces-clients.md)
@@ -1550,7 +1554,7 @@
     - Managing Security Settings For Your Organization
       * [访问组织的合规性报告](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
       * [管理组织的安全设置](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
-      * [Managing Allowed IP Addresses For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
+      * [管理组织允许的 IP 地址](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
       * [管理组织的安全和分析设置](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
       * [限制组织的电子邮件通知](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/restricting-email-notifications-for-your-organization.md)
       * [审查组织的审核日志](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization.md)
@@ -2272,7 +2276,7 @@
     * [查看和更新支持工单](support/contacting-github-support/viewing-and-updating-support-tickets.md)
   - Learning About Github Support
     * [关于 GitHub 高级支持](support/learning-about-github-support/about-github-premium-support.md)
-    * [关于 GitHub 支持](support/learning-about-github-support/about-github-support.md)
+    * [About Git Hub Support](support/learning-about-github-support/about-github-support.md)
     * [关于票证优先级](support/learning-about-github-support/about-ticket-priority.md)
     * [GitHub Marketplace 支持](support/learning-about-github-support/github-marketplace-support.md)
     * [了解 GitHub 支持](support/learning-about-github-support/index.md)
