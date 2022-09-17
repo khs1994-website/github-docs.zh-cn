@@ -593,7 +593,7 @@
     * [About SSH](authentication/connecting-to-github-with-ssh/about-ssh.md)
     * [Adding A New SSH Key To Your Git Hub Account](authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account.md)
     * [检查现有 SSH 密钥](authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys.md)
-    * [生成新的 SSH 密钥并将其添加到 ssh-agent](authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent.md)
+    * [Generating A New SSH Key And Adding It To The Ssh Agent](authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent.md)
     * [通过 SSH 连接到 GitHub](authentication/connecting-to-github-with-ssh/index.md)
     * [测试 SSH 连接](authentication/connecting-to-github-with-ssh/testing-your-ssh-connection.md)
     * [使用 SSH 密钥密码](authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases.md)
@@ -758,7 +758,7 @@
   - Code Scanning
     - Automatically Scanning Your Code For Vulnerabilities And Errors
       * [关于代码扫描警报](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-alerts.md)
-      * [关于使用 CodeQL 进行代码扫描](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-with-codeql.md)
+      * [About Code Scanning With Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-with-codeql.md)
       * [关于代码扫描](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning.md)
       * [Configuring Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning.md)
       * [为编译的语言配置 CodeQL 工作流](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
@@ -792,7 +792,7 @@
       * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database.md)
       * [配置 Dependabot 警报](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [为 Dependabot 警报配置通知](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
-      * [在 GitHub Advisory Database 中编辑安全公告](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
+      * [Editing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
       * [使用 Dependabot 警报识别项目依赖项中的漏洞](code-security/dependabot/dependabot-alerts/index.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
     - Dependabot Security Updates
@@ -1765,7 +1765,7 @@
       * [关闭拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/closing-a-pull-request.md)
       * [合并拉取请求中的更改](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/index.md)
       * [将拉取请求与合并队列合并](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue.md)
-      * [合并拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request.md)
+      * [Merging A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request.md)
       * [还原拉取请求](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request.md)
     - Proposing Changes To Your Work With Pull Requests
       * [关于分支](pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches.md)
@@ -2194,6 +2194,7 @@
     * [GitHub 反对现代奴役制和童工制的声明](site-policy/github-company-policies/github-statement-against-modern-slavery-and-child-labor.md)
     * [GitHub 公司政策](site-policy/github-company-policies/index.md)
   - Github Terms
+    * [GitHub 社区行为准则](site-policy/github-terms/github-community-code-of-conduct.md)
     * [GitHub 社区指导方针](site-policy/github-terms/github-community-guidelines.md)
     * [GitHub 公司服务条款](site-policy/github-terms/github-corporate-terms-of-service.md)
     * [GitHub 活动行为准则](site-policy/github-terms/github-event-code-of-conduct.md)
