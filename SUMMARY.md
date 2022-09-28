@@ -1487,7 +1487,7 @@
       * [将 {% data variables.projects.project_v2 %} 添加到存储库](issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository.md)
       * [关闭和删除 {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/closing-and-deleting-your-projects.md)
       * [管理 {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/index.md)
-      * [管理对 {% data variables.projects.projects_v2 %} 的访问权限](issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects.md)
+      * [Managing access to your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects.md)
       * [Managing visibility of your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-visibility-of-your-projects.md)
     - Understanding Field Types
       * [关于日期字段](issues/planning-and-tracking-with-projects/understanding-field-types/about-date-fields.md)
@@ -1575,7 +1575,7 @@
     * [管理对组织的 {% data variables.product.prodname_projects_v1 %} 的访问权限](organizations/managing-access-to-your-organizations-project-boards/index.md)
     * [管理组织成员对 {% data variables.product.prodname_project_v1 %} 的访问权限](organizations/managing-access-to-your-organizations-project-boards/managing-access-to-a-project-board-for-organization-members.md)
     * [管理个人对组织 {% data variables.product.prodname_project_v1 %} 的访问权限](organizations/managing-access-to-your-organizations-project-boards/managing-an-individuals-access-to-an-organization-project-board.md)
-    * [管理团队对组织 {% data variables.product.prodname_project_v1 %} 的访问权限](organizations/managing-access-to-your-organizations-project-boards/managing-team-access-to-an-organization-project-board.md)
+    * [Managing team access to an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/managing-team-access-to-an-organization-project-board.md)
     * [组织的 {% data variables.product.prodname_project_v1_caps %} 权限](organizations/managing-access-to-your-organizations-project-boards/project-board-permissions-for-an-organization.md)
     * [从组织 {% data variables.product.prodname_project_v1 %} 中删除外部协作者](organizations/managing-access-to-your-organizations-project-boards/removing-an-outside-collaborator-from-an-organization-project-board.md)
   - Managing Access To Your Organizations Repositories
