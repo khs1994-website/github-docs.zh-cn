@@ -269,7 +269,7 @@
 - Admin
   - Code Security
     - Managing Github Advanced Security For Your Enterprise
-      * [为设备配置代码扫描](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
+      * [Configuring Code Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
       * [为设备配置密码扫描](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
       * [为企业启用 GitHub 高级安全性](admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
       * [管理企业的 GitHub Advanced Security](admin/code-security/managing-github-advanced-security-for-your-enterprise/index.md)
@@ -283,7 +283,7 @@
     - Configuring Github Connect
       * [About Git Hub Connect](admin/configuration/configuring-github-connect/about-github-connect.md)
       * [为企业启用自动触发用户许可证同步](admin/configuration/configuring-github-connect/enabling-automatic-user-license-sync-for-your-enterprise.md)
-      * [为企业启用 Dependabot](admin/configuration/configuring-github-connect/enabling-dependabot-for-your-enterprise.md)
+      * [Enabling Dependabot For Your Enterprise](admin/configuration/configuring-github-connect/enabling-dependabot-for-your-enterprise.md)
       * [为企业启用服务器统计信息](admin/configuration/configuring-github-connect/enabling-server-statistics-for-your-enterprise.md)
       * [为企业启用统一贡献](admin/configuration/configuring-github-connect/enabling-unified-contributions-for-your-enterprise.md)
       * [Enabling Unified Search For Your Enterprise](admin/configuration/configuring-github-connect/enabling-unified-search-for-your-enterprise.md)
@@ -516,7 +516,7 @@
       * [关于企业策略](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
       * [在企业中执行高级安全策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise.md)
       * [在企业中实施依赖性见解的策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
-      * [在企业中为 GitHub Actions 实施策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
+      * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Security Settings In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-security-settings-in-your-enterprise.md)
       * [Enforcing Repository Management Policies In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-repository-management-policies-in-your-enterprise.md)
       * [在企业中实施团队策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-team-policies-in-your-enterprise.md)
@@ -781,7 +781,7 @@
       * [Configuring Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-cli-in-your-ci-system.md)
       * [在 CI 系统中配置 CodeQL 运行器](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-runner-in-your-ci-system.md)
       * [在现有 CI 系统上使用 CodeQL 代码扫描](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/index.md)
-      * [在 CI 系统中安装 CodeQL CLI](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/installing-codeql-cli-in-your-ci-system.md)
+      * [Installing Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/installing-codeql-cli-in-your-ci-system.md)
       * [从 CodeQL 运行器迁移到 CodeQL CLI](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/migrating-from-the-codeql-runner-to-codeql-cli.md)
       * [在 CI 系统中运行 CodeQL 运行器](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/running-codeql-runner-in-your-ci-system.md)
       * [CI 系统中的 CodeQL 运行器故障排除](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/troubleshooting-codeql-runner-in-your-ci-system.md)
@@ -800,7 +800,7 @@
       * [Configuring Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates.md)
       * [使用 Dependabot 安全更新自动更新具有已知漏洞的依赖项](code-security/dependabot/dependabot-security-updates/index.md)
     - Dependabot Version Updates
-      * [关于 Dependabot 版本更新](code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates.md)
+      * [About Dependabot Version Updates](code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates.md)
       * [Configuration options for the dependabot.yml file](code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file.md)
       * [Configuring Dependabot Version Updates](code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates.md)
       * [自定义依赖项更新](code-security/dependabot/dependabot-version-updates/customizing-dependency-updates.md)
@@ -856,7 +856,7 @@
       * [Best Practices For Securing Code In Your Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/securing-code.md)
     - Understanding Your Software Supply Chain
       * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
-      * [关于供应链安全性](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
+      * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
       * [配置依赖项审查](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
       * [配置依赖项关系图](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
@@ -1010,16 +1010,16 @@
     * [在 GitHub.com 上配置 GitHub Copilot 设置](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [配置 GitHub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
-    * [在 JetBrains IDE 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
+    * [Getting Started With Git Hub Copilot In A Jet Brains IDE](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
     * [在 Neovim 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
-    * [在 Visual Studio Code 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
-    * [在 Visual Studio 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
+    * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
+    * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
     * [开始使用 GitHub Actions](copilot/getting-started-with-github-copilot/index.md)
   - Overview Of Github Copilot
     * [关于 GitHub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
     * [GitHub Copilot 概述](copilot/overview-of-github-copilot/index.md)
   * [Git Hub Copilot](copilot/index.md)
-  * [GitHub Copilot 快速入门](copilot/quickstart.md)
+  * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
   - Contributing And Collaborating Using Github Desktop
     - Adding And Cloning Repositories
@@ -1188,9 +1188,9 @@
 - Discussions
   - Collaborating With Your Community Using Discussions
     * [关于讨论](discussions/collaborating-with-your-community-using-discussions/about-discussions.md)
-    * [使用讨论与维护者协作](discussions/collaborating-with-your-community-using-discussions/collaborating-with-maintainers-using-discussions.md)
+    * [Collaborating With Maintainers Using Discussions](discussions/collaborating-with-your-community-using-discussions/collaborating-with-maintainers-using-discussions.md)
     * [使用讨论与社区协作](discussions/collaborating-with-your-community-using-discussions/index.md)
-    * [参与讨论](discussions/collaborating-with-your-community-using-discussions/participating-in-a-discussion.md)
+    * [Participating In A Discussion](discussions/collaborating-with-your-community-using-discussions/participating-in-a-discussion.md)
   - Guides
     * [GitHub 上社区对话的最佳实践](discussions/guides/best-practices-for-community-conversations-on-github.md)
     * [查找讨论](discussions/guides/finding-your-discussions.md)
@@ -1612,7 +1612,7 @@
     * [将组织转换为用户](organizations/managing-organization-settings/converting-an-organization-into-a-user.md)
     * [删除组织帐户](organizations/managing-organization-settings/deleting-an-organization-account.md)
     * [在组织中禁用 {% data variables.projects.projects_v2 %} 的见解](organizations/managing-organization-settings/disabling-insights-for-projects-in-your-organization.md)
-    * [禁用或限制组织的 GitHub Actions](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
+    * [Disabling Or Limiting Git Hub Actions For Your Organization](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
     * [Disabling Ifversion Projects V 2 Projects Else Project Boards Endif In Your Organization](organizations/managing-organization-settings/disabling-project-boards-in-your-organization.md)
     * [为组织启用或禁用 GitHub 讨论](organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization.md)
     * [管理组织设置](organizations/managing-organization-settings/index.md)
@@ -1624,7 +1624,7 @@
     * [管理组织的提交签核策略](organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization.md)
     * [管理组织中仓库的默认分支名称](organizations/managing-organization-settings/managing-the-default-branch-name-for-repositories-in-your-organization.md)
     * [管理组织中成员名称的显示](organizations/managing-organization-settings/managing-the-display-of-member-names-in-your-organization.md)
-    * [管理组织的复刻政策](organizations/managing-organization-settings/managing-the-forking-policy-for-your-organization.md)
+    * [Managing The Forking Policy For Your Organization](organizations/managing-organization-settings/managing-the-forking-policy-for-your-organization.md)
     * [管理组织的 GitHub Pages 站点发布](organizations/managing-organization-settings/managing-the-publication-of-github-pages-sites-for-your-organization.md)
     * [管理组织赞助帐户的更新](organizations/managing-organization-settings/managing-updates-from-accounts-your-organization-sponsors.md)
     * [重命名组织](organizations/managing-organization-settings/renaming-an-organization.md)
