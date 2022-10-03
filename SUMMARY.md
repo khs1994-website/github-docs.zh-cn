@@ -1721,7 +1721,7 @@
   - Configuring A Custom Domain For Your Github Pages Site
     * [关于自定义域名和 GitHub 页面](pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages.md)
     * [配置 GitHub Pages 站点的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/index.md)
-    * [管理 GitHub Pages 站点的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site.md)
+    * [Managing A Custom Domain For Your Git Hub Pages Site](pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site.md)
     * [自定义域和 GitHub Pages 疑难解答](pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages.md)
     * [验证 GitHub Pages 的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages.md)
   - Getting Started With Github Pages
