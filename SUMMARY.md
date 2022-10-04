@@ -370,7 +370,7 @@
       * [更新虚拟机和物理资源](admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/index.md)
       * [从 GitHub Enterprise 11.10.x 迁移到 2.1.23](admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/migrating-from-github-enterprise-1110x-to-2123.md)
       * [升级要求](admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/upgrade-requirements.md)
-      * [升级 GitHub Enterprise Server](admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server.md)
+      * [Upgrading Git Hub Enterprise Server](admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server.md)
     * [监控、管理和更新企业](admin/enterprise-management/index.md)
   - Github Actions
     - Advanced Configuration And Troubleshooting
@@ -2257,7 +2257,7 @@
     * [通过 GitHub Sponsors 接受赞助](sponsors/receiving-sponsorships-through-github-sponsors/index.md)
     * [从 GitHub Sponsors 管理您的付款](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors.md)
     * [管理您的赞助目标](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-sponsorship-goal.md)
-    * [管理赞助等级](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-sponsorship-tiers.md)
+    * [Managing Your Sponsorship Tiers](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-sponsorship-tiers.md)
     * [Setting Up Git Hub Sponsors For Your Organization](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization.md)
     * [Setting Up Git Hub Sponsors For Your Personal Account](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-personal-account.md)
     * [GitHub Sponsors 的税务信息](sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors.md)
