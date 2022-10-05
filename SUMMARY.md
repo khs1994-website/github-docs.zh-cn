@@ -5,7 +5,7 @@
     - Managing Subscriptions For Activity On Github
       * [在 GitHub 上管理活动的订阅](account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/index.md)
       * [Managing Your Subscriptions](account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/managing-your-subscriptions.md)
-      * [查看订阅](account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions.md)
+      * [Viewing Your Subscriptions](account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions.md)
     - Setting Up Notifications
       * [关于通知](account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications.md)
       * [Configuring Notifications](account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications.md)
@@ -21,7 +21,7 @@
       * [About Your Organization S Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-organizations-profile.md)
       * [关于您的个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile.md)
       * [自定义个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/index.md)
-      * [管理个人资料自述文件](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
+      * [Managing Your Profile README](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
       * [个性化您的个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [在个人资料中嵌入项目](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
       * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
@@ -791,7 +791,7 @@
       * [关于 Dependabot 警报](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database.md)
       * [配置 Dependabot 警报](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
-      * [为 Dependabot 警报配置通知](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
+      * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Editing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
       * [使用 Dependabot 警报识别项目依赖项中的漏洞](code-security/dependabot/dependabot-alerts/index.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
@@ -990,7 +990,7 @@
     * [创建默认的社区运行状况文件](communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file.md)
     * [使用标签鼓励对项目做出有益的贡献](communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels.md)
     * [设置项目的健康贡献](communities/setting-up-your-project-for-healthy-contributions/index.md)
-    * [设置仓库参与者指南](communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors.md)
+    * [Setting Guidelines For Repository Contributors](communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors.md)
   - Using Templates To Encourage Useful Issues And Pull Requests
     * [关于议题和拉取请求模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates.md)
     * [创建议题表单时的常见验证错误](communities/using-templates-to-encourage-useful-issues-and-pull-requests/common-validation-errors-when-creating-issue-forms.md)
@@ -1033,7 +1033,7 @@
       * [同步分支](desktop/contributing-and-collaborating-using-github-desktop/keeping-your-local-repository-in-sync-with-github/syncing-your-branch.md)
     - Making Changes In A Branch
       * [提交并审查对项目的更改](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project.md)
-      * [在分支中更改](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/index.md)
+      * [Making Changes In A Branch](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/index.md)
       * [管理分支](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches.md)
       * [推送更改到 GitHub](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/pushing-changes-to-github.md)
       * [储藏更改](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/stashing-changes.md)
@@ -1166,7 +1166,7 @@
     * [About Git Hub S AP Is](developers/overview/about-githubs-apis.md)
     * [GitHub 开发者计划](developers/overview/github-developer-program.md)
     * [概述](developers/overview/index.md)
-    * [管理部署密钥](developers/overview/managing-deploy-keys.md)
+    * [Managing Deploy Keys](developers/overview/managing-deploy-keys.md)
     * [替换 GitHub 服务](developers/overview/replacing-github-services.md)
     * [密码扫描合作伙伴计划](developers/overview/secret-scanning-partner-program.md)
     * [使用 SSH 代理转发](developers/overview/using-ssh-agent-forwarding.md)
@@ -1264,7 +1264,7 @@
       * [关于 GitHub Marketplace](get-started/customizing-your-github-workflow/exploring-integrations/about-github-marketplace.md)
       * [关于集成](get-started/customizing-your-github-workflow/exploring-integrations/about-integrations.md)
       * [关于 web 挂钩](get-started/customizing-your-github-workflow/exploring-integrations/about-webhooks.md)
-      * [GitHub 扩展和集成](get-started/customizing-your-github-workflow/exploring-integrations/github-extensions-and-integrations.md)
+      * [Git Hub Extensions And Integrations](get-started/customizing-your-github-workflow/exploring-integrations/github-extensions-and-integrations.md)
       * [探索集成](get-started/customizing-your-github-workflow/exploring-integrations/index.md)
     - Purchasing And Installing Apps In Github Marketplace
       * [在 GitHub Marketplace 中购买并安装应用程序](get-started/customizing-your-github-workflow/purchasing-and-installing-apps-in-github-marketplace/index.md)
@@ -1279,7 +1279,7 @@
     * [使用星标保存仓库](get-started/exploring-projects-on-github/saving-repositories-with-stars.md)
   - Getting Started With Git
     * [关于远程仓库](get-started/getting-started-with-git/about-remote-repositories.md)
-    * [关联文本编辑器与 Git](get-started/getting-started-with-git/associating-text-editors-with-git.md)
+    * [Associating Text Editors With Git](get-started/getting-started-with-git/associating-text-editors-with-git.md)
     * [在 Git 中缓存 GitHub 凭据](get-started/getting-started-with-git/caching-your-github-credentials-in-git.md)
     * [配置 Git 处理行结束符](get-started/getting-started-with-git/configuring-git-to-handle-line-endings.md)
     * [Git 工作流](get-started/getting-started-with-git/git-workflows.md)
@@ -1328,11 +1328,11 @@
     * [请求个人帐户数据的存档](get-started/privacy-on-github/requesting-an-archive-of-your-personal-accounts-data.md)
   - Quickstart
     * [Be Social](get-started/quickstart/be-social.md)
-    * [在 GitHub 上通信](get-started/quickstart/communicating-on-github.md)
+    * [Communicating On Git Hub](get-started/quickstart/communicating-on-github.md)
     * [参与项目](get-started/quickstart/contributing-to-projects.md)
     * [创建存储库](get-started/quickstart/create-a-repo.md)
     * [创建存储库分支](get-started/quickstart/fork-a-repo.md)
-    * [Git 和 GitHub 学习资源](get-started/quickstart/git-and-github-learning-resources.md)
+    * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git 备忘清单](get-started/quickstart/git-cheatsheet.md)
     * [GitHub 流](get-started/quickstart/github-flow.md)
     * [GitHub 词汇表](get-started/quickstart/github-glossary.md)
@@ -1373,7 +1373,7 @@
       * [复刻和克隆 Gist](get-started/writing-on-github/editing-and-sharing-content-with-gists/forking-and-cloning-gists.md)
       * [编辑内容以及与 gist 共享内容](get-started/writing-on-github/editing-and-sharing-content-with-gists/index.md)
     - Getting Started With Writing And Formatting On Github
-      * [关于在 GitHub 上编写和设置格式](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github.md)
+      * [About Writing And Formatting On Git Hub](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github.md)
       * [Basic Writing And Formatting Syntax](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.md)
       * [Getting started with writing and formatting on GitHub（GitHub 写作和格式设置入门）](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/index.md)
     - Working With Advanced Formatting
@@ -1752,7 +1752,7 @@
       * [关于合并冲突](pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts.md)
       * [解决合并冲突](pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/index.md)
       * [在 GitHub 上解决合并冲突](pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github.md)
-      * [使用命令行解决合并冲突](pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line.md)
+      * [Resolving A Merge Conflict Using The Command Line](pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line.md)
     - Collaborating On Repositories With Code Quality Features
       * [关于状态检查](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks.md)
       * [在具有代码质量功能的仓库上进行协作](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/index.md)
