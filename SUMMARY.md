@@ -585,8 +585,8 @@
 - Authentication
   - Authenticating With Saml Single Sign On
     * [关于使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
-    * [授权用于 SAML 单点登录的个人访问令牌](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
-    * [授权用于 SAML 单点登录的 SSH 密钥](authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on.md)
+    * [Authorizing A Personal Access Token For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
+    * [Authorizing An SSH Key For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on.md)
     * [使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/index.md)
     * [查看和管理活动的 SAML 会话](authentication/authenticating-with-saml-single-sign-on/viewing-and-managing-your-active-saml-sessions.md)
   - Connecting To Github With Ssh
@@ -844,7 +844,7 @@
     * [机密扫描模式](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Overview
     * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
-    * [筛选安全概述中的警报](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
+    * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
     * [查看组织中仓库的安全警报](code-security/security-overview/index.md)
     * [Viewing The Security Overview](code-security/security-overview/viewing-the-security-overview.md)
   - Supply Chain Security
@@ -858,7 +858,7 @@
       * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
       * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
-      * [配置依赖项审查](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
+      * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
       * [配置依赖项关系图](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [探索仓库的依赖项](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
@@ -1926,7 +1926,7 @@
       * [重命名文件](repositories/working-with-files/managing-files/renaming-a-file.md)
     - Managing Large Files
       * [关于 Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
-      * [关于 GitHub 上的大文件](repositories/working-with-files/managing-large-files/about-large-files-on-github.md)
+      * [About Large Files On Git Hub](repositories/working-with-files/managing-large-files/about-large-files-on-github.md)
       * [关于存储和带宽使用情况](repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage.md)
       * [协作处理 Git Large File Storage](repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage.md)
       * [配置 Git Large File Storage](repositories/working-with-files/managing-large-files/configuring-git-large-file-storage.md)
@@ -2222,7 +2222,7 @@
     * [GitHub Codespaces 隐私声明](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
     * [GitHub 数据保护协议](site-policy/privacy-policies/github-data-protection-agreement.md)
     * [GitHub 隐私声明](site-policy/privacy-policies/github-privacy-statement.md)
-    * [Git Hub Subprocessors And Cookies](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
+    * [GitHub 次级处理者和 Cookie](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
     * [全球隐私惯例](site-policy/privacy-policies/global-privacy-practices.md)
     * [隐私政策](site-policy/privacy-policies/index.md)
   - Security Policies
