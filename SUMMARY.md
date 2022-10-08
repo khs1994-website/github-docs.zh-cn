@@ -835,7 +835,7 @@
     * [撤销存储库安全通告](code-security/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
   - Secret Scanning
     * [About Secret Scanning](code-security/secret-scanning/about-secret-scanning.md)
-    * [为存储库配置机密扫描](code-security/secret-scanning/configuring-secret-scanning-for-your-repositories.md)
+    * [Configuring Secret Scanning For Your Repositories](code-security/secret-scanning/configuring-secret-scanning-for-your-repositories.md)
     * [Defining Custom Patterns For Secret Scanning](code-security/secret-scanning/defining-custom-patterns-for-secret-scanning.md)
     * [通过秘密扫描确保机密安全](code-security/secret-scanning/index.md)
     * [Managing Alerts From Secret Scanning](code-security/secret-scanning/managing-alerts-from-secret-scanning.md)
@@ -1105,12 +1105,12 @@
       * [Differences Between Git Hub Apps And O Auth Apps](developers/apps/getting-started-with-apps/differences-between-github-apps-and-oauth-apps.md)
       * [应用入门](developers/apps/getting-started-with-apps/index.md)
       * [将 OAuth 应用程序迁移到 GitHub 应用程序](developers/apps/getting-started-with-apps/migrating-oauth-apps-to-github-apps.md)
-      * [设置开发环境以创建 GitHub 应用程序](developers/apps/getting-started-with-apps/setting-up-your-development-environment-to-create-a-github-app.md)
+      * [Setting Up Your Development Environment To Create A Git Hub App](developers/apps/getting-started-with-apps/setting-up-your-development-environment-to-create-a-github-app.md)
     - Guides
-      * [使用检查 API 创建 CI 测试](developers/apps/guides/creating-ci-tests-with-the-checks-api.md)
+      * [Creating CI Tests With The Checks API](developers/apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](developers/apps/guides/index.md)
       * [使用内容附件](developers/apps/guides/using-content-attachments.md)
-      * [在应用程序中使用 GitHub API](developers/apps/guides/using-the-github-api-in-your-app.md)
+      * [Using The Git Hub API In Your App](developers/apps/guides/using-the-github-api-in-your-app.md)
     - Managing Github Apps
       * [删除 GitHub 应用程序](developers/apps/managing-github-apps/deleting-a-github-app.md)
       * [编辑 GitHub 应用程序的权限](developers/apps/managing-github-apps/editing-a-github-apps-permissions.md)
@@ -1174,7 +1174,7 @@
     - Events
       * [GitHub 事件类型](developers/webhooks-and-events/events/github-event-types.md)
       * [事件](developers/webhooks-and-events/events/index.md)
-      * [议题事件类型](developers/webhooks-and-events/events/issue-event-types.md)
+      * [Issue Event Types](developers/webhooks-and-events/events/issue-event-types.md)
     - Webhooks
       * [关于 web 挂钩](developers/webhooks-and-events/webhooks/about-webhooks.md)
       * [配置服务器以接收有效负载](developers/webhooks-and-events/webhooks/configuring-your-server-to-receive-payloads.md)
