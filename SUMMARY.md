@@ -514,7 +514,6 @@
   - Policies
     - Enforcing Policies For Your Enterprise
       * [关于企业策略](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
-      * [在企业中执行高级安全策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise.md)
       * [在企业中实施依赖性见解的策略](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Security Settings In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-security-settings-in-your-enterprise.md)
@@ -859,7 +858,7 @@
       * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
       * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
-      * [配置依赖项关系图](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
+      * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [探索仓库的依赖项](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [依赖关系图疑难排解](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
