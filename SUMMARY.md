@@ -412,7 +412,7 @@
       * [更改身份验证方法](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
       * [管理企业的 IAM](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
       * [排除企业的标识和访问管理故障](admin/identity-and-access-management/managing-iam-for-your-enterprise/troubleshooting-identity-and-access-management-for-your-enterprise.md)
-      * [外部身份验证的用户名注意事项](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
+      * [Username Considerations For External Authentication](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
     - Managing Recovery Codes For Your Enterprise
       * [标识提供者不可用时访问企业帐户](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/accessing-your-enterprise-account-if-your-identity-provider-is-unavailable.md)
       * [下载企业帐户的单一登录恢复代码](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/downloading-your-enterprise-accounts-single-sign-on-recovery-codes.md)
@@ -760,7 +760,7 @@
       * [About Code Scanning With Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-with-codeql.md)
       * [关于代码扫描](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning.md)
       * [Configuring Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning.md)
-      * [为编译的语言配置 CodeQL 工作流](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
+      * [Configuring The Code QL Workflow For Compiled Languages](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
       * [自动扫描代码以查找漏洞和错误](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/index.md)
       * [Managing Code Scanning Alerts For Your Repository](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository.md)
       * [推荐用于运行 CodeQL 的硬件资源](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/recommended-hardware-resources-for-running-codeql.md)
@@ -1167,7 +1167,7 @@
     * [概述](developers/overview/index.md)
     * [Managing Deploy Keys](developers/overview/managing-deploy-keys.md)
     * [替换 GitHub 服务](developers/overview/replacing-github-services.md)
-    * [密码扫描合作伙伴计划](developers/overview/secret-scanning-partner-program.md)
+    * [Secret Scanning Partner Program](developers/overview/secret-scanning-partner-program.md)
     * [使用 SSH 代理转发](developers/overview/using-ssh-agent-forwarding.md)
   - Webhooks And Events
     - Events
