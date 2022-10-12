@@ -1861,7 +1861,7 @@
     * [创建和管理存储库](repositories/creating-and-managing-repositories/index.md)
     * [重命名仓库](repositories/creating-and-managing-repositories/renaming-a-repository.md)
     * [恢复已删除的仓库](repositories/creating-and-managing-repositories/restoring-a-deleted-repository.md)
-    * [转让仓库](repositories/creating-and-managing-repositories/transferring-a-repository.md)
+    * [Transferring A Repository](repositories/creating-and-managing-repositories/transferring-a-repository.md)
     * [排查克隆错误](repositories/creating-and-managing-repositories/troubleshooting-cloning-errors.md)
   - Managing Your Repositorys Settings And Features
     - Customizing Your Repository
