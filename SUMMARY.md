@@ -22,7 +22,7 @@
       * [关于您的个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile.md)
       * [自定义个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/index.md)
       * [Managing Your Profile README](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
-      * [个性化您的个人资料](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
+      * [Personalizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [在个人资料中嵌入项目](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
       * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
     - Managing Contribution Settings On Your Profile
@@ -374,7 +374,7 @@
     * [监控、管理和更新企业](admin/enterprise-management/index.md)
   - Github Actions
     - Advanced Configuration And Troubleshooting
-      * [在启用 GitHub Actions 的情况下备份和恢复 GitHub Enterprise Server](admin/github-actions/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled.md)
+      * [Backing Up And Restoring Git Hub Enterprise Server With Git Hub Actions Enabled](admin/github-actions/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled.md)
       * [GitHub Actions 的高可用性](admin/github-actions/advanced-configuration-and-troubleshooting/high-availability-for-github-actions.md)
       * [高级配置和故障排除](admin/github-actions/advanced-configuration-and-troubleshooting/index.md)
       * [企业 GitHub Actions 故障排除](admin/github-actions/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise.md)
@@ -464,7 +464,7 @@
       * [在 OpenStack KVM 上安装 GitHub Enterprise Server](admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-openstack-kvm.md)
       * [在 VMware 上安装 GitHub Enterprise Server](admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-vmware.md)
       * [在 XenServer 上安装 GitHub Enterprise Server](admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-xenserver.md)
-      * [设置暂存实例](admin/installation/setting-up-a-github-enterprise-server-instance/setting-up-a-staging-instance.md)
+      * [Setting Up A Staging Instance](admin/installation/setting-up-a-github-enterprise-server-instance/setting-up-a-staging-instance.md)
     * [安装 {% data variables.product.prodname_enterprise %}](admin/installation/index.md)
   - Monitoring Activity In Your Enterprise
     - Analyzing How Your Team Works With Server Statistics
@@ -1555,7 +1555,7 @@
       * [访问组织的合规性报告](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
       * [管理组织的安全设置](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
       * [管理组织允许的 IP 地址](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
-      * [管理组织的安全和分析设置](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
+      * [Managing Security And Analysis Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
       * [限制组织的电子邮件通知](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/restricting-email-notifications-for-your-organization.md)
       * [Reviewing The Audit Log For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization.md)
       * [Reviewing Your Organization S Installed Integrations](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-your-organizations-installed-integrations.md)
