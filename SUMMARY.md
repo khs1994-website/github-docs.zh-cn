@@ -307,7 +307,7 @@
       * [访问管理控制台](admin/configuration/configuring-your-enterprise/accessing-the-management-console.md)
       * [命令行实用程序](admin/configuration/configuring-your-enterprise/command-line-utilities.md)
       * [配置应用程序](admin/configuration/configuring-your-enterprise/configuring-applications.md)
-      * [在设备上配置备份](admin/configuration/configuring-your-enterprise/configuring-backups-on-your-appliance.md)
+      * [Configuring Backups On Your Appliance](admin/configuration/configuring-your-enterprise/configuring-backups-on-your-appliance.md)
       * [配置自定义页脚](admin/configuration/configuring-your-enterprise/configuring-custom-footers.md)
       * [Configuring Email For Notifications](admin/configuration/configuring-your-enterprise/configuring-email-for-notifications.md)
       * [为企业配置 GitHub Pages](admin/configuration/configuring-your-enterprise/configuring-github-pages-for-your-enterprise.md)
@@ -872,7 +872,6 @@
     * [Disaster Recovery For Git Hub Codespaces](codespaces/codespaces-reference/disaster-recovery-for-github-codespaces.md)
     * [参考](codespaces/codespaces-reference/index.md)
     * [Security In Git Hub Codespaces](codespaces/codespaces-reference/security-in-github-codespaces.md)
-    * [Understanding Billing For Git Hub Codespaces](codespaces/codespaces-reference/understanding-billing-for-github-codespaces.md)
     * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
     * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
@@ -904,8 +903,7 @@
   - Managing Codespaces For Your Organization
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [管理组织的代码空间](codespaces/managing-codespaces-for-your-organization/index.md)
-    * [列出组织中的 codespace](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
-    * [Managing Billing For Git Hub Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/managing-billing-for-github-codespaces-in-your-organization.md)
+    * [Listing The Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
     * [Managing Encrypted Secrets For Your Repository And Organization For Git Hub Codespaces](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-github-codespaces.md)
     * [管理组织代码空间的存储库访问](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
@@ -1377,7 +1375,7 @@
       * [Getting started with writing and formatting on GitHub（GitHub 写作和格式设置入门）](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/index.md)
     - Working With Advanced Formatting
       * [Attaching Files](get-started/writing-on-github/working-with-advanced-formatting/attaching-files.md)
-      * [自动链接引用和 URL](get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls.md)
+      * [Autolinked References And UR Ls](get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls.md)
       * [创建指向代码段的永久链接](get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet.md)
       * [创建和突显代码块](get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks.md)
       * [创建关系图](get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams.md)
@@ -2219,7 +2217,6 @@
   - Privacy Policies
     * [GitHub 求职者隐私政策](site-policy/privacy-policies/github-candidate-privacy-policy.md)
     * [GitHub Codespaces 隐私声明](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
-    * [GitHub 数据保护协议](site-policy/privacy-policies/github-data-protection-agreement.md)
     * [GitHub 隐私声明](site-policy/privacy-policies/github-privacy-statement.md)
     * [GitHub 次级处理者和 Cookie](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
     * [全球隐私惯例](site-policy/privacy-policies/global-privacy-practices.md)
