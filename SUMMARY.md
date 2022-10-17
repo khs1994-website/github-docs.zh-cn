@@ -1211,7 +1211,7 @@
     - Github Global Campus For Students
       * [关于 GitHub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-community-exchange.md)
       * [关于学生版 GitHub Global Campus](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-global-campus-for-students.md)
-      * [以学生身份申请 GitHub Global Campus](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student.md)
+      * [Apply To Git Hub Global Campus As A Student](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student.md)
       * [学生版 GitHub Global Campus](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/index.md)
       * [为什么我的学生版 Global Campus 申请未获批准？](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/why-wasnt-my-application-to-global-campus-for-students-approved.md)
     - Github Global Campus For Teachers
@@ -1227,7 +1227,7 @@
   - Manage Coursework With Github Classroom
     - Get Started With Github Classroom
       * [设置 GitHub Classroom 的基础知识](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom.md)
-      * [术语表](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary.md)
+      * [Glossary](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary.md)
       * [GitHub Classroom 使用入门](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/index.md)
     - Integrate Github Classroom With An Ide
       * [关于使用 MakeCode Arcade 与 GitHub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/about-using-makecode-arcade-with-github-classroom.md)
@@ -1241,16 +1241,15 @@
       * [使用 GitHub Classroom 学习](education/manage-coursework-with-github-classroom/learn-with-github-classroom/index.md)
       * [查看自动评分结果](education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results.md)
     - Teach With Github Classroom
-      * [Connect A Learning Management System To Git Hub Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-to-github-classroom.md)
-      * [创建组分配](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment.md)
+      * [Create A Group Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment.md)
       * [从模板仓库创建作业](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-assignment-from-a-template-repository.md)
       * [创建个人作业](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment.md)
       * [使用 GitHub Classroom 教学](education/manage-coursework-with-github-classroom/teach-with-github-classroom/index.md)
       * [通过拉取请求留下反馈](education/manage-coursework-with-github-classroom/teach-with-github-classroom/leave-feedback-with-pull-requests.md)
-      * [管理教室](education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms.md)
+      * [Manage Classrooms](education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms.md)
       * [重用作业](education/manage-coursework-with-github-classroom/teach-with-github-classroom/reuse-an-assignment.md)
       * [使用自动分级](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding.md)
-      * [使用 Git 和 GitHub 起始作业](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-the-git-and-github-starter-assignment.md)
+      * [Use The Git And Git Hub Starter Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-the-git-and-github-starter-assignment.md)
     * [使用 GitHub Classroom 管理课程](education/manage-coursework-with-github-classroom/index.md)
   * [GitHub Education 指南](education/guides.md)
   * [GitHub Education 文档](education/index.md)
