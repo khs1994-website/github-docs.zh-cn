@@ -251,7 +251,7 @@
     * [在工作流程中使用作业](actions/using-jobs/using-jobs-in-a-workflow.md)
   - Using Workflows
     * [About Workflows](actions/using-workflows/about-workflows.md)
-    * [缓存依赖项以加快工作流程](actions/using-workflows/caching-dependencies-to-speed-up-workflows.md)
+    * [Caching Dependencies To Speed Up Workflows](actions/using-workflows/caching-dependencies-to-speed-up-workflows.md)
     * [Creating Starter Workflows For Your Organization](actions/using-workflows/creating-starter-workflows-for-your-organization.md)
     * [Events That Trigger Workflows](actions/using-workflows/events-that-trigger-workflows.md)
     * [使用工作流](actions/using-workflows/index.md)
@@ -336,8 +336,8 @@
     - Configuring Clustering
       * [关于集群节点](admin/enterprise-management/configuring-clustering/about-cluster-nodes.md)
       * [关于集群](admin/enterprise-management/configuring-clustering/about-clustering.md)
-      * [群集网络配置](admin/enterprise-management/configuring-clustering/cluster-network-configuration.md)
-      * [为群集配置高可用性复制](admin/enterprise-management/configuring-clustering/configuring-high-availability-replication-for-a-cluster.md)
+      * [Cluster Network Configuration](admin/enterprise-management/configuring-clustering/cluster-network-configuration.md)
+      * [Configuring High Availability Replication For A Cluster](admin/enterprise-management/configuring-clustering/configuring-high-availability-replication-for-a-cluster.md)
       * [配置群集与高可用性 (HA) 之间的差异](admin/enterprise-management/configuring-clustering/differences-between-clustering-and-high-availability-ha.md)
       * [撤出集群节点](admin/enterprise-management/configuring-clustering/evacuating-a-cluster-node.md)
       * [配置群集](admin/enterprise-management/configuring-clustering/index.md)
@@ -349,7 +349,7 @@
     - Configuring High Availability
       * [关于 Geo-replication](admin/enterprise-management/configuring-high-availability/about-geo-replication.md)
       * [关于高可用性配置](admin/enterprise-management/configuring-high-availability/about-high-availability-configuration.md)
-      * [创建高可用性副本](admin/enterprise-management/configuring-high-availability/creating-a-high-availability-replica.md)
+      * [Creating A High Availability Replica](admin/enterprise-management/configuring-high-availability/creating-a-high-availability-replica.md)
       * [配置高可用性](admin/enterprise-management/configuring-high-availability/index.md)
       * [发起到副本设备的故障转移](admin/enterprise-management/configuring-high-availability/initiating-a-failover-to-your-replica-appliance.md)
       * [恢复高可用性配置](admin/enterprise-management/configuring-high-availability/recovering-a-high-availability-configuration.md)
@@ -891,7 +891,6 @@
     * [Developing In A Codespace](codespaces/developing-in-codespaces/developing-in-a-codespace.md)
     * [Forwarding Ports In Your Codespace](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
     * [在代码空间中开发](codespaces/developing-in-codespaces/index.md)
-    * [Renaming A Codespace](codespaces/developing-in-codespaces/renaming-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
@@ -1325,7 +1324,7 @@
   - Quickstart
     * [Be Social](get-started/quickstart/be-social.md)
     * [Communicating On Git Hub](get-started/quickstart/communicating-on-github.md)
-    * [参与项目](get-started/quickstart/contributing-to-projects.md)
+    * [Contributing To Projects](get-started/quickstart/contributing-to-projects.md)
     * [Create A Repo](get-started/quickstart/create-a-repo.md)
     * [Fork A Repo](get-started/quickstart/fork-a-repo.md)
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
@@ -1690,7 +1689,7 @@
   * [GitHub Packages 快速入门](packages/quickstart.md)
 - Pages
   - Configuring A Custom Domain For Your Github Pages Site
-    * [关于自定义域名和 GitHub 页面](pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages.md)
+    * [About Custom Domains And Git Hub Pages](pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages.md)
     * [配置 GitHub Pages 站点的自定义域](pages/configuring-a-custom-domain-for-your-github-pages-site/index.md)
     * [Managing A Custom Domain For Your Git Hub Pages Site](pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site.md)
     * [自定义域和 GitHub Pages 疑难解答](pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages.md)
