@@ -655,7 +655,7 @@
     * [错误：未知密钥类型](authentication/troubleshooting-ssh/error-unknown-key-type.md)
     * [错误：我们正在进行 SSH 密钥审核](authentication/troubleshooting-ssh/error-were-doing-an-ssh-key-audit.md)
     * [SSH 故障排除](authentication/troubleshooting-ssh/index.md)
-    * [恢复 SSH 密钥密码](authentication/troubleshooting-ssh/recovering-your-ssh-key-passphrase.md)
+    * [Recovering Your SSH Key Passphrase](authentication/troubleshooting-ssh/recovering-your-ssh-key-passphrase.md)
     * [Using SSH Over The HTTPS Port](authentication/troubleshooting-ssh/using-ssh-over-the-https-port.md)
   * [身份验证](authentication/index.md)
 - Billing
