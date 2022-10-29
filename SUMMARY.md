@@ -827,6 +827,13 @@
     * [Protecting Pushes With Secret Scanning](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
     * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
     * [机密扫描模式](code-security/secret-scanning/secret-scanning-patterns.md)
+  - Security Advisories
+    - Repository Security Advisories
+      * [将协作者添加到存储库安全通告](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
+      * [在临时专用分支中协作以解决存储库安全漏洞](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
+      * [存储库安全公告的权限级别](code-security/security-advisories/repository-security-advisories/permission-levels-for-repository-security-advisories.md)
+      * [删除存储库安全公告中的协作者](code-security/security-advisories/repository-security-advisories/removing-a-collaborator-from-a-repository-security-advisory.md)
+      * [撤销存储库安全通告](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
   - Security Overview
     * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
     * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
@@ -1882,7 +1889,7 @@
       * [将文件移至新位置](repositories/working-with-files/managing-files/moving-a-file-to-a-new-location.md)
       * [重命名文件](repositories/working-with-files/managing-files/renaming-a-file.md)
     - Managing Large Files
-      * [关于 Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
+      * [About Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
       * [About Large Files On Git Hub](repositories/working-with-files/managing-large-files/about-large-files-on-github.md)
       * [关于存储和带宽使用情况](repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage.md)
       * [协作处理 Git Large File Storage](repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage.md)
