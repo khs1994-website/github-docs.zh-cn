@@ -63,7 +63,7 @@
       * [管理 GitHub 企业营销页面的 Cookie 首选项](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
       * [管理选项卡大小呈现首选项](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-tab-size-rendering-preference.md)
       * [Managing Your Theme Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings.md)
-      * [Permission Levels For A Personal Account Repository](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
+      * [个人帐户存储库的权限级别](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
       * [个人帐户拥有的项目板的权限级别](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
       * [“招聘职位”复选框有什么作用？](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/what-does-the-available-for-hire-checkbox-do.md)
     - Managing Your Membership In Organizations
@@ -535,7 +535,7 @@
       * [配置组织成员关系的可见性](admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
       * [Continuous Integration Using Jenkins](admin/user-management/managing-organizations-in-your-enterprise/continuous-integration-using-jenkins.md)
       * [Creating Teams](admin/user-management/managing-organizations-in-your-enterprise/creating-teams.md)
-      * [管理企业中的组织](admin/user-management/managing-organizations-in-your-enterprise/index.md)
+      * [Managing Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/index.md)
       * [使用 Jira 管理项目](admin/user-management/managing-organizations-in-your-enterprise/managing-projects-using-jira.md)
       * [管理企业拥有的组织中的角色](admin/user-management/managing-organizations-in-your-enterprise/managing-your-role-in-an-organization-owned-by-your-enterprise.md)
       * [阻止用户创建组织](admin/user-management/managing-organizations-in-your-enterprise/preventing-users-from-creating-organizations.md)
@@ -583,7 +583,7 @@
   * [发行说明](admin/release-notes.md)
 - Authentication
   - Authenticating With Saml Single Sign On
-    * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
+    * [关于使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
     * [Authorizing A Personal Access Token For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
     * [Authorizing An SSH Key For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on.md)
     * [使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/index.md)
@@ -714,9 +714,9 @@
     * [查看和管理对订阅的待定更改](billing/managing-billing-for-your-github-account/viewing-and-managing-pending-changes-to-your-subscription.md)
     * [Viewing The Subscription And Usage For Your Enterprise Account](billing/managing-billing-for-your-github-account/viewing-the-subscription-and-usage-for-your-enterprise-account.md)
   - Managing Licenses For Visual Studio Subscriptions With Github Enterprise
-    * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise.md)
+    * [关于包含 GitHub Enterprise 的 Visual Studio 订阅](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise.md)
     * [管理包含 GitHub Enterprise 的 Visual Studio 订阅的许可证](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/index.md)
-    * [Setting Up Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/setting-up-visual-studio-subscriptions-with-github-enterprise.md)
+    * [使用 GitHub Enterprise 设置 Visual Studio 订阅](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/setting-up-visual-studio-subscriptions-with-github-enterprise.md)
   - Managing Your Github Billing Settings
     * [关于 GitHub 的计费](billing/managing-your-github-billing-settings/about-billing-on-github.md)
     * [添加信息到收据](billing/managing-your-github-billing-settings/adding-information-to-your-receipts.md)
@@ -734,7 +734,7 @@
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
     * [管理 GitHub Enterprise 的许可证](billing/managing-your-license-for-github-enterprise/index.md)
     * [在 GitHub Enterprise Server 和 GitHub Enterprise Cloud 之间同步许可证使用情况](billing/managing-your-license-for-github-enterprise/syncing-license-usage-between-github-enterprise-server-and-github-enterprise-cloud.md)
-    * [GitHub Enterprise 许可证使用情况疑难解答](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
+    * [Troubleshooting License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
     * [Uploading A New License To Git Hub Enterprise Server](billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server.md)
     * [Viewing License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/viewing-license-usage-for-github-enterprise.md)
   - Setting Up Paid Organizations For Procurement Companies
@@ -828,12 +828,27 @@
     * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
     * [机密扫描模式](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Advisories
+    - Global Security Advisories
+      * [关于全局安全公告](code-security/security-advisories/global-security-advisories/about-global-security-advisories.md)
+      * [About The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/about-the-github-advisory-database.md)
+      * [在 GitHub Advisory Database 中浏览安全公告](code-security/security-advisories/global-security-advisories/browsing-security-advisories-in-the-github-advisory-database.md)
+      * [在 GitHub Advisory Database 中编辑安全公告](code-security/security-advisories/global-security-advisories/editing-security-advisories-in-the-github-advisory-database.md)
+      * [使用 GitHub 公告数据库中的全局安全公告](code-security/security-advisories/global-security-advisories/index.md)
+    - Guidance On Reporting And Writing
+      * [有关报告和编写漏洞相关信息的指南](code-security/security-advisories/guidance-on-reporting-and-writing/index.md)
     - Repository Security Advisories
+      * [关于安全漏洞的协调披露](code-security/security-advisories/repository-security-advisories/about-coordinated-disclosure-of-security-vulnerabilities.md)
+      * [关于存储库安全公告](code-security/security-advisories/repository-security-advisories/about-repository-security-advisories.md)
       * [将协作者添加到存储库安全通告](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
       * [在临时专用分支中协作以解决存储库安全漏洞](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
+      * [创建存储库安全公告](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
+      * [编辑存储库安全通告](code-security/security-advisories/repository-security-advisories/editing-a-repository-security-advisory.md)
+      * [使用存储库安全公告](code-security/security-advisories/repository-security-advisories/index.md)
       * [存储库安全公告的权限级别](code-security/security-advisories/repository-security-advisories/permission-levels-for-repository-security-advisories.md)
+      * [发布存储库安全公告](code-security/security-advisories/repository-security-advisories/publishing-a-repository-security-advisory.md)
       * [删除存储库安全公告中的协作者](code-security/security-advisories/repository-security-advisories/removing-a-collaborator-from-a-repository-security-advisory.md)
       * [撤销存储库安全通告](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
+    * [使用安全公告](code-security/security-advisories/index.md)
   - Security Overview
     * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
     * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
@@ -861,7 +876,7 @@
   * [Code Security](code-security/index.md)
 - Codespaces
   - Codespaces Reference
-    * [Allowing Your Codespace To Access A Private Image Registry](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-image-registry.md)
+    * [允许代码空间访问私有映像注册表](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-image-registry.md)
     * [Disaster Recovery For Git Hub Codespaces](codespaces/codespaces-reference/disaster-recovery-for-github-codespaces.md)
     * [参考](codespaces/codespaces-reference/index.md)
     * [Security In Git Hub Codespaces](codespaces/codespaces-reference/security-in-github-codespaces.md)
@@ -918,9 +933,10 @@
     * [在已启用预生成的分支上测试开发容器配置更改](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
     * [添加“在 GitHub Codespaces 中打开”锁屏提醒](codespaces/setting-up-your-project-for-codespaces/adding-a-codespaces-badge.md)
+    * [在存储库的 codespace 中自动打开文件](codespaces/setting-up-your-project-for-codespaces/automatically-opening-files-in-the-codespaces-for-a-repository.md)
     * [为 {% data variables.product.prodname_github_codespaces %} 设置存储库](codespaces/setting-up-your-project-for-codespaces/index.md)
     * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
-    * [Setting A Minimum Specification For Codespace Machines](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
+    * [为代码空间计算机设置最低规范](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
     * [Setting up your C# (.NET) project for GitHub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-dotnet-project-for-codespaces.md)
     * [Setting Up Your Java Project For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces.md)
     * [Setting up your Node.js project for GitHub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-nodejs-project-for-codespaces.md)
@@ -1617,7 +1633,7 @@
     * [从组织中删除帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
     * [组织中的角色](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
   - Managing Saml Single Sign On For Your Organization
-    * [About Identity And Access Management With SAML Single Sign On](organizations/managing-saml-single-sign-on-for-your-organization/about-identity-and-access-management-with-saml-single-sign-on.md)
+    * [关于使用 SAML 单一登录进行的标识和访问管理](organizations/managing-saml-single-sign-on-for-your-organization/about-identity-and-access-management-with-saml-single-sign-on.md)
     * [关于组织的 SCIM](organizations/managing-saml-single-sign-on-for-your-organization/about-scim-for-organizations.md)
     * [身份提供程序不可用时访问组织](organizations/managing-saml-single-sign-on-for-your-organization/accessing-your-organization-if-your-identity-provider-is-unavailable.md)
     * [Configuring SAML Single Sign On And SCIM Using Okta](organizations/managing-saml-single-sign-on-for-your-organization/configuring-saml-single-sign-on-and-scim-using-okta.md)
