@@ -589,7 +589,7 @@
     * [使用 SAML 单点登录进行身份验证](authentication/authenticating-with-saml-single-sign-on/index.md)
     * [查看和管理活动的 SAML 会话](authentication/authenticating-with-saml-single-sign-on/viewing-and-managing-your-active-saml-sessions.md)
   - Connecting To Github With Ssh
-    * [About SSH](authentication/connecting-to-github-with-ssh/about-ssh.md)
+    * [关于 SSH](authentication/connecting-to-github-with-ssh/about-ssh.md)
     * [Adding A New SSH Key To Your Git Hub Account](authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account.md)
     * [Checking For Existing SSH Keys](authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys.md)
     * [Generating A New SSH Key And Adding It To The Ssh Agent](authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent.md)
@@ -627,7 +627,7 @@
     * [Managing Commit Signature Verification](authentication/managing-commit-signature-verification/index.md)
     * [对提交签名](authentication/managing-commit-signature-verification/signing-commits.md)
     * [对标记签名](authentication/managing-commit-signature-verification/signing-tags.md)
-    * [Telling Git About Your Signing Key](authentication/managing-commit-signature-verification/telling-git-about-your-signing-key.md)
+    * [将您的签名密钥告知 Git](authentication/managing-commit-signature-verification/telling-git-about-your-signing-key.md)
   - Securing Your Account With Two Factor Authentication 2 Fa
     * [About Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md)
     * [Accessing Git Hub Using Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication.md)
@@ -835,6 +835,7 @@
       * [在 GitHub Advisory Database 中编辑安全公告](code-security/security-advisories/global-security-advisories/editing-security-advisories-in-the-github-advisory-database.md)
       * [使用 GitHub 公告数据库中的全局安全公告](code-security/security-advisories/global-security-advisories/index.md)
     - Guidance On Reporting And Writing
+      * [编写存储库安全公告的最佳做法](code-security/security-advisories/guidance-on-reporting-and-writing/best-practices-for-writing-repository-security-advisories.md)
       * [有关报告和编写漏洞相关信息的指南](code-security/security-advisories/guidance-on-reporting-and-writing/index.md)
     - Repository Security Advisories
       * [关于安全漏洞的协调披露](code-security/security-advisories/repository-security-advisories/about-coordinated-disclosure-of-security-vulnerabilities.md)
@@ -1627,7 +1628,7 @@
     * [为组织添加帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization.md)
     * [使用角色管理用户对组织的访问权限](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [保持组织的所有权连续性](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
-    * [管理组织的自定义存储库角色](organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization.md)
+    * [Managing Custom Repository Roles For An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization.md)
     * [管理组织中的审查者](organizations/managing-peoples-access-to-your-organization-with-roles/managing-moderators-in-your-organization.md)
     * [Managing Security Managers In Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization.md)
     * [从组织中删除帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
@@ -1905,7 +1906,7 @@
       * [将文件移至新位置](repositories/working-with-files/managing-files/moving-a-file-to-a-new-location.md)
       * [重命名文件](repositories/working-with-files/managing-files/renaming-a-file.md)
     - Managing Large Files
-      * [About Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
+      * [关于 Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
       * [About Large Files On Git Hub](repositories/working-with-files/managing-large-files/about-large-files-on-github.md)
       * [关于存储和带宽使用情况](repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage.md)
       * [协作处理 Git Large File Storage](repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage.md)
