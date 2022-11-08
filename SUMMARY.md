@@ -138,7 +138,7 @@
       * [About Security Hardening With Open ID Connect](actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
       * [在 Amazon Web Services 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
       * [在 Azure 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
-      * [Configuring Open ID Connect In Cloud Providers](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
+      * [在云提供商中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
       * [在 Google Cloud Platform 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-google-cloud-platform.md)
       * [在 HashiCorp Vault 中配置 OpenID Connect](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-hashicorp-vault.md)
       * [安全强化您的部署](actions/deployment/security-hardening-your-deployments/index.md)
@@ -1246,7 +1246,7 @@
       * [Integrate Git Hub Classroom With An IDE](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/integrate-github-classroom-with-an-ide.md)
       * [使用 GitHub Classroom 的 Repl.it](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/replit-with-github-classroom.md)
       * [在 IDE 中运行学生代码](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/run-student-code-in-an-ide.md)
-      * [Using Git Hub Codespaces With Git Hub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom.md)
+      * [将 GitHub Codespaces 与 GitHub Classroom 配合使用](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom.md)
     - Learn With Github Classroom
       * [使用 GitHub Classroom 学习](education/manage-coursework-with-github-classroom/learn-with-github-classroom/index.md)
       * [View Autograding Results](education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results.md)
@@ -1625,6 +1625,7 @@
     * [升级到公司服务条款](organizations/managing-organization-settings/upgrading-to-the-corporate-terms-of-service.md)
     * [验证或批准您组织的域](organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization.md)
   - Managing Peoples Access To Your Organization With Roles
+    * [关于自定义存储库角色](organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-repository-roles.md)
     * [为组织添加帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization.md)
     * [使用角色管理用户对组织的访问权限](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [保持组织的所有权连续性](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
