@@ -855,10 +855,10 @@
       * [撤销存储库安全通告](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
     * [使用安全公告](code-security/security-advisories/index.md)
   - Security Overview
-    * [About Security Overviews](code-security/security-overview/about-the-security-overview.md)
-    * [Filtering Alerts In Security Overviews](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
+    * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
+    * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
     * [查看组织中仓库的安全警报](code-security/security-overview/index.md)
-    * [Viewing Security Overviews](code-security/security-overview/viewing-the-security-overview.md)
+    * [Viewing The Security Overview](code-security/security-overview/viewing-the-security-overview.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [保护端到端供应链](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
