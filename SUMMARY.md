@@ -411,7 +411,7 @@
     * [管理企业的 GitHub Actions](admin/github-actions/index.md)
   - Identity And Access Management
     - Managing Iam For Your Enterprise
-      * [关于企业身份验证](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
+      * [About Authentication For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
       * [允许对提供程序覆盖范围之外的用户进行内置身份验证](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
       * [Managing IAM For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
@@ -870,7 +870,7 @@
       * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
       * [关于供应链安全性](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
-      * [配置依赖项审查](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
+      * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
       * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [探索仓库的依赖项](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [了解您的软件供应链](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
@@ -1353,8 +1353,8 @@
     * [设置 Git](get-started/quickstart/set-up-git.md)
   - Signing Up For Github
     * [注册 GitHub](get-started/signing-up-for-github/index.md)
-    * [设置 GitHub Enterprise Cloud 试用版](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-cloud.md)
-    * [设置 GitHub Enterprise Server 试用版](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server.md)
+    * [Setting Up A Trial Of Git Hub Enterprise Cloud](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-cloud.md)
+    * [Setting Up A Trial Of Git Hub Enterprise Server](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server.md)
     * [注册新 GitHub 帐户](get-started/signing-up-for-github/signing-up-for-a-new-github-account.md)
     * [Verifying Your Email Address](get-started/signing-up-for-github/verifying-your-email-address.md)
   - Using Git
@@ -1543,7 +1543,7 @@
   * [GitHub 问题](issues/index.md)
 - Organizations
   - Collaborating With Groups In Organizations
-    * [关于组织](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
+    * [About Organizations](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
     * [关于组织仪表板](organizations/collaborating-with-groups-in-organizations/about-your-organization-dashboard.md)
     * [About your organization’s news feed](organizations/collaborating-with-groups-in-organizations/about-your-organizations-news-feed.md)
     * [访问组织的设置](organizations/collaborating-with-groups-in-organizations/accessing-your-organizations-settings.md)
@@ -1862,7 +1862,7 @@
     - Customizing Your Repository
       * [关于 CITION 文件](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files.md)
       * [关于代码所有者](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners.md)
-      * [关于自述文件](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
+      * [About READM Es](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
       * [关于仓库语言](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages.md)
       * [使用主题对仓库分类](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics.md)
       * [自定义仓库的社交媒体预览](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview.md)
@@ -1988,7 +1988,7 @@
     * [Dependabot](rest/dependabot/index.md)
     * [Dependabot 机密](rest/dependabot/secrets.md)
   - Dependency Graph
-    * [依赖项检查](rest/dependency-graph/dependency-review.md)
+    * [Dependency Review](rest/dependency-graph/dependency-review.md)
     * [依赖项提交](rest/dependency-graph/dependency-submission.md)
     * [依赖项关系图](rest/dependency-graph/index.md)
   - Deployments
