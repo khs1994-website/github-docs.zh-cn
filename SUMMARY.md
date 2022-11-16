@@ -185,7 +185,7 @@
     * [计划议题的创建](actions/managing-issues-and-pull-requests/scheduling-issue-creation.md)
     * [使用 GitHub Actions 进行项目管理](actions/managing-issues-and-pull-requests/using-github-actions-for-project-management.md)
   - Managing Workflow Runs
-    * [批准复刻中的工作流程运行](actions/managing-workflow-runs/approving-workflow-runs-from-public-forks.md)
+    * [Approving Workflow Runs From Public Forks](actions/managing-workflow-runs/approving-workflow-runs-from-public-forks.md)
     * [取消工作流程](actions/managing-workflow-runs/canceling-a-workflow.md)
     * [删除工作流程运行](actions/managing-workflow-runs/deleting-a-workflow-run.md)
     * [Disabling And Enabling A Workflow](actions/managing-workflow-runs/disabling-and-enabling-a-workflow.md)
@@ -284,14 +284,14 @@
     * [管理企业的代码安全性](admin/code-security/index.md)
   - Configuration
     - Configuring Github Connect
-      * [About Git Hub Connect](admin/configuration/configuring-github-connect/about-github-connect.md)
+      * [关于 GitHub Connect](admin/configuration/configuring-github-connect/about-github-connect.md)
       * [Enabling Automatic User License Sync For Your Enterprise](admin/configuration/configuring-github-connect/enabling-automatic-user-license-sync-for-your-enterprise.md)
       * [为企业启用 Dependabot](admin/configuration/configuring-github-connect/enabling-dependabot-for-your-enterprise.md)
       * [Enabling Server Statistics For Your Enterprise](admin/configuration/configuring-github-connect/enabling-server-statistics-for-your-enterprise.md)
       * [Enabling Unified Contributions For Your Enterprise](admin/configuration/configuring-github-connect/enabling-unified-contributions-for-your-enterprise.md)
       * [Enabling Unified Search For Your Enterprise](admin/configuration/configuring-github-connect/enabling-unified-search-for-your-enterprise.md)
       * [Configuring Git Hub Connect](admin/configuration/configuring-github-connect/index.md)
-      * [Managing Git Hub Connect](admin/configuration/configuring-github-connect/managing-github-connect.md)
+      * [管理 GitHub Connect](admin/configuration/configuring-github-connect/managing-github-connect.md)
     - Configuring Network Settings
       * [Configuring A Hostname](admin/configuration/configuring-network-settings/configuring-a-hostname.md)
       * [Configuring An Outbound Web Proxy Server](admin/configuration/configuring-network-settings/configuring-an-outbound-web-proxy-server.md)
@@ -301,7 +301,7 @@
       * [Configuring TLS](admin/configuration/configuring-network-settings/configuring-tls.md)
       * [Enabling Subdomain Isolation](admin/configuration/configuring-network-settings/enabling-subdomain-isolation.md)
       * [配置网络设置](admin/configuration/configuring-network-settings/index.md)
-      * [Network Ports](admin/configuration/configuring-network-settings/network-ports.md)
+      * [网络端口](admin/configuration/configuring-network-settings/network-ports.md)
       * [Using Git Hub Enterprise Server With A Load Balancer](admin/configuration/configuring-network-settings/using-github-enterprise-server-with-a-load-balancer.md)
       * [Validating Your Domain Settings](admin/configuration/configuring-network-settings/validating-your-domain-settings.md)
     - Configuring Your Enterprise
@@ -430,14 +430,14 @@
       * [Using CAS For Enterprise IAM](admin/identity-and-access-management/using-cas-for-enterprise-iam/index.md)
       * [Using CAS](admin/identity-and-access-management/using-cas-for-enterprise-iam/using-cas.md)
     - Using Enterprise Managed Users For Iam
-      * [About {% data variables.product.prodname_emus %}](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users.md)
+      * [关于 {% data variables.product.prodname_emus %}](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users.md)
       * [About Support For Your Id P S Conditional Access Policy](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-support-for-your-idps-conditional-access-policy.md)
       * [Configuring OIDC For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-oidc-for-enterprise-managed-users.md)
       * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
+      * [使用 Okta 为企业托管用户配置 SCIM 预配](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
       * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users.md)
       * [针对 IAM 使用 Enterprise 托管用户](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/index.md)
-      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/managing-team-memberships-with-identity-provider-groups.md)
+      * [使用标识提供者组管理团队成员身份](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/managing-team-memberships-with-identity-provider-groups.md)
       * [Migrating From SAML To OIDC](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-saml-to-oidc.md)
     - Using Ldap For Enterprise Iam
       * [Using LDAP For Enterprise IAM](admin/identity-and-access-management/using-ldap-for-enterprise-iam/index.md)
@@ -765,7 +765,7 @@
       * [About Code Scanning With Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-with-codeql.md)
       * [关于代码扫描](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning.md)
       * [Configuring Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning.md)
-      * [Configuring The Code QL Workflow For Compiled Languages](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
+      * [为编译的语言配置 CodeQL 工作流](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
       * [自动扫描代码以查找漏洞和错误](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/index.md)
       * [Managing Code Scanning Alerts For Your Repository](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository.md)
       * [推荐用于运行 CodeQL 的硬件资源](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/recommended-hardware-resources-for-running-codeql.md)
@@ -779,7 +779,7 @@
       * [About Integration With Code Scanning](code-security/code-scanning/integrating-with-code-scanning/about-integration-with-code-scanning.md)
       * [与代码扫描集成](code-security/code-scanning/integrating-with-code-scanning/index.md)
       * [SARIF Support For Code Scanning](code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning.md)
-      * [Uploading A SARIF File To Git Hub](code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github.md)
+      * [将 SARIF 文件上传到 GitHub](code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github.md)
     - Using Codeql Code Scanning With Your Existing Ci System
       * [About Code QL Code Scanning In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/about-codeql-code-scanning-in-your-ci-system.md)
       * [Configuring Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-cli-in-your-ci-system.md)
@@ -787,7 +787,7 @@
       * [在现有 CI 系统上使用 CodeQL 代码扫描](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/index.md)
       * [Installing Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/installing-codeql-cli-in-your-ci-system.md)
       * [Migrating From The Code QL Runner To Code QL CLI](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/migrating-from-the-codeql-runner-to-codeql-cli.md)
-      * [Running Code QL Runner In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/running-codeql-runner-in-your-ci-system.md)
+      * [在 CI 系统中运行 CodeQL 运行器](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/running-codeql-runner-in-your-ci-system.md)
       * [Troubleshooting Code QL Runner In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/troubleshooting-codeql-runner-in-your-ci-system.md)
     * [通过代码扫描查找代码中的安全漏洞和错误](code-security/code-scanning/index.md)
   - Dependabot
@@ -846,6 +846,7 @@
       * [关于存储库安全公告](code-security/security-advisories/repository-security-advisories/about-repository-security-advisories.md)
       * [将协作者添加到存储库安全通告](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
       * [在临时专用分支中协作以解决存储库安全漏洞](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
+      * [Configuring Private Vulnerability Reporting For A Repository](code-security/security-advisories/repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository.md)
       * [创建存储库安全公告](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
       * [编辑存储库安全通告](code-security/security-advisories/repository-security-advisories/editing-a-repository-security-advisory.md)
       * [使用存储库安全公告](code-security/security-advisories/repository-security-advisories/index.md)
@@ -960,8 +961,8 @@
     * [Working With Support For Git Hub Codespaces](codespaces/troubleshooting/working-with-support-for-github-codespaces.md)
   * [代码空间指南](codespaces/guides.md)
   * [GitHub 代码空间文档](codespaces/index.md)
-  * [Git Hub Codespaces Overview](codespaces/overview.md)
-  * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
+  * [GitHub Codespaces 概述](codespaces/overview.md)
+  * [github.dev 基于 web 的编辑器](codespaces/the-githubdev-web-based-editor.md)
 - Communities
   - Documenting Your Project With Wikis
     * [About Wikis](communities/documenting-your-project-with-wikis/about-wikis.md)
@@ -973,7 +974,7 @@
     * [使用 wiki 为项目写文档](communities/documenting-your-project-with-wikis/index.md)
     * [查看 wiki 的更改历史记录](communities/documenting-your-project-with-wikis/viewing-a-wikis-history-of-changes.md)
   - Maintaining Your Safety On Github
-    * [阻止用户访问组织](communities/maintaining-your-safety-on-github/blocking-a-user-from-your-organization.md)
+    * [Blocking A User From Your Organization](communities/maintaining-your-safety-on-github/blocking-a-user-from-your-organization.md)
     * [阻止用户访问您的个人帐户](communities/maintaining-your-safety-on-github/blocking-a-user-from-your-personal-account.md)
     * [在 GitHub 上维护您的安全](communities/maintaining-your-safety-on-github/index.md)
     * [举报滥用或垃圾邮件](communities/maintaining-your-safety-on-github/reporting-abuse-or-spam.md)
@@ -1027,7 +1028,7 @@
     * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
     * [开始使用 GitHub Actions](copilot/getting-started-with-github-copilot/index.md)
   - Overview Of Github Copilot
-    * [About Git Hub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
+    * [关于 GitHub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
     * [GitHub Copilot 概述](copilot/overview-of-github-copilot/index.md)
   * [Git Hub Copilot](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
@@ -1212,7 +1213,7 @@
     * [管理社区的讨论](discussions/managing-discussions-for-your-community/index.md)
     * [Managing Categories For Discussions](discussions/managing-discussions-for-your-community/managing-categories-for-discussions.md)
     * [Managing Discussions](discussions/managing-discussions-for-your-community/managing-discussions.md)
-    * [主持讨论](discussions/managing-discussions-for-your-community/moderating-discussions.md)
+    * [Moderating Discussions](discussions/managing-discussions-for-your-community/moderating-discussions.md)
     * [查看有关讨论的见解](discussions/managing-discussions-for-your-community/viewing-insights-for-your-discussions.md)
   * [GitHub Discussions 文档](discussions/index.md)
   * [GitHub Discussions 快速入门](discussions/quickstart.md)
@@ -1347,7 +1348,7 @@
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git 备忘清单](get-started/quickstart/git-cheatsheet.md)
     * [GitHub 流](get-started/quickstart/github-flow.md)
-    * [Git Hub Glossary](get-started/quickstart/github-glossary.md)
+    * [GitHub 词汇表](get-started/quickstart/github-glossary.md)
     * [Hello World](get-started/quickstart/hello-world.md)
     * [快速入门](get-started/quickstart/index.md)
     * [设置 Git](get-started/quickstart/set-up-git.md)
@@ -1390,7 +1391,7 @@
       * [Getting started with writing and formatting on GitHub（GitHub 写作和格式设置入门）](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/index.md)
       * [Quickstart For Writing On Git Hub](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github.md)
     - Working With Advanced Formatting
-      * [Attaching Files](get-started/writing-on-github/working-with-advanced-formatting/attaching-files.md)
+      * [附加文件](get-started/writing-on-github/working-with-advanced-formatting/attaching-files.md)
       * [Autolinked References And UR Ls](get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls.md)
       * [创建指向代码段的永久链接](get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet.md)
       * [创建和突显代码块](get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks.md)
@@ -1631,7 +1632,7 @@
     * [升级到公司服务条款](organizations/managing-organization-settings/upgrading-to-the-corporate-terms-of-service.md)
     * [验证或批准您组织的域](organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization.md)
   - Managing Peoples Access To Your Organization With Roles
-    * [About Custom Repository Roles](organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-repository-roles.md)
+    * [关于自定义存储库角色](organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-repository-roles.md)
     * [为组织添加帐单管理员](organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization.md)
     * [使用角色管理用户对组织的访问权限](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [保持组织的所有权连续性](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
@@ -1988,7 +1989,7 @@
     * [Dependabot](rest/dependabot/index.md)
     * [Dependabot 机密](rest/dependabot/secrets.md)
   - Dependency Graph
-    * [Dependency Review](rest/dependency-graph/dependency-review.md)
+    * [依赖项检查](rest/dependency-graph/dependency-review.md)
     * [依赖项提交](rest/dependency-graph/dependency-submission.md)
     * [依赖项关系图](rest/dependency-graph/index.md)
   - Deployments
