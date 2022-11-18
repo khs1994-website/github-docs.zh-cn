@@ -185,7 +185,8 @@
     * [计划议题的创建](actions/managing-issues-and-pull-requests/scheduling-issue-creation.md)
     * [使用 GitHub Actions 进行项目管理](actions/managing-issues-and-pull-requests/using-github-actions-for-project-management.md)
   - Managing Workflow Runs
-    * [Approving Workflow Runs From Public Forks](actions/managing-workflow-runs/approving-workflow-runs-from-public-forks.md)
+    * [批准专用分支中的工作流运行](actions/managing-workflow-runs/approving-workflow-runs-from-private-forks.md)
+    * [批准复刻中的工作流程运行](actions/managing-workflow-runs/approving-workflow-runs-from-public-forks.md)
     * [取消工作流程](actions/managing-workflow-runs/canceling-a-workflow.md)
     * [删除工作流程运行](actions/managing-workflow-runs/deleting-a-workflow-run.md)
     * [Disabling And Enabling A Workflow](actions/managing-workflow-runs/disabling-and-enabling-a-workflow.md)
@@ -410,7 +411,7 @@
     * [管理企业的 GitHub Actions](admin/github-actions/index.md)
   - Identity And Access Management
     - Managing Iam For Your Enterprise
-      * [About Authentication For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
+      * [关于企业身份验证](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
       * [允许对提供程序覆盖范围之外的用户进行内置身份验证](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
       * [Managing IAM For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
@@ -501,6 +502,7 @@
     * [关于 GitHub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [关于升级到新版本](admin/overview/about-upgrades-to-new-releases.md)
     * [访问企业的合规性报告](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
+    * [企业最佳做法](admin/overview/best-practices-for-enterprises.md)
     * [创建企业帐户](admin/overview/creating-an-enterprise-account.md)
     * [概述](admin/overview/index.md)
     * [System Overview](admin/overview/system-overview.md)
@@ -709,7 +711,7 @@
     * [About Per User Pricing](billing/managing-billing-for-your-github-account/about-per-user-pricing.md)
     * [Connecting An Azure Subscription To Your Enterprise](billing/managing-billing-for-your-github-account/connecting-an-azure-subscription-to-your-enterprise.md)
     * [GitHub 账户折扣订阅](billing/managing-billing-for-your-github-account/discounted-subscriptions-for-github-accounts.md)
-    * [Downgrading Your Git Hub Subscription](billing/managing-billing-for-your-github-account/downgrading-your-github-subscription.md)
+    * [降级 GitHub 订阅](billing/managing-billing-for-your-github-account/downgrading-your-github-subscription.md)
     * [升级或降级对结算过程有何影响？](billing/managing-billing-for-your-github-account/how-does-upgrading-or-downgrading-affect-the-billing-process.md)
     * [管理 GitHub 帐户的计费](billing/managing-billing-for-your-github-account/index.md)
     * [管理企业的发票](billing/managing-billing-for-your-github-account/managing-invoices-for-your-enterprise.md)
@@ -777,7 +779,7 @@
     - Integrating With Code Scanning
       * [About Integration With Code Scanning](code-security/code-scanning/integrating-with-code-scanning/about-integration-with-code-scanning.md)
       * [与代码扫描集成](code-security/code-scanning/integrating-with-code-scanning/index.md)
-      * [SARIF Support For Code Scanning](code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning.md)
+      * [对代码扫描的 SARIF 支持](code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning.md)
       * [将 SARIF 文件上传到 GitHub](code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github.md)
     - Using Codeql Code Scanning With Your Existing Ci System
       * [About Code QL Code Scanning In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/about-codeql-code-scanning-in-your-ci-system.md)
@@ -907,7 +909,7 @@
     * [Stopping And Starting A Codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
-    * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
+    * [将 GitHub Codespaces 与 GitHub CLI 配合使用](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
     * [Using Source Control In Your Codespace](codespaces/developing-in-codespaces/using-source-control-in-your-codespace.md)
   - Getting Started
     * [Deep dive into {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/deep-dive.md)
@@ -973,7 +975,7 @@
     * [使用 wiki 为项目写文档](communities/documenting-your-project-with-wikis/index.md)
     * [查看 wiki 的更改历史记录](communities/documenting-your-project-with-wikis/viewing-a-wikis-history-of-changes.md)
   - Maintaining Your Safety On Github
-    * [Blocking A User From Your Organization](communities/maintaining-your-safety-on-github/blocking-a-user-from-your-organization.md)
+    * [阻止用户访问组织](communities/maintaining-your-safety-on-github/blocking-a-user-from-your-organization.md)
     * [阻止用户访问您的个人帐户](communities/maintaining-your-safety-on-github/blocking-a-user-from-your-personal-account.md)
     * [在 GitHub 上维护您的安全](communities/maintaining-your-safety-on-github/index.md)
     * [举报滥用或垃圾邮件](communities/maintaining-your-safety-on-github/reporting-abuse-or-spam.md)
@@ -1347,14 +1349,14 @@
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git 备忘清单](get-started/quickstart/git-cheatsheet.md)
     * [GitHub 流](get-started/quickstart/github-flow.md)
-    * [GitHub 词汇表](get-started/quickstart/github-glossary.md)
+    * [Git Hub Glossary](get-started/quickstart/github-glossary.md)
     * [Hello World](get-started/quickstart/hello-world.md)
     * [快速入门](get-started/quickstart/index.md)
     * [设置 Git](get-started/quickstart/set-up-git.md)
   - Signing Up For Github
     * [注册 GitHub](get-started/signing-up-for-github/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-cloud.md)
-    * [Setting Up A Trial Of Git Hub Enterprise Server](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server.md)
+    * [设置 GitHub Enterprise Server 试用版](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server.md)
     * [注册新 GitHub 帐户](get-started/signing-up-for-github/signing-up-for-a-new-github-account.md)
     * [Verifying Your Email Address](get-started/signing-up-for-github/verifying-your-email-address.md)
   - Using Git
@@ -1543,10 +1545,11 @@
   * [GitHub 问题](issues/index.md)
 - Organizations
   - Collaborating With Groups In Organizations
-    * [About Organizations](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
+    * [关于组织](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
     * [关于组织仪表板](organizations/collaborating-with-groups-in-organizations/about-your-organization-dashboard.md)
     * [About your organization’s news feed](organizations/collaborating-with-groups-in-organizations/about-your-organizations-news-feed.md)
     * [访问组织的设置](organizations/collaborating-with-groups-in-organizations/accessing-your-organizations-settings.md)
+    * [组织最佳做法](organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations.md)
     * [从头开始创建新组织](organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch.md)
     * [自定义组织的配置文件](organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile.md)
     * [与组织中的团体协作](organizations/collaborating-with-groups-in-organizations/index.md)
@@ -1564,7 +1567,7 @@
     * [Viewing And Managing A Member S SAML Access To Your Organization](organizations/granting-access-to-your-organization-with-saml-single-sign-on/viewing-and-managing-a-members-saml-access-to-your-organization.md)
   - Keeping Your Organization Secure
     - Managing Security Settings For Your Organization
-      * [访问组织的合规性报告](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
+      * [Accessing Compliance Reports For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
       * [管理组织的安全设置](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
       * [管理组织允许的 IP 地址](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
       * [Managing Security And Analysis Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
@@ -1846,6 +1849,7 @@
     * [在存储库中配置分支和合并](repositories/configuring-branches-and-merges-in-your-repository/index.md)
   - Creating And Managing Repositories
     * [关于仓库](repositories/creating-and-managing-repositories/about-repositories.md)
+    * [存储库最佳做法](repositories/creating-and-managing-repositories/best-practices-for-repositories.md)
     * [Cloning A Repository](repositories/creating-and-managing-repositories/cloning-a-repository.md)
     * [创建新仓库](repositories/creating-and-managing-repositories/creating-a-new-repository.md)
     * [Creating A Repository From A Template](repositories/creating-and-managing-repositories/creating-a-repository-from-a-template.md)
@@ -1862,7 +1866,7 @@
     - Customizing Your Repository
       * [关于 CITION 文件](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files.md)
       * [关于代码所有者](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners.md)
-      * [About READM Es](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
+      * [关于自述文件](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
       * [关于仓库语言](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages.md)
       * [使用主题对仓库分类](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics.md)
       * [自定义仓库的社交媒体预览](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview.md)
@@ -1932,7 +1936,7 @@
     - Using Files
       * [Getting Permanent Links To Files](repositories/working-with-files/using-files/getting-permanent-links-to-files.md)
       * [使用文件](repositories/working-with-files/using-files/index.md)
-      * [Navigating Code On Git Hub](repositories/working-with-files/using-files/navigating-code-on-github.md)
+      * [在 GitHub 上导航代码](repositories/working-with-files/using-files/navigating-code-on-github.md)
       * [查看文件](repositories/working-with-files/using-files/viewing-a-file.md)
       * [使用非代码文件](repositories/working-with-files/using-files/working-with-non-code-files.md)
     * [使用文件](repositories/working-with-files/index.md)
