@@ -963,7 +963,7 @@
   * [代码空间指南](codespaces/guides.md)
   * [GitHub 代码空间文档](codespaces/index.md)
   * [GitHub Codespaces 概述](codespaces/overview.md)
-  * [github.dev 基于 web 的编辑器](codespaces/the-githubdev-web-based-editor.md)
+  * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
 - Communities
   - Documenting Your Project With Wikis
     * [About Wikis](communities/documenting-your-project-with-wikis/about-wikis.md)
