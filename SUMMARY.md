@@ -1011,7 +1011,7 @@
     * [为仓库创建拉取请求模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository.md)
     * [使用模板鼓励有用的议题和拉取请求](communities/using-templates-to-encourage-useful-issues-and-pull-requests/index.md)
     * [手动为仓库创建单一议题模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository.md)
-    * [GitHub 表单架构的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
+    * [Syntax For Git Hub S Form Schema](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
     * [议题表单的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms.md)
   * [建设社区](communities/index.md)
 - Copilot
