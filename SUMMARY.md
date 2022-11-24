@@ -849,6 +849,7 @@
       * [编写存储库安全公告的最佳做法](code-security/security-advisories/guidance-on-reporting-and-writing/best-practices-for-writing-repository-security-advisories.md)
       * [有关报告和编写漏洞相关信息的指南](code-security/security-advisories/guidance-on-reporting-and-writing/index.md)
       * [Managing Privately Reported Security Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing/managing-privately-reported-security-vulnerabilities.md)
+      * [Privately Reporting A Security Vulnerability](code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability.md)
     - Repository Security Advisories
       * [关于存储库安全公告](code-security/security-advisories/repository-security-advisories/about-repository-security-advisories.md)
       * [将协作者添加到存储库安全通告](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
@@ -1027,7 +1028,7 @@
     * [为仓库创建拉取请求模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository.md)
     * [使用模板鼓励有用的议题和拉取请求](communities/using-templates-to-encourage-useful-issues-and-pull-requests/index.md)
     * [手动为仓库创建单一议题模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository.md)
-    * [Syntax For Git Hub S Form Schema](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
+    * [GitHub 表单架构的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
     * [议题表单的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms.md)
   * [建设社区](communities/index.md)
 - Copilot
@@ -1385,7 +1386,7 @@
     * [使用 Git](get-started/using-git/index.md)
     * [推送提交到远程仓库](get-started/using-git/pushing-commits-to-a-remote-repository.md)
     * [解决 Git 变基后的合并冲突](get-started/using-git/resolving-merge-conflicts-after-a-git-rebase.md)
-    * [Splitting A Subfolder Out Into A New Repository](get-started/using-git/splitting-a-subfolder-out-into-a-new-repository.md)
+    * [将子文件夹拆分成新仓库](get-started/using-git/splitting-a-subfolder-out-into-a-new-repository.md)
     * [在命令行中使用 Git rebase](get-started/using-git/using-git-rebase-on-the-command-line.md)
   - Using Github
     * [通过功能预览提早了解发行版](get-started/using-github/exploring-early-access-releases-with-feature-preview.md)
@@ -1500,7 +1501,7 @@
     - Creating Projects
       * [创建 {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/creating-a-project.md)
       * [创建 {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/index.md)
-      * [从 {% data variables.product.prodname_projects_v1 %} 中迁移](issues/planning-and-tracking-with-projects/creating-projects/migrating-from-projects-classic.md)
+      * [Migrating from {% data variables.product.prodname_projects_v1 %}](issues/planning-and-tracking-with-projects/creating-projects/migrating-from-projects-classic.md)
     - Customizing Views In Your Project
       * [自定义视图](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-a-view.md)
       * [筛选 {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/filtering-projects.md)
@@ -1959,7 +1960,7 @@
       * [Getting Permanent Links To Files](repositories/working-with-files/using-files/getting-permanent-links-to-files.md)
       * [使用文件](repositories/working-with-files/using-files/index.md)
       * [在 GitHub 上导航代码](repositories/working-with-files/using-files/navigating-code-on-github.md)
-      * [查看文件](repositories/working-with-files/using-files/viewing-a-file.md)
+      * [Viewing A File](repositories/working-with-files/using-files/viewing-a-file.md)
       * [使用非代码文件](repositories/working-with-files/using-files/working-with-non-code-files.md)
     * [使用文件](repositories/working-with-files/index.md)
   * [存储库](repositories/index.md)
