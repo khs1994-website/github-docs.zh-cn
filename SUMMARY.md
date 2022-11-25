@@ -685,7 +685,7 @@
     * [管理 GitHub Advanced Security 的计费](billing/managing-billing-for-github-advanced-security/index.md)
     * [Viewing Your Git Hub Advanced Security Usage](billing/managing-billing-for-github-advanced-security/viewing-your-github-advanced-security-usage.md)
   - Managing Billing For Github Codespaces
-    * [About Billing For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
+    * [关于 GitHub Codespaces 的计费](billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
     * [管理 GitHub Codespaces 的计费](billing/managing-billing-for-github-codespaces/index.md)
     * [管理 GitHub Codespaces 的支出限制](billing/managing-billing-for-github-codespaces/managing-the-spending-limit-for-github-codespaces.md)
     * [查看 GitHub Codespaces 使用情况](billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage.md)
@@ -877,7 +877,7 @@
       * [Best Practices For Securing Code In Your Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/securing-code.md)
     - Understanding Your Software Supply Chain
       * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
-      * [关于供应链安全性](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
+      * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
       * [配置依赖项审查](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
       * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
@@ -980,7 +980,7 @@
   * [代码空间指南](codespaces/guides.md)
   * [GitHub 代码空间文档](codespaces/index.md)
   * [GitHub Codespaces 概述](codespaces/overview.md)
-  * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
+  * [github.dev 基于 web 的编辑器](codespaces/the-githubdev-web-based-editor.md)
 - Communities
   - Documenting Your Project With Wikis
     * [About Wikis](communities/documenting-your-project-with-wikis/about-wikis.md)
@@ -1040,7 +1040,7 @@
     * [在 GitHub.com 上配置 GitHub Copilot 设置](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [配置 GitHub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
-    * [Getting Started With Git Hub Copilot In A Jet Brains IDE](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
+    * [在 JetBrains IDE 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
     * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
     * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
     * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
@@ -1137,7 +1137,7 @@
       * [将 OAuth 应用程序迁移到 GitHub 应用程序](developers/apps/getting-started-with-apps/migrating-oauth-apps-to-github-apps.md)
       * [Setting Up Your Development Environment To Create A Git Hub App](developers/apps/getting-started-with-apps/setting-up-your-development-environment-to-create-a-github-app.md)
     - Guides
-      * [Creating CI Tests With The Checks API](developers/apps/guides/creating-ci-tests-with-the-checks-api.md)
+      * [使用检查 API 创建 CI 测试](developers/apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](developers/apps/guides/index.md)
       * [使用内容附件](developers/apps/guides/using-content-attachments.md)
       * [Using The Git Hub API In Your App](developers/apps/guides/using-the-github-api-in-your-app.md)
@@ -1278,6 +1278,7 @@
       * [Create A Group Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment.md)
       * [从模板仓库创建作业](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-assignment-from-a-template-repository.md)
       * [Create An Individual Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment.md)
+      * [编辑作业](education/manage-coursework-with-github-classroom/teach-with-github-classroom/editing-an-assignment.md)
       * [使用 GitHub Classroom 教学](education/manage-coursework-with-github-classroom/teach-with-github-classroom/index.md)
       * [通过拉取请求留下反馈](education/manage-coursework-with-github-classroom/teach-with-github-classroom/leave-feedback-with-pull-requests.md)
       * [Manage Classrooms](education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms.md)
@@ -1366,7 +1367,7 @@
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git 备忘清单](get-started/quickstart/git-cheatsheet.md)
     * [GitHub 流](get-started/quickstart/github-flow.md)
-    * [Git Hub Glossary](get-started/quickstart/github-glossary.md)
+    * [GitHub 词汇表](get-started/quickstart/github-glossary.md)
     * [Hello World](get-started/quickstart/hello-world.md)
     * [快速入门](get-started/quickstart/index.md)
     * [设置 Git](get-started/quickstart/set-up-git.md)
@@ -1590,7 +1591,7 @@
     * [Viewing And Managing A Member S SAML Access To Your Organization](organizations/granting-access-to-your-organization-with-saml-single-sign-on/viewing-and-managing-a-members-saml-access-to-your-organization.md)
   - Keeping Your Organization Secure
     - Managing Security Settings For Your Organization
-      * [Accessing Compliance Reports For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
+      * [访问组织的合规性报告](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
       * [管理组织的安全设置](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
       * [Managing Allowed IP Addresses For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
       * [Managing Security And Analysis Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
@@ -1944,6 +1945,7 @@
       * [编辑文件](repositories/working-with-files/managing-files/editing-files.md)
       * [管理文件](repositories/working-with-files/managing-files/index.md)
       * [将文件移至新位置](repositories/working-with-files/managing-files/moving-a-file-to-a-new-location.md)
+      * [使用新代码视图（beta 版本）执行文件导航](repositories/working-with-files/managing-files/navigating-files-with-the-new-code-view.md)
       * [重命名文件](repositories/working-with-files/managing-files/renaming-a-file.md)
     - Managing Large Files
       * [关于 Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
@@ -2113,7 +2115,7 @@
     * [{% data variables.product.prodname_project_v1_caps %} 列](rest/projects/columns.md)
     * [{% data variables.product.prodname_projects_v1_caps %}](rest/projects/projects.md)
   - Pulls
-    * [拉取请求审查评论](rest/pulls/comments.md)
+    * [Pull Request Review Comments](rest/pulls/comments.md)
     * [拉取](rest/pulls/pulls.md)
     * [审查请求](rest/pulls/review-requests.md)
     * [拉取请求审查](rest/pulls/reviews.md)
