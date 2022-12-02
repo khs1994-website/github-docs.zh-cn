@@ -176,7 +176,7 @@
     * [Understanding Git Hub Actions](actions/learn-github-actions/understanding-github-actions.md)
     * [Usage Limits Billing And Administration](actions/learn-github-actions/usage-limits-billing-and-administration.md)
   - Managing Issues And Pull Requests
-    * [Adding Labels To Issues](actions/managing-issues-and-pull-requests/adding-labels-to-issues.md)
+    * [向议题添加标签](actions/managing-issues-and-pull-requests/adding-labels-to-issues.md)
     * [关闭不活跃的议题](actions/managing-issues-and-pull-requests/closing-inactive-issues.md)
     * [添加标签时评论议题](actions/managing-issues-and-pull-requests/commenting-on-an-issue-when-a-label-is-added.md)
     * [管理议题和拉取请求](actions/managing-issues-and-pull-requests/index.md)
@@ -473,7 +473,7 @@
     * [安装 {% data variables.product.prodname_enterprise %}](admin/installation/index.md)
   - Monitoring Activity In Your Enterprise
     - Analyzing How Your Team Works With Server Statistics
-      * [About Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
+      * [关于服务器统计信息](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
       * [Exporting Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/exporting-server-statistics.md)
       * [分析团队如何使用服务器统计信息](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
       * [使用 REST API 请求服务器统计信息](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
@@ -837,7 +837,7 @@
     * [Managing Alerts From Secret Scanning](code-security/secret-scanning/managing-alerts-from-secret-scanning.md)
     * [Protecting Pushes With Secret Scanning](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
     * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
-    * [机密扫描模式](code-security/secret-scanning/secret-scanning-patterns.md)
+    * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Advisories
     - Global Security Advisories
       * [关于全局安全公告](code-security/security-advisories/global-security-advisories/about-global-security-advisories.md)
@@ -856,7 +856,7 @@
       * [将协作者添加到存储库安全通告](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
       * [在临时专用分支中协作以解决存储库安全漏洞](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
       * [Configuring Private Vulnerability Reporting For A Repository](code-security/security-advisories/repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository.md)
-      * [创建存储库安全公告](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
+      * [Creating A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
       * [编辑存储库安全通告](code-security/security-advisories/repository-security-advisories/editing-a-repository-security-advisory.md)
       * [使用存储库安全公告](code-security/security-advisories/repository-security-advisories/index.md)
       * [存储库安全公告的权限级别](code-security/security-advisories/repository-security-advisories/permission-levels-for-repository-security-advisories.md)
@@ -918,8 +918,7 @@
     * [代码空间中的转发端口](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
     * [用于机器学习的 GitHub Codespaces 入门](codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning.md)
     * [打开现有 codespace](codespaces/developing-in-codespaces/opening-an-existing-codespace.md)
-    * [Stopping And Starting A Codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
-    * [codespace 生命周期](codespaces/developing-in-codespaces/the-codespace-lifecycle.md)
+    * [停止和启动 codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
     * [将 GitHub Codespaces 用于拉取请求](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [在 Visual Studio Code 中使用 GitHub Codespaces](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
     * [在 JetBrains IDE 中使用 GitHub Codespaces](codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide.md)
@@ -959,7 +958,7 @@
     * [向 devcontainer.json 文件添加功能](codespaces/setting-up-your-project-for-codespaces/adding-features-to-a-devcontainer-file.md)
     * [在存储库的 codespace 中自动打开文件](codespaces/setting-up-your-project-for-codespaces/automatically-opening-files-in-the-codespaces-for-a-repository.md)
     * [为 {% data variables.product.prodname_github_codespaces %} 设置存储库](codespaces/setting-up-your-project-for-codespaces/index.md)
-    * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
+    * [开发容器简介](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [为代码空间计算机设置最低规范](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
     * [为 GitHub Codespaces 设置模板存储库](codespaces/setting-up-your-project-for-codespaces/setting-up-a-template-repository-for-github-codespaces.md)
     * [为 GitHub Codespaces 设置 C# (.NET) 项目](codespaces/setting-up-your-project-for-codespaces/setting-up-your-dotnet-project-for-codespaces.md)
@@ -1042,10 +1041,10 @@
     * [在 GitHub.com 上配置 GitHub Copilot 设置](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [配置 GitHub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
-    * [Getting Started With Git Hub Copilot In A Jet Brains IDE](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
-    * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
-    * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
-    * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
+    * [在 JetBrains IDE 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
+    * [在 Neovim 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
+    * [在 Visual Studio Code 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
+    * [在 Visual Studio 中开始使用 GitHub Copilot](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
     * [开始使用 GitHub Actions](copilot/getting-started-with-github-copilot/index.md)
   - Overview Of Github Copilot
     * [关于 GitHub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
@@ -1079,7 +1078,6 @@
       * [还原提交](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/reverting-a-commit.md)
       * [压缩提交](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits.md)
     - Working With Your Remote Repository On Github Or Github Enterprise
-      * [从 GitHub Desktop 更改远程的 URL](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/changing-a-remotes-url-from-github-desktop.md)
       * [在 GitHub Desktop 中配置通知](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/configuring-notifications-in-github-desktop.md)
       * [创建议题或拉取请求](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request.md)
       * [在 GitHub 或 GitHub Enterprise 上使用远程仓库](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/index.md)
@@ -1821,7 +1819,6 @@
     - Working With Forks
       * [关于分叉](pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks.md)
       * [允许更改从复刻创建的拉取请求分支](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
-      * [为复刻配置远程仓库](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork.md)
       * [使用复刻](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
       * [Syncing A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
       * [删除仓库或更改其可见性时，复刻会发生什么变化？](pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility.md)
@@ -1867,7 +1864,7 @@
       * [Managing A Branch Protection Rule](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule.md)
       * [Troubleshooting Required Status Checks](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/troubleshooting-required-status-checks.md)
     - Managing Branches In Your Repository
-      * [更改默认分支](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch.md)
+      * [Changing The Default Branch](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch.md)
       * [删除和恢复拉取请求中的分支](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/deleting-and-restoring-branches-in-a-pull-request.md)
       * [管理仓库中的分支](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/index.md)
       * [Renaming A Branch](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch.md)
@@ -2062,7 +2059,7 @@
     * [为用户发现资源](rest/guides/discovering-resources-for-a-user.md)
     * [检查 API 入门指南](rest/guides/getting-started-with-the-checks-api.md)
     * [Git 数据库 API 入门指南](rest/guides/getting-started-with-the-git-database-api.md)
-    * [Getting Started With The REST API](rest/guides/getting-started-with-the-rest-api.md)
+    * [REST API 入门](rest/guides/getting-started-with-the-rest-api.md)
     * [Guides](rest/guides/index.md)
     * [将数据渲染为图形](rest/guides/rendering-data-as-graphs.md)
     * [Traversing With Pagination](rest/guides/traversing-with-pagination.md)
@@ -2100,6 +2097,8 @@
     * [组织 web 挂钩](rest/orgs/webhooks.md)
   - Overview
     * [API Previews](rest/overview/api-previews.md)
+    * [API 版本](rest/overview/api-versions.md)
+    * [重大更改](rest/overview/breaking-changes.md)
     * [可用于细粒度的个人访问令牌的终结点](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
     * [可用于 GitHub 应用程序的端点](rest/overview/endpoints-available-for-github-apps.md)
     * [REST API 概述](rest/overview/index.md)
@@ -2109,8 +2108,8 @@
     * [Other Authentication Methods](rest/overview/other-authentication-methods.md)
     * [细粒度个人访问令牌所需的权限](rest/overview/permissions-required-for-fine-grained-personal-access-tokens.md)
     * [Permissions Required For Git Hub Apps](rest/overview/permissions-required-for-github-apps.md)
-    * [Resources In The REST API](rest/overview/resources-in-the-rest-api.md)
-    * [Troubleshooting](rest/overview/troubleshooting.md)
+    * [REST API 中的资源](rest/overview/resources-in-the-rest-api.md)
+    * [故障排除](rest/overview/troubleshooting.md)
   - Projects
     * [{% data variables.product.prodname_project_v1_caps %} 卡](rest/projects/cards.md)
     * [{% data variables.product.prodname_project_v1_caps %} 协作者](rest/projects/collaborators.md)
