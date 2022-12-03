@@ -181,7 +181,7 @@
     * [添加标签时评论议题](actions/managing-issues-and-pull-requests/commenting-on-an-issue-when-a-label-is-added.md)
     * [管理议题和拉取请求](actions/managing-issues-and-pull-requests/index.md)
     * [Moving Assigned Issues On Project Boards](actions/managing-issues-and-pull-requests/moving-assigned-issues-on-project-boards.md)
-    * [Removing A Label When A Card Is Added To A Project Board Column](actions/managing-issues-and-pull-requests/removing-a-label-when-a-card-is-added-to-a-project-board-column.md)
+    * [将卡片添加到项目板列时删除标签](actions/managing-issues-and-pull-requests/removing-a-label-when-a-card-is-added-to-a-project-board-column.md)
     * [计划议题的创建](actions/managing-issues-and-pull-requests/scheduling-issue-creation.md)
     * [使用 GitHub Actions 进行项目管理](actions/managing-issues-and-pull-requests/using-github-actions-for-project-management.md)
   - Managing Workflow Runs
@@ -615,7 +615,7 @@
     * [连接第三方应用程序](authentication/keeping-your-account-and-data-secure/connecting-with-third-party-applications.md)
     * [Creating A Personal Access Token](authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token.md)
     * [Creating A Strong Password](authentication/keeping-your-account-and-data-secure/creating-a-strong-password.md)
-    * [GitHub 的 SSH 密钥指纹](authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints.md)
+    * [Git Hub S SSH Key Fingerprints](authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints.md)
     * [保护帐户和数据安全](authentication/keeping-your-account-and-data-secure/index.md)
     * [Preventing Unauthorized Access](authentication/keeping-your-account-and-data-secure/preventing-unauthorized-access.md)
     * [Removing Sensitive Data From A Repository](authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository.md)
@@ -928,6 +928,7 @@
     * [深入了解 {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/deep-dive.md)
     * [开始使用 {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/index.md)
     * [{% data variables.product.prodname_github_codespaces %} 快速入门](codespaces/getting-started/quickstart.md)
+    * [codespace 生命周期](codespaces/getting-started/the-codespace-lifecycle.md)
   - Managing Codespaces For Your Organization
     * [为组织启用 GitHub Codespaces](codespaces/managing-codespaces-for-your-organization/index.md)
     * [列出组织中的 codespace](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
@@ -1026,7 +1027,7 @@
     * [关于议题和拉取请求模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates.md)
     * [创建议题表单时的常见验证错误](communities/using-templates-to-encourage-useful-issues-and-pull-requests/common-validation-errors-when-creating-issue-forms.md)
     * [为仓库配置议题模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository.md)
-    * [为仓库创建拉取请求模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository.md)
+    * [Creating A Pull Request Template For Your Repository](communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository.md)
     * [使用模板鼓励有用的议题和拉取请求](communities/using-templates-to-encourage-useful-issues-and-pull-requests/index.md)
     * [手动为仓库创建单一议题模板](communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository.md)
     * [GitHub 表单架构的语法](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
@@ -1078,6 +1079,7 @@
       * [还原提交](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/reverting-a-commit.md)
       * [压缩提交](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits.md)
     - Working With Your Remote Repository On Github Or Github Enterprise
+      * [在 GitHub Desktop 中更改存储库的远程 URL](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/changing-the-remote-url-for-a-repository-from-github-desktop.md)
       * [在 GitHub Desktop 中配置通知](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/configuring-notifications-in-github-desktop.md)
       * [创建议题或拉取请求](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request.md)
       * [在 GitHub 或 GitHub Enterprise 上使用远程仓库](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/index.md)
@@ -1819,8 +1821,9 @@
     - Working With Forks
       * [关于分叉](pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks.md)
       * [允许更改从复刻创建的拉取请求分支](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
+      * [为分支配置远程存储库](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork.md)
       * [使用复刻](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
-      * [Syncing A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
+      * [同步复刻](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
       * [删除仓库或更改其可见性时，复刻会发生什么变化？](pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility.md)
     * [协作处理拉取请求](pull-requests/collaborating-with-pull-requests/index.md)
   - Committing Changes To Your Project
